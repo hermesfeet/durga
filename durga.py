@@ -20,7 +20,7 @@ reflections = {
 }
 
 # Take the user's 1st person input and process as a Regex, return the bot's response as 2nd person
-babble = [
+topics = [
     [r'I need (.*)',
      ["Why do you need {0}?",
       "Would it really help you to get {0}?",
@@ -182,7 +182,7 @@ babble = [
       "What would you do if you got {0}?",
       "If you got {0}, then what would you do?"]],
 
-    [r'(.*) God(.*)',
+    [r'(.*)God(.*)',
      ["Tell me more about God.  How do you see God?",
       "What was your relationship with God like?",
       "How deeply do you believe in God?",
@@ -254,10 +254,10 @@ def reflect(fragment):
  
 
 # The main statement:  Takes the user's input statement and analyzes it for a pattern or response in
-# the babble list above - if there is a match, it gives the matching statement as a random pick and reflects it
+# the topics list above - if there is a match, it gives the matching statement as a random pick and reflects it
 #If there is no match, it defaults to the last regex statement, the r'(.*)' above default
 def analyze(statement):
-    for pattern, responses in babble:
+    for pattern, responses in topics:
         match = re.match(pattern, statement.rstrip(".!"))
         if match:
             response = random.choice(responses)
@@ -267,6 +267,7 @@ def analyze(statement):
 
 
 hellos = ["Hi!", "Hey!", "Yo!","Hey lovely!", "Bonjour", "Salutations!", "Good day!", "Howdy stranger!", "Friend."]
+byes = ["Bye.", 'Later gator', 'Ciao mouse.', 'Seeya friend.', 'Till next time then.', "May we meet again in heaven or hell."]
 
 intros = [
 "How are you feeling today?",
@@ -285,6 +286,7 @@ def main():
         print "Durga:  " + analyze(statement)
  
         if statement in ["quit", "exit", "bye", "au revoir"]:
+            print (name + ", you said "+statement+", so I am saying bye. \n" + random.choice(byes)+"\n")
             break
  
  
@@ -306,9 +308,18 @@ if __name__ == "__main__":
 '''
 STUFF TO DO NEXT:
 -More state management: other user variables, use name, most recent topic
+---Stats: identify as a person, place, or thing, keep a record as a list
 -Small talk module
 -Logging
--Upgrade babble with common things said in chats
+-Upgrade topics with common things said in chats
 -Old person questions about life or childhood
+
+CORPORA TO CHECK OUT:
+http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008
+http://courses.washington.edu/englhtml/engl560/corplingresources.htm
+https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F
+https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
+https://chenhaot.com/pages/changemyview.html
+http://faculty.nps.edu/cmartell/NPSChat.htm
 
 '''
