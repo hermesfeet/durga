@@ -11,8 +11,8 @@ from numpy.random import choice
 # Install requirement:  Make sure to download:  nltk.download('punkt'), nltk.download('averaged_perceptron_tagger')
 
 #Volley are topics the conversation can cover
-volleys = ["school", "church", "family", "home"]
-volley = "home"  #start with this is a volley seed
+volleys = ["school", "church", "family", "home", "job", "partners", "kids", "health", "history", "friends", "moments", "choices"]
+volley = random.choice(volleys)  #start with this is a volley seed
 volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
 last_volley = volley_completed[-1]
@@ -72,7 +72,7 @@ def dig_into_PPT(statement):
     #print pos #use this to debug the pos
     for tuples in pos:
         if tuples[1] == 'NN':  #using a noun
-            focus_word = "Can you tell me more about the "+ tuples[0] +"?"
+            focus_word = "Can you tell me more about "+ tuples[0] +"?"
         elif tuples[1] == 'PRON': #using an adjective
             focus_word = "What did " + tuples[0] + " do?"
         elif tuples[1] == 'JJ': #using an adjective
@@ -81,9 +81,10 @@ def dig_into_PPT(statement):
             focus_word = "What more can you tell me?"
     return focus_word
 
-func_list = [analyze, dig_into_PPT] # This allows the main string to either analyze the statement
+# This allows the main string to either analyze the statement
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
+func_list = [analyze, dig_into_PPT]
 weights = [0.4, 0.6]
 
 # The core function that is running - starts with intros and then runs analyze over and over
@@ -91,7 +92,7 @@ weights = [0.4, 0.6]
 # Note the print statement for memory - it allows you to debug and follow the memory as needed
 
 def main():
-    name = raw_input(random.choice(hellos)+" What's your name? \n> ")
+    name = raw_input("Durga:  "+ random.choice(hellos)+" What's your name? \n> ")
     memory["name"] = name #updates name
     print ("Durga:  Ok, " + name + "! " + random.choice(intros))
     volley_count = 0
@@ -107,11 +108,11 @@ def main():
             volley_count = 0
             new_volley = random.choice(volleys)
             memory["volley"] = new_volley
-            print "Durga:  " + random.choice(change_topics) + new_volley + ".  "
+            print "Durga:  " + random.choice(change_topics) + new_volley + ". " + random.choice(["But one last thing...", "One final question though.", "One thing I want to ask before moving on."])
         print "Durga:  " + response
         memory["volley_count"] = volley_count
         question_history.append(response)
-        #print "        ", memory  # use this to look at memory
+        print "        ", memory  # use this to look at memory
  
         if statement in ["quit", "exit", "bye", "au revoir"]:
             print (name + ", you said "+statement+", so I am saying bye. \n" + random.choice(byes)+"\n")
@@ -137,13 +138,26 @@ if __name__ == "__main__":
 '''
 STUFF TO DO NEXT:
 -More state management: don't repeat volleys (keep track of them)
----Generic follow up to a statement that has a person, place, thing (PPT): parse response to identify as a PPT, keep a record as a list
--Small talk module (questions people commonly ask)
--Update memory module - what to persist and refer back to
--Logging
+-Small talk module (questions people commonly ask) - "You" function to deflect questions about self
+-Personal reflection function - tell a story from the bank
+-Graph structure to questions in volleys, so it doesn't randomly pick, but more coherence in the flow
+-Update PPT to ask questions about a proper noun
+-Maybe a counter when we get to PPTs, 2-5 follow ups?
+-Update memory module -
+    -ST Memory - what was recently said, context, name, volley count, PPT count to dig in, what sentences or volleys to not repeat
+    -LT Memory - User profile, Bot profile of itself, PPT triples of what was discussed
+-Empathic statements
+-Jokes function module - weighted low, based on what someone says, takes a diff versus a jokes database and returns one
+-Epigrams function module, works like jokes, smaller weight
+-Function after some time to go to LT memory and dig into user profile or PPT triples
+-Emotional state (analyze sentiment of last 5-15 user statements, map to 7 main emotions, and create fillers and language to mirror
+-Movie lines and famous quotes - take a user string, do a diff and match it to a movie quote or pithy quote
+-Kind of transitional filler words before doing new questions, but only 30-60% of the time
+-Logging of the entire transcript
 -Upgrade topics with common things said in chats
--Update all volleys with old person questions about life or childhood
 -Record answers in a KB as a certain format
+
+Go over Chatscript documents - how does it work, what to learn?
 
 CORPORA TO CHECK OUT:
 http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008
