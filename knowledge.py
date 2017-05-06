@@ -23,78 +23,189 @@ change_topics = [
 
 ]
 
-#Main volley topics, called life questions.  Need at least 5 per topic.
+graph = { "a" : ["c"],
+          "b" : ["c", "e"],
+          "c" : ["a", "b", "d", "e"],
+          "d" : ["c"],
+          "e" : ["c", "b"],
+          "f" : [],
+          "g" : []
+        }
+
+#Main volley topics, called life questions.  Need at least 10 per topic, each question should link to 4 others min
+#How this works: first letter is key for graph, then the first value item is question, then the second item
+#is a list of other graph points/keys that the question could connect to
 life_questions = {
-    "family": [
-        "Could you tell me a story or any memory of your brothers and sisters?",
-        "What are the full names of your brothers and sisters?",
-        "What did your family do for fun when you were a child?",
-        "Who was your grandfather?",
-        "What are your aunt's pet peeves?"
-    ],
-    "church": [
-        "When and where were you born?",
-        "When were you baptized, and what was your religion?",
-        "What was the religion of your parents and your grandparents?",
-        "What church, if any, do you attend now?",
-        "What church do your parents and your grandparents attend?"],
-    "school": [
-        "Where did you attend grade school?",
-        "Where did you attend high school?",
-        "What were your schools like?",
-        "How did you like school?",
-        "What was your favorite subject in school and why?",
-        "What subject in school was the easiest for you?",
-        "What was your least favorite subject in school and why?",
-        "Who was your favorite teacher and why was he/she special?",
-        "How do your fellow classmates from school remember you best?",
-        "What school activities and sports did you participate in?",
-        "Did you and your friends have a special hangout where you liked to spend time?",
-        "Where was it and what did you do there?",
-        "Were you ever given any special awards for your studies or school activities?",
-        "How many years of education have you completed?",
-        "Describe yourself as a young adult.",
-        "Did you attend any school or training after high school? If so, what was your field of study?",
-        "Do you have a college degree(s)?",
-        "Did you get good grades?"],
-    "home": [
-        "Where was your first home?",
-        "In what other homes/places have you lived?",
-        "What were your earliest memories of your home?",
-        "Was there a chore you really hated doing as a child?",
-        "What kinds of books did you like to read?",
-        "Do you remember having a favorite nursery rhyme or bedtime story? What was it?",
-        "Do you remember not having enough food to eat because times were hard for your family?",
-        "What were your favorite toys and what were they like?",
-        "What were your favorite childhood games?",
-        "Were there any fads during your youth that you remember vividly?"],
+    "family":
+        {"a":["Who in your family do you now care the most about?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+        "b":["What is the most vivid memory you have of your parents?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "c":["What did your family do for fun when you were a child?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "d":["Who was the most important adult in your life growing up?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "e":["What are your mom's pet peeves, or your dad's?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "f":["Whom do you love most in your family?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "g":["Did you have a family pet you loved, and what was their story?", [ "b", "c", "d", "e", "f", "g","h", "j", "k"]],
+        "h":["Who in your family did you have the hardest time with?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "i":["What got you out of bed as a kid?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "j":["Who protected you as a child?", [ "d", "e", "f", "g","h", "i", "j", "k"]],
+        "k":["Could you tell me a story or any memory of your brothers and sisters?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+         },
 
-    "job": [
-    "As a child, what did you want to be when you grew up?",
-    "What was your first job?",
-    "How did you decide on a career?",
-    "What jobs have you had?",
-    "Did you make enough money to live comfortably?",
-    "How long did you have to work each day at your job?",
-    "How old were you when you retired? Or when do you want to retire or will be able to retire?"],
+    "religion":
+        {"a":["What religion were your parents?", ["b","c", "d", "e", "f", "h", "i", "j", "k"]],
+        "b":["What religion did most of your neighbors or community practice?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "c":["Did you grow up believing in God?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "d":["Were ethics or morals built into your childhood", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "e":["Do you think God runs the world - why or why not?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "f":["Are you an atheist?", ["e", "f", "g","h", "i", "j", "k"]],
+        "g":["What do you think or religious people who do bad things?", [ "b", "c", "d", "e", "f", "g","h", "j", "k"]],
+        "h":["What do you think or religious people who do really kind and generous things?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "i":["What scared you about angels or demons as a child?", ["f", "g","h", "i", "j", "k"]],
+        "j":["Who gave you your faith?", ["d", "e", "f", "g","h", "i", "j", "k"]],
+        "k":["Do you have any spiritual or religious beliefs you want to pass on?", ["c", "d", "e", "f", "g","h", "i", "j", "k"]]
+         },
+    "school":
+        {"a":["How did you like school?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+        "b":["Where was school and what did you do there?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "c":["What were your schools like?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "d":["What was your favorite subject in school and why?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "e":["What subject in school was the easiest for you?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "f":["What was your least favorite subject in school and why?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "g":["Who was your favorite teacher and why was he/she special?", ["b", "c", "d", "e", "f", "h", "i", "j", "h"]],
+        "h":["How do your fellow classmates from school remember you best?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "i":["What school activities and sports did you participate in?", ["b", "c", "d", "e", "h", "i", "j", "k"]],
+        "j":["Did you and your friends have a special hangout where you liked to spend time?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "k":["Were you ever given any special awards for your studies or school activities?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+        "l":["How many years of education have you completed?", ["b", "c", "d", "e", "f", "p"]],
+        "m":["Describe yourself as a young adult.", [ "f", "h", "i", "j", "k"]],
+        "n":["Did you attend any school or training after high school - what did you study?", ["d", "e", "f", "h", "i", "j", "k"]],
+        "o":["Do you have a college degree(s)?", ["g", "h", "l", "m"]],
+        "p":["Did you get good grades?", ["f", "h", "i", "j", "k"]]
+    },
+    "home":
+        {"a":["Where was your first home?", ["c", "d", "e", "f", "h", "i", "k"]],
+        "b":["What were your earliest memories of your home?", ["c", "d", "e", "f", "h", "i", "k"]],
+        "c":["Were there any fads during your childhood that you remember vividly?", ["b", "c", "d", "e", "f", "g","h", "i", "k"]],
+        "d":["Was there a chore you really hated doing as a child?", [ "b", "c", "d", "e", "f", "g","h", "i",  "k"]],
+        "e":["What books did you grow up with and love?", [ "c", "d", "e", "f", "g","h", "i", "k"]],
+        "f":["Do you remember having a favorite song, cartoon, or TV show growing up?", ["d", "e", "f", "g","h", "i", "k"]],
+        "g":["What games did you play the most growing up?", [ "c", "d", "e", "f", "g","h", "k"]],
+        "h":["Were there any hard times, like when you didn't have enough food, money, or clothes?", ["e", "f", "g","h", "i", "j", "k"]],
+        "i":["What was the most difficult memory growing up?", [ "f", "g","h", "i", "j", "k"]],
+        "j":["Did anyone take advantage of you when you were a child?", [ "d", "e", "f", "g","h", "i", "j", "k"]],
+        "k":["If there was one thing you could change about your home life growing up, what would it be?", [ "e", "f", "g","h", "i", "j", "k"]]
+         },
+    "job":
+        {"a": ["As a child, what did you want to be when you grew up?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+         "b": ["What were your jobs as a kid, if you had any?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+         "c": ["Tell me about all the jobs you've had!",
+               [ "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "d": ["What was your first real job?", ["c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["Did you ever have a really difficult or challening job - what was it like?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "f": ["What have you learned about a work ethic and reliability along the way?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["What job do you wish everyone should experience?", ["d", "e", "f", "g", "h", "j", "k"]],
+         "h": ["Was there a career you ever got on?", [ "e", "f", "g", "h", "i", "j", "k"]],
+         "i": ["What job advice would you give young people today?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "j": ["Did you ever see someone badly hurt at work?", [ "h", "i", "e", "k"]],
+         "k": ["Who do you know that has the best job in the world, and what is it?", [ "e", "f", "g", "h", "i", "j", "k"]],
+        "l": ["Did you ever make enough money to live comfortably?", [ "g", "h", "i", "j", "k"]]
+         },
 
-    "partners": [
-    "How old were you when you started dating?",
-    "Do you remember your first date? Could you tell me something about it?",
-    "When, where and how did you first meet your present spouse?",
-    "Do you remember where you went on the first date with your spouse?",
-    "How long did you know him/her before you got married?",
-    "Describe your wedding proposal.",
-    "Where and when did you get married? (Include date, place, church, etc.)",
-    "Describe your wedding ceremony.",
-    "Who was there? Were there a best man, a bridesmaid, other wedding party members and who were they?",
-    "Did you have a honeymoon? Where did you go?",
-    "Were you married more than once? If so, answer the previous questions about each spouse.",
-    "How would you describe your spouse(s)?",
-    "What do (did) you admire most about your dates and spouses?",
-    "How long have you been or were you married?",
-    "What advice would you give/did you give to your child or grandchild on his/her wedding day?"],
+    "partners":
+        {"a": ["How old were you when you started dating?", ["c", "d", "e", ]],
+         "b": ["Do you remember the first person you ever loved - who was it and describe them?", ["b", "c", "d", "e"]],
+         "c": ["Can you tell me who your last 2 lovers were?",
+               ["f", "g", "h", "i", "j", "k"]],
+         "d": ["Did you ever want to get married in your life?", [ "e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["Do you have a spouse now?  If so, describe your wedding proposal or first date!", ["e", "f", "g", "h", "i", "j", "k"]],
+         "f": ["What did your learn from your parents about dating or marriage?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["From your own experience or watching others, what advice would you give about long term relationships or marriage?", ["b", "c", "d", "e", "f", "g", "h", "j", "k"]],
+         "h": ["Who are the happiest married people you know, and why?", [ "g", "h", "i", "j", "k"]],
+         "i": ["Why do you think people get divorced?", [ "f", "g", "h", "i", "j", "k"]],
+         "j": ["If you were single now and had to marry a close friend, who would it be?", [ "g", "h", "i", "j", "k"]],
+         "k": ["Is marriage even worth it?", ["e", "f", "g", "h", "i", "j", "k"]]
+         },
 
+
+    "health":
+        {"a": ["What do you do regularly for exercise?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+         "b": ["Did you have any of the childhood diseases or major problems?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+         "c": ["Did your parents have any major health issues?",
+               ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "d": ["Do you have any bad habits now or in the past?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["Have you ever been in a serious accident?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "f": ["Have you ever been nearly dead - tell me about it?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["Has anyone ever saved your life?", [ "g", "h", "j", "k"]],
+         "h": ["What have you learned about staying healthy or getting sick?", ["c", "d", "g", "h", "i", "j", "k"]],
+         "i": ["Do you have any health or eating or exercise advice for others?", ["h", "i", "j", "k"]],
+         "j": ["Any major health issues you'd like to share?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+         "k": ["Who is the healthiest person you know, and why?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]]
+         },
+
+    "history":
+        {"a": ["What do you think was the most important historical event in your life?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+         "b": ["Do you remember your family discussing world events and politics?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+         "c": ["How is the world different from what it was like when you were a child?",
+               ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "d": ["What would you consider the most important inventions during your lifetime?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["How would you describe yourself politically? Are you conservative or liberal, and why?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "f": ["How did hard times like depressions and recessions affect you and your family?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["What wars have happened in your life - and did you take part in any?", ["b", "c", "d", "e", "f", "g", "h", "j", "k"]],
+         "h": ["Who was the most important historical figure you followed in your life, and why?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "i": ["Have you ever been the victim of a serious crime?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "j": ["What event in the past has left you with the most sad or bitter memories?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+         "k": ["What do you think about the future, having lived so many years?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]]
+         },
+
+    "friends":
+        {"a": ["Name a good friend you have known the longest. How many years have you been friends?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+         "b": ["Who was your best friend growing up?  Tell me about them.", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+         "c": ["What person really changed the course of your life by something he/she did?",
+               ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "d": ["Has there ever been anyone in your life you would consider a kindred spirit or soul mate? Who was this and why did you feel a special bond?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["Have you ever had to let go of a friend?", [ "f", "g", "h", "i", "j", "k"]],
+         "f": ["Have you ever had a pet or animal as a close friend, and what was the story?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["Has a good friend ever betrayed you?", ["g", "h", "j", "k"]],
+         "h": ["Have you ever done something dumb to lose a good friend?", [ "f", "g", "h", "i", "j", "k"]],
+         "i": ["What's the worst thing a friend ever did to you?", [ "f", "g", "h", "i", "j", "k"]],
+         "j": ["What advice would you give to others about friendship?", ["f", "g", "h", "i", "j", "k"]],
+         "k": ["Which group of friends have been the most important to you?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]]
+         },
+
+
+    "moments":
+        {"a": ["What are your hobbies?", ["c", "d", "e", "f",  "j", "k","l"]],
+         "b": ["What do you do the most when not working?", ["b", "c", "d", "e", "f",  "j", "k"]],
+         "c": ["What is the most amazing thing that has ever happened to you?",
+               ["b", "c", "d", "e", "f", "g",  "j", "k"]],
+         "d": ["Would you consider yourself creative?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k","l"]],
+         "e": ["Did you ever play musical instruments or make art?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "f": ["If you could change something about yourself, what would it be?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+         "g": ["What is the most stressful experience you ever lived through?", ["b", "c", "d", "e", "f", "g", "h", "j", "k", "l"]],
+         "h": ["What is the scariest thing that ever happened to you?", [ "g", "h", "i", "j", "k"]],
+         "i": ["What things have you made that others have enjoyed?", [ "f", "g", "h", "i", "j", "k","l"]],
+         "j": ["Have you ever met any famous people?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+        "k": ["How would you describe your sense of humor?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+         "l": ["Do you remember any advice or comments that had a big impact on how you lived your life?", ["b", "c", "d", "e", "f", "g", "j", "k"]]
+         },
+
+    "choices":
+{"a": ["How do you feel about the choices you made in school, career, spouse?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+ "b": ["What is the longest trip that you have ever gone on? Where did you go?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
+ "c": ["What is the single most memorable moment of your life?",
+       ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "d": ["What organizations or groups have you belonged to?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "e": ["Have you ever won any special awards or prizes as an adult? What were they for?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "f": ["Describe a time and a place you remember feeling truly at peace and happy to be alive. Where were you and what were you doing?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "g": ["Is there anything you have always wanted to do but haven't?", ["b", "c", "d", "e", "f", "g", "h", "j", "k"]],
+ "h": ["What was the favorite place you ever visited and what was it like?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "i": ["What is the most beautiful place you have ever visited and what was it like?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+ "j": ["What has been your favorite vacation? Where did you go and why was it special?", ["d", "e", "f", "g", "h", "i", "j", "k"]],
+ "k": ["What is the best decision rule you have for making choices that you want to share?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]]
+ }
+}
+
+#Need to find a way to re-insert question about kids ONLY IF the kids module activates?
+"""
     "kids":[
     "How did you find out you were going to be a parent for the first time?",
     "How many children did you have all together?",
@@ -121,74 +232,22 @@ life_questions = {
     "Who were your parents? Please give full names.",
     "Who were your grandparents? Please give full names."],
 
-    "health":[
-    "Who was the oldest person you remember as a child?",
-    "Did you have any of the childhood diseases?",
-    "Do you have any health problems that are considered hereditary?",
-    "What do you do regularly for exercise?",
-    "Do you have any bad habits now or in the past?",
-    "Have you ever been the victim of a crime?",
-    "Have you ever been in a serious accident?",
-    "Has anyone ever saved your life?",
-    "Have you ever been hospitalized? If so, what for?",
-    "Have you ever had surgery?"],
-
-    "history":[
-    "What would you consider the most important inventions during your lifetime?",
-    "Do you remember the first time you saw a television; a car; a refrigerator?",
-    "How is the world different from what it was like when you were a child?",
-    "Do you remember your family discussing world events and politics?",
-    "How would you describe yourself politically? Are you conservative or liberal, and why?",
-    "Do you remember what you or your parents thought about income tax when it began in 1913?",
-    "Do you remember anything about the days of Prohibition?",
-    "How did the Depression affect you?",
-    "What U.S. president have you admired the most and why?",
-    "What did you think of President Franklin D. Roosevelt? How did you react to his death?",
-    "How did you react to the assassination of President John F. Kennedy?",
-    "What wars have been fought during your lifetime?",
-    "What were you doing when you heard the news of the Pearl Harbor bombing?",
-    "How did World War II affect you?",
-    "How did the Korean War affect you?",
-    "How did the Vietnam War affect you?"],
-
-    "friends":[
-    "Name a good friend you have known the longest. How many years have you been friends?",
-    "Has a good friend ever betrayed you?",
-    "Who was your best friend when you were a teenager?",
-    "Has there ever been anyone in your life you would consider a kindred spirit or soul mate? Who was he/she and why did you feel a special bond with him/her?",
-    "What were the hardest choices you ever had to make?",
-    "What person really changed the course of your life by something he/she did?"],
-
-    "moments":[
-    "Do you remember any advice or comments that had a big impact on how you lived your life?",
-    "If you could change something about yourself, what would it be?",
-    "What is the most stressful experience you ever lived through?",
-    "What is the scariest thing that ever happened to you?",
-    "What kinds of musical instruments have you learned to play?",
-    "Would you consider yourself creative?",
-    "What things have you made that others have enjoyed?",
-    "How would you describe your sense of humor?",
-    "What is the funniest practical joke you ever played on someone?",
-    "What activities have you especially enjoyed as an adult?",
-    "What are your hobbies?",
-    "What did you like to do when you were not working?",
-    "What is the most amazing thing that has ever happened to you?",
-    "Have you ever met any famous people?"],
-
-    "choices":[
-    "How do you feel about the choices you made in school, career, spouse?",
-    "What organizations or groups have you belonged to?",
-    "Have you ever won any special awards or prizes as an adult? What were they for?",
-    "Describe a time and a place you remember feeling truly at peace and happy to be alive. Where were you and what were you doing?",
-    "What is the most beautiful place you have ever visited and what was it like",
-    "What is the longest trip that you have ever gone on? Where did you go",
-    "What has been your favorite vacation? Where did you go and why was it special?",
-    "What was the favorite place you ever visited and what was it like?",
-    "What pets have you had? Do you have a favorite story about a pet?",
-    "Is there anything you have always wanted to do but haven't?",
-    "Have you ever been to a world's fair?",
-    "What is the single most memorable moment of your life?"],
-}
+        "How old were you when you started dating?",
+    "Do you remember your first date? Could you tell me something about it?",
+    "When, where and how did you first meet your present spouse?",
+    "Do you remember where you went on the first date with your spouse?",
+    "How long did you know him/her before you got married?",
+    "Describe your wedding proposal.",
+    "Where and when did you get married? (Include date, place, church, etc.)",
+    "Describe your wedding ceremony.",
+    "Who was there? Were there a best man, a bridesmaid, other wedding party members and who were they?",
+    "Did you have a honeymoon? Where did you go?",
+    "Were you married more than once? If so, answer the previous questions about each spouse.",
+    "How would you describe your spouse(s)?",
+    "What do (did) you admire most about your dates and spouses?",
+    "How long have you been or were you married?",
+    "What advice would you give/did you give to your child or grandchild on his/her wedding day?"
+"""
 
 # Take the user's 1st person input and process as a Regex, return the bot's response as 2nd person
 topics = [

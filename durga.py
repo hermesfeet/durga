@@ -11,16 +11,17 @@ from numpy.random import choice
 # Install requirement:  Make sure to download:  nltk.download('punkt'), nltk.download('averaged_perceptron_tagger')
 
 #Volley are topics the conversation can cover
-volleys = ["school", "church", "family", "home", "job", "partners", "kids", "health", "history", "friends", "moments", "choices"]
-volley = random.choice(volleys)  #start with this is a volley seed
+volleys = ["school", "religion", "family", "home", "job", "partners", "health", "history", "friends", "moments", "choices"]
+volley = "family" #random.choice(volleys)  #start with this is a volley seed
 volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
 last_volley = volley_completed[-1]
+volley_question = "a"
 
 #Memory as a dictionary of lists - simple state management
 name = "friend"
 question_history = []
-memory = {"name":name, "age":23, "last questions":question_history, "volley":volley, "volley_count":volley_count}
+memory = {"name":name, "age":23, "last questions":question_history, "volley":volley, "volley_count":volley_count, "volley_question":volley_question}
 
 # Reflections replace 1st person user input with bot's response, in the 2nd person
 reflections = {
@@ -62,7 +63,8 @@ def analyze(statement):
                 response = random.choice(responses)
                 return response.format(*[reflect(g) for g in match.groups()])
             else:
-                response = random.choice(life_questions[memory["volley"]])
+                response = life_questions[memory["volley"]][memory["volley_question"]][0]
+                memory["volley_question"] = random.choice(life_questions[memory["volley"]][memory["volley_question"]][1])
                 return response.format(*[reflect(g) for g in match.groups()])
 
 def dig_into_PPT(statement):
@@ -85,7 +87,7 @@ def dig_into_PPT(statement):
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
 func_list = [analyze, dig_into_PPT]
-weights = [0.4, 0.6]
+weights = [0.7, 0.3]
 
 # The core function that is running - starts with intros and then runs analyze over and over
 # Volley count is some state management to know which volley you are in
@@ -102,7 +104,7 @@ def main():
         response = choice(func_list, p=weights)(statement) #weighted choice
         while response in memory['last questions']:  #This makes sure you don't repeat items in a volley
             response = analyze(statement)
-        if volley_count < 7:  #This makes you change volleys after 7 questions
+        if volley_count < 6:  #This makes you change volleys after 7 questions
             volley_count += 1
         else:
             volley_count = 0
@@ -137,11 +139,10 @@ if __name__ == "__main__":
 
 '''
 STUFF TO DO NEXT:
--More state management: don't repeat volleys (keep track of them)
+-More state management: don't repeat volleys (keep track of them) ***
 -Small talk module (questions people commonly ask) - "You" function to deflect questions about self
 -Personal reflection function - tell a story from the bank
--Graph structure to questions in volleys, so it doesn't randomly pick, but more coherence in the flow
--Update PPT to ask questions about a proper noun
+-Update PPT to ask questions about a proper noun using NLTK
 -Maybe a counter when we get to PPTs, 2-5 follow ups?
 -Update memory module -
     -ST Memory - what was recently said, context, name, volley count, PPT count to dig in, what sentences or volleys to not repeat
@@ -150,12 +151,13 @@ STUFF TO DO NEXT:
 -Jokes function module - weighted low, based on what someone says, takes a diff versus a jokes database and returns one
 -Epigrams function module, works like jokes, smaller weight
 -Function after some time to go to LT memory and dig into user profile or PPT triples
--Emotional state (analyze sentiment of last 5-15 user statements, map to 7 main emotions, and create fillers and language to mirror
+-Emotional state (analyze sentiment of last 5-15 user statements, map to 7 main emotions and store in memory, and create fillers and language to mirror
 -Movie lines and famous quotes - take a user string, do a diff and match it to a movie quote or pithy quote
 -Kind of transitional filler words before doing new questions, but only 30-60% of the time
 -Logging of the entire transcript
 -Upgrade topics with common things said in chats
 -Record answers in a KB as a certain format
+-Current news - ask them if there's something current (sports, politics, etc) that has been on their mind, then do a Google News scraper search and ask them 1-2 follow up qs
 
 Go over Chatscript documents - how does it work, what to learn?
 
