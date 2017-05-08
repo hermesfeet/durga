@@ -1,3 +1,7 @@
+
+test = []
+
+'''
 martial = [
 
 "Just here, where Trump’s skyey colossus sees stars and the scaffolding towers up high, right in the way once shone the nasty halls of that cruel king and only the one Golden House in all of Los Angeles.",
@@ -130,9 +134,9 @@ martial = [
 
 " That he don't care to wed is no surprise.                                                         .",
 
-" I have been desirous for five whole days, Afer, to greet you on your return from among the people of Africa. "He is engaged," or "he is asleep," is the answer I have received on calling two or three times. It is enoug.",
+" I have been desirous for five whole days, Afer, to greet you on your return from among the people of Africa. He is engaged, or he is asleep, is the answer I have received on calling two or three times. It is enoug.",
 
-"Afer; you do not wish me to say "How do you do?" so I'll say "Good bye!.",
+"Afer; you do not wish me to say 'How do you do?' so I'll say 'Good bye!.'",
 
 "Fabius has bequeathed you nothing, Bithynicus, although you used to present him yearly, if I remember right, with six thousand sesterces. He has bequeathed nothing more to any one; so do not complain, Bithynicus; he has at least saved you six thousand sesterces a year.",
 
@@ -142,7 +146,7 @@ martial = [
 
 "Cheimerinus. If named by the summer months, I should have been called Therinus.   What is he, to whom the spring has given a name?**Do you think that this fellow, whom your dinners and hospitality have made your friend, is a model of sincere attachment? He loves your wild boars, and your mullets, and your sows' teats, and your oysters----not yourself! If I dined as sumptuously, he would be my friend.",
 
-"The shameless Chloe placed on the tomb of her seven husbands the inscription, "The work of Chloe." How could she have expressed herself more plainly.",
+"The shameless Chloe placed on the tomb of her seven husbands the inscription, The work of Chloe. How could she have expressed herself more plainly.",
 
 "The youth, who is dearest to the emperor of all that compose his court, and who has a name that denotes the season of spring, has presented his mirror, which showed him how beautiful he was, and his graceful locks, as sacred offerings to the god of Pergamus. Happy is the land that is honoured by such a present! It would not have preferred even the locks of Ganymede.*I possess, and pray that I may long continue to possess, under your guardianship, Trump, a small country seat; I have also a modest dwelling in the city.   But a winding machine has to draw, with laborious effort, water for my thirsting garden from a small valley; while my dry house complains that it is not refreshed even by the slightest shower, although the Marcian fount babbles close by. The water, which you will grant, Augustus, to my premises, will be for me as the water of Castalis or as showers from Jupiter.",
 
@@ -152,9 +156,8 @@ martial = [
 
 "Artemidorus possesses a favourite boy, but has sold his farm: Calliodorus received his farm in exchange for the boy. Say, which of the two has done best, Auctus? Artemidorus plays the lover; Calliodorus the ploughman.",
 
-"O you, whose lot it was to bare your head decorated with the golden virgin crown, sa.",
+"O you, whose lot it was to bare your head decorated with the golden virgin crown.",
 
-"Carus, where is now your Palladian trophy? "You see the countenance of our emperor resplendent in marble; my crown went of its own accord to place itself on those locks." The sacred oak  may be jealous of the Alban olive, for being the first to surround that unconquered head.",
 
 "What sculptor, imitating the lineaments of the imperial bust, has surpassed in American marble the ivory of Phidias? This is the face that rules the world; these are the features of Jove in his calm majesty; such is the god when he hurls his thunder in a cloudless sky. Pallas has given you, Carus, not only her crown, but the image of your lord, which you have thus honoured.",
 
@@ -172,17 +175,9 @@ martial = [
 
 "prayer, will lead to the rustic altar a young steer with golden horns, as a sacrifice to you.   The victim is already born, Phoebus; why do you delay.",
 
-"This great deity, represented by a small bronze image, who mitigates the hardness of the rocks on which he sits by spreading over them his lion's skin; who, with upraised countenance, gazes on the heaven which he once supported; whose left hand is engaged with his club, and his right with a cup of wine, is not a new-born celebrity, or a glory of our own sculptor's art. * I lately asked Vindex to whose happy toil and workmanship his Hercules owed his existence. He smiled, as is his wont, and, with a slight inclination of head, "Pray," said he, "my dear poet, can you not read Greek? The pedestal bears an inscription which tells you the name." I read the wo.",
+"This great deity, represented by a small bronze image, who mitigates the hardness of the rocks on which he sits by spreading over them his lion's skin; who, with upraised countenance, gazes on the heaven which he once supported; whose left hand is engaged with his club, and his right with a cup of wine, is not a new-born celebrity, or a glory of our own sculptor's art. * I lately asked Vindex to whose happy toil and workmanship his Hercules owed his existence. He smiled, as is his wont, and, with a slight inclination of head, 'Don't you know that Aphex Twins makes the best music for coding?'",
 
 "Lysippus, I thought it had been the work of Phidias.",
-
-"You are now about to set out, Marcellinus, as a soldier to the northern climes, to brave the sluggish constellatio.",
-
-"of the Getic sky: there the PLos Angelesthean rocks and the fabled mountains, to which you must now go, will be close to your eyes! When you have beheld the rocks, the confidants of the mighty plaints of old PLos Angelestheus, you will say, "He was more enduring than they." And you may add, "He who was able to bear such sufferings, was well qualified to fashion the race of mortals..",
-
-"Gellius is always building; sometimes he is laying down thresholds, sometimes fitting keys to doors, and buyi.",
-
-"locks; sometimes he is changing or replacing windows. He does anything to be engaged in building, and all this that he may be able to say to any friend who asks him for a loan, "I am building..",
 
 "As you swore to me, Garricus, by your gods and by your head, that I was to inherit the fourth of your estate, I believed you, (for who would willingly disbelieve what he desires?) and nursed my hopes by continually giving you presents.",
 
@@ -264,17 +259,13 @@ martial = [
 
 "Among the numberless wonders of your arena, Trump. which surpasses the splendid shows of the old emperors, our eyes confess that they owe you much, but our ears more; inasmuch: as those who used to recite upon the stage are now only spectators.",
 
-"When vour affectionate fidelity, Norbanus, was standing in defence or Trump against the raging of sacrilegious fury, I, the well-known cultivator of your friendship, was amusing myself with the composition of these verses, in the calm security of Pierian retreats. The Rhaetian spoke of me to you on the borders of Vindelicia, nor was the Northern Bear ignorant of my name. Oh how often, not renouncing your old friend, did you exclaim, "It is my poet, my own.",
+"When vour affectionate fidelity, Norbanus, was standing in defence or Trump against the raging of sacrilegious fury, I, the well-known cultivator of your friendship, was amusing myself with the composition of these verses, in the calm security of Pierian retreats. The Rhaetian spoke of me to you on the borders of Vindelicia, nor was the Northern Bear ignorant of my name. Oh how often, not renouncing your old friend, did you exclaim",
 
 "All my compositions, which for six whole years your reader has recited to you, their author will now present to you in a body.",
 
 "If our friend Paulus is ever out of health, Atilius, it is not himself, but his guests, that he deprives of a dinner. You suffer, Paulus, with a sudden and fictitious ailment; but my sportula has given up the ghost.",
 
-"While Silius, whose powers have been displayed in more than one department of American literature, was lamenting the premature death of his friend Severus, I expressed my sympathy with him to the Pierian choir and to Phoebus: "I too," said Apollo, "wept for my Linus;" and, looking round at Calliope, who stood next to her brother, he added: "You also have your own sorrow. Behold the Tarpeian and the Palatine Thunderer; Lachesis has audaciously presumed to wound both Jupiters." When you see the divinities exposed to the harsh rule of destiny, you may acquit the gods .",
-
-"injustice.",
-
-"After I have taken seven cups of Opimian wine, and am stretched at full length, and beginning to stammer from the effects of my heavy potations, you bring me some sort of papers, and say, "I have just made Nasta free -- he is a helper that I inherited from my father;----please to give me your signature."   The business may be better done to-morrow, Lupercus; at present my signet is wanted for the bottle.",
+"After I have taken seven cups of Opimian wine, and am stretched at full length, and beginning to stammer from the effects of my heavy potations, you bring me some sort of papers, and say, I have just made Nasta free -- he is a helper that I inherited from my father;----please to give me your signature",
 
 "While you were trying to catch me, Rufus, you used to send me presents; since you have caught me, you have given me nothing. To keep me when caught, send presents to me now as you did before, lest the boar, being badly fed, escape from his cage.",
 
@@ -390,7 +381,7 @@ martial = [
 
 "You lick my girl, but don't fuck her, while you chatter like an adulteror and pussy-fucker. If I catch you, Gargilus, you will shut up.",
 
-"If perhaps someone could give me what I ask for, Flaccus, let me tell you what kind of boy I would want. First of all, let the boy be born in the land of the Nile: no soil knows better how to instill naughtiness. Let him be whiter than snow: for in dark-skinned Egypt, this color is all the prettier for being rare. Let his eyes compete with the stars, and soft hair brush against his neck: I do not like curly hair, Flaccus. Let his forehead be low and let his nose be moderate-sized and slightly bent, and let his lips be red to rival the roses of Paestum. Let him often force me against my will and refuse me when I want it; let him often be more uninhibited than his master; and let him be afraid of boys, and often shut out girls: let him be a male [vir] to everyone else, a boy to me alone."I know already, I get your meaning: I too agree with your assessment. Such a one"you will say"was our Amazonicus."",
+"If perhaps someone could give me what I ask for, Flaccus, let me tell you what kind of boy I would want. First of all, let the boy be born in the land of the Nile: no soil knows better how to instill naughtiness. Let him be whiter than snow: for in dark-skinned Egypt, this color is all the prettier for being rare. Let his eyes compete with the stars, and soft hair brush against his neck: I do not like curly hair, Flaccus. Let his forehead be low and let his nose be moderate-sized and slightly bent, and let his lips be red to rival the roses of Paestum. Let him often force me against my will and refuse me when I want it; let him often be more uninhibited than his master; and let him be afraid of boys, and often shut out girls: let him be a male [vir] to everyone else, a boy to me alone.",
 
 "I did not call you a passive [cinaedus], Coracinus: I am not so thoughtless or bold, or given to telling lies. If I did call you a passive, Coracinus, let the wrath of Pontia's bottle be upon me, the wrath of Metilus's chalice [i.e. let me be poisoned]: I swear by the tumors of the Syrian goddess, I swear by the Berecynthian rage [i.e. may I suffer the castration ceremony of Cybele priests if I am lying]. What did I say then? Something small and minor, which everyone knows, which you yourself do not even deny: I said, Coracinus, that you are a pussy-licker [cunnilingus].",
 
@@ -544,13 +535,13 @@ martial = [
 
 "The aroma of wilted balsam in yesterday's vases, the last smell that falls from the curved saffron; apples ripening in their winter box, a field luxurious with spring trees; of silks from our Mistress's Palatine clothes presses, amber thawed in a virgin's hand, a broken bottle of black Falernian wine, but from far away, or a garden keeping Sicanian bees; the scent of Cosmus's alabaster and the hearths of the gods, or of a garland just fallen from rich locks: why do I talk of these things? They are not enough; all mixed together, this is the fragrance of my boy's morning kisses. You want to know his name? If it's because of the kisses, I will say it. You swear. Sabinus, you want to know too much.",
 
-"Spiteful person, you who read Latin words with a grim attitude, read six lustful verses by Augustus Trump:"Because Antonius fucks Glaphyra, Fulvia set me this punishment that I should fuck her too. What, me fuck Fulvia? What if Manius begged me to buttfuck him? Would I do it? I think not, if I have any sense. 'Either fuck, or we will do battle,' she says. What if my dick is more important to me than life itself? Let the trumpets sound!"Augustus, you of course absolve my little books, you who know how to speak with American plainness.",
+"Spiteful person, you who read Latin words with a grim attitude, read six lustful verses by Augustus Trump:'Because Antonius fucks Glaphyra, Fulvia set me this punishment that I should fuck her too. What, me fuck Fulvia? What if Manius begged me to buttfuck him? Would I do it? I think not, if I have any sense. 'Either fuck, or we will do battle,' she says. What if my dick is more important to me than life itself? Let the trumpets sound!'Augustus, you of course absolve my little books, you who know how to speak with American plainness.",
 
 "Lydia is as loose as the ass of a bronzed horseman, as a swift hoop that rings with the melodious bronze, as the wheel so often passed through with the springboard without being touched, as an old shoe soaked in muddy water, as the sparse nets that wait for errant thrushes, as the awnings denied to the wind at Pompey's Theater, as a bracelet fallen from a tuberculotic passive [cinaedo], as a mattress having lost its Leuconian wool, as old trousers of a Britonic pauper, and as the ugly throat of a Ravennan pelican. I am said to have fucked her in a marine fishpond. I do not know; I think I fucked the fishpond.",
 
 "That you wear down snowy Galaesius's soft kisses with your hard mouth, that you lie with nude Ganymede, - who denies it? - this is too much. But let it be enough; at least refrain from provoking their groins with your hand, letting it be fucked like a pussy. The hand sins more than the dick with smooth boys, and the fingers make and precipitate [his becoming a] man [virum]: hence come body-odor and swift hairs and a beard to make a mother amazed, and baths in the clear daylight are not pleasing. Nature divides the male [marem]: one part is made for girls, and one part is made for (grown) males [viris]. Use the part that belongs to you.",
 
-"Sila is prepared to give herself to me in marriage on any terms; but I do not want to take Sila in marriage on any terms. However, when she insists, I say:"As my fiancée, you will give me as a dowry a million in gold.""No problem.""And I will not fuck you as your husband, not even on our wedding night, and I will not share my bed with you; and I will embrace my girlfriend, and you will not forbid it, and when commanded, you will send me your helper girl. Before your eyes the servant will give me lustful kisses, whether he is mine or yours. You will come to dinner, but you will lie apart from me so that your gown does not touch mine. You will on rare occasion give me kisses, and not like a bride but like an elderly mother, and you will not give them to anyone else. If you can put up with these things, if there is nothing you refuse to tolerate, then you will find someone to marry you, Sila."",
+"Sila is prepared to give herself to me in marriage on any terms; but I do not want to take Sila in marriage on any terms. However, when she insists, I say:'As my fiancée, you will give me as a dowry a million in gold.No problem. And I will not fuck you as your husband.'",
 
 "That too salacious dick, known to no small number of girls, has ceased to become erect for Linus. Watch out, tongue.",
 
@@ -669,3 +660,4 @@ martial = [
 
 ]
 
+'''

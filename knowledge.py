@@ -1,3 +1,4 @@
+import re, random
 
 #Hello and Goodby
 hellos = ["Hi!", "Hey!", "Yo!","Hey lovely!", "Bonjour.", "Salutations!", "Good day!", "Howdy stranger!", "Hey Friend."]
@@ -13,6 +14,12 @@ intros = [
     "Tell me what is on your mind!  Let's get personal."
 ]
 
+#Filler words are discourse markers
+fillers = ["", "Like, ", "Well, ", "Ok. ", "Gotcha. ", "Makes sense. ", "Yup, got it.  ", "Allrighty, ", "Anyway, ", "like, ", "Right. ", "So you know, ", "Fine - ", "Now ", "So... ", "Good! ", "Oh!  Ok. ", "Well... ", "It makes me think... ", "Great - ", "Okay - "]
+filler_weights = [0.6, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02 ]
+
+
+
 #Transitions for volleys
 change_topics = [
     "OK, changing the topic to your ",
@@ -23,7 +30,8 @@ change_topics = [
 
 ]
 
-graph = { "a" : ["c"],
+#example of a native Python graph
+graph_example = { "a" : ["c"],
           "b" : ["c", "e"],
           "c" : ["a", "b", "d", "e"],
           "d" : ["c"],
@@ -116,7 +124,7 @@ life_questions = {
          "c": ["Can you tell me who your last 2 lovers were?",
                ["f", "g", "h", "i", "j", "k"]],
          "d": ["Did you ever want to get married in your life?", [ "e", "f", "g", "h", "i", "j", "k"]],
-         "e": ["Do you have a spouse now?  If so, describe your wedding proposal or first date!", ["e", "f", "g", "h", "i", "j", "k"]],
+         "e": ["Do you have a spouse now?  If you do, can you tell me about your wedding proposal or first date?", ["e", "f", "g", "h", "i", "j", "k"]],
          "f": ["What did your learn from your parents about dating or marriage?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
          "g": ["From your own experience or watching others, what advice would you give about long term relationships or marriage?", ["b", "c", "d", "e", "f", "g", "h", "j", "k"]],
          "h": ["Who are the happiest married people you know, and why?", [ "g", "h", "i", "j", "k"]],
@@ -250,6 +258,14 @@ life_questions = {
 """
 
 # Take the user's 1st person input and process as a Regex, return the bot's response as 2nd person
+
+def test_analyze(statement):
+    for pattern, responses in topics:
+        match = re.match(pattern, statement.rstrip(".!"))
+        if match:
+            response = random.choice(responses)
+            return response
+
 topics = [
     [r'I need (.*)',
      ["Why do you need {0}?",
@@ -484,3 +500,8 @@ topics = [
       "How do you feel when you say that?",
       ]]
 '''
+
+if __name__ == '__main__':
+    input = raw_input("Tell me something:")
+    response = test_analyze(input)
+    print response

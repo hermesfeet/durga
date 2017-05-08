@@ -1,10 +1,10 @@
-import re
 import random
 from knowledge import *
 import nltk, re, pprint, urllib
 from nltk.tokenize import *
 from nltk import word_tokenize
 from numpy.random import choice
+#from epigrams import test
 
 
 
@@ -56,16 +56,18 @@ def reflect(fragment):
 #This takes you to the life questions dictionary, where you are put inside a volley and asked questions from that list
 
 def analyze(statement):
-    for pattern, responses in topics:
-        match = re.match(pattern, statement.rstrip(".!"))
-        if match:
-            if type(responses) == list:
+    try:
+        #first try to reflect their topic based on the topics list
+        for pattern, responses in topics:
+            match = re.match(pattern, statement.rstrip(".!"))
+            if match:
                 response = random.choice(responses)
                 return response.format(*[reflect(g) for g in match.groups()])
-            else:
-                response = life_questions[memory["volley"]][memory["volley_question"]][0]
-                memory["volley_question"] = random.choice(life_questions[memory["volley"]][memory["volley_question"]][1])
-                return response.format(*[reflect(g) for g in match.groups()])
+    except:
+        #goes to life questions structure for next q in volley
+        response = life_questions[memory["volley"]][memory["volley_question"]][0]
+        memory["volley_question"] = random.choice(life_questions[memory["volley"]][memory["volley_question"]][1])
+        return response
 
 def dig_into_PPT(statement):
     #Dig into a person, place, or thing (PPT) mentioned in a user response, via a part of speech (pos)
@@ -74,7 +76,9 @@ def dig_into_PPT(statement):
     #print pos #use this to debug the pos
     for tuples in pos:
         if tuples[1] == 'NN':  #using a noun
-            focus_word = "Can you tell me more about "+ tuples[0] +"?"
+            focus_word = random.choice(["Can you tell me more about your ", "Give me some insight into your ", "I want to know about your "])+ tuples[0] +"?"
+        elif tuples[1] == 'NNP':  #using a proper noun
+            focus_word = random.choice(["", "Who was ", "Give me details about ", "I want to know more about "])+ tuples[0] +"?"
         elif tuples[1] == 'PRON': #using an adjective
             focus_word = "What did " + tuples[0] + " do?"
         elif tuples[1] == 'JJ': #using an adjective
@@ -87,7 +91,7 @@ def dig_into_PPT(statement):
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
 func_list = [analyze, dig_into_PPT]
-weights = [0.7, 0.3]
+weights = [0.5, 0.5]
 
 # The core function that is running - starts with intros and then runs analyze over and over
 # Volley count is some state management to know which volley you are in
@@ -97,21 +101,27 @@ def main():
     name = raw_input("Durga:  "+ random.choice(hellos)+" What's your name? \n> ")
     memory["name"] = name #updates name
     print ("Durga:  Ok, " + name + "! " + random.choice(intros))
-    volley_count = 0
+    volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
 
     while True:
         statement = raw_input(name + ":  ")
-        response = choice(func_list, p=weights)(statement) #weighted choice
+        try:
+            response = choice(func_list, p=weights)(statement) #weighted choice
+        except:
+            try:
+                response = dig_into_PPT(statement)
+            except:
+                response = "da da da"  #put random joke or epigram
         while response in memory['last questions']:  #This makes sure you don't repeat items in a volley
             response = analyze(statement)
-        if volley_count < 6:  #This makes you change volleys after 7 questions
+        if volley_count < 6:  #This makes you change volleys after 7 questions - can make this random from 5 to 8  later
             volley_count += 1
         else:
             volley_count = 0
             new_volley = random.choice(volleys)
             memory["volley"] = new_volley
             print "Durga:  " + random.choice(change_topics) + new_volley + ". " + random.choice(["But one last thing...", "One final question though.", "One thing I want to ask before moving on."])
-        print "Durga:  " + response
+        print "Durga:  " + choice(fillers, p=filler_weights) + response
         memory["volley_count"] = volley_count
         question_history.append(response)
         print "        ", memory  # use this to look at memory
@@ -158,6 +168,7 @@ STUFF TO DO NEXT:
 -Upgrade topics with common things said in chats
 -Record answers in a KB as a certain format
 -Current news - ask them if there's something current (sports, politics, etc) that has been on their mind, then do a Google News scraper search and ask them 1-2 follow up qs
+
 
 Go over Chatscript documents - how does it work, what to learn?
 
