@@ -1,6 +1,5 @@
 from py2neo.ogm import RelatedFrom, Property, GraphObject, RelatedTo
 from py2neo import Graph, Relationship
-from config import config
 
 # from py2neo.packages.httpstream import http
 # http.socket_timeout = 1000 * 60 * 5
@@ -8,27 +7,25 @@ from config import config
 
 # g = Graph(
 #     bolt_port=7687,
-#     https_port=7473,
+#     https_port=7474,
 #     bolt=True,
 #     secure=True,
-#     # host='52.42.233.14',
-#     host='neo4jhttps.starbutter.net',
+#     host='54.201.4.121',
 #     user='neo4j',
-#     password=config['PY2NEO_PASSWORD'])
+#     password='julesrules')
 #
-environment = 'local'
+environment = 'production'
 
 def get_graph_object():
     if environment == 'production':
         g = Graph(
                 bolt_port=7687,
-                https_port=7473,
+                https_port=7474,
                 bolt=True,
                 secure=True,
-                # host='52.42.233.14',
-                host='neo4jhttps.starbutter.net',
+                host='54.201.4.121',
                 user='neo4j',
-                password=config['PY2NEO_PASSWORD'])
+                password='julesrules')
     elif environment == 'local':
         g = Graph(
                 bolt_port=7687,
@@ -37,7 +34,7 @@ def get_graph_object():
                 secure=False,
                 host='localhost',
                 user='neo4j',
-                password=config['PY2NEO_LOCAL_PASSWORD'])
+                password='passwordhere')
     return g
 
 

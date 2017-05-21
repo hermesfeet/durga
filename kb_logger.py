@@ -11,14 +11,13 @@ g = get_graph_object()
 
 def log_utterance(input, speaker, volley, ts, last_id):
     #Log the new utterance as a node
-    id = hashlib.md5()
-    id.update(speaker)
-    id.update(ts)
     tx = g.begin(autocommit=False)
-    new_utterance = Node("Utterance", id=id)
+
+    new_utterance = Node("Utterance", id=last_id)
     new_utterance['ts'] = ts
     new_utterance['input'] = input
     tx.create(new_utterance)
+    get_cl()
     tx.commit()
     print('Added: Utterance: {0}'.format(new_utterance))
     return id

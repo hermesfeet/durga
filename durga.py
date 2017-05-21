@@ -91,16 +91,16 @@ def dig_into_PPT(statement):
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
 func_list = [analyze, dig_into_PPT]
-weights = [0.5, 0.5]
+weights = [0.7, 0.3]
 
 # The core function that is running - starts with intros and then runs analyze over and over
 # Volley count is some state management to know which volley you are in
 # Note the print statement for memory - it allows you to debug and follow the memory as needed
 
 def main():
-    name = raw_input("Durga:  "+ random.choice(hellos)+" What's your name? \n> ")
+    name = raw_input("Jules: "+ random.choice(hellos)+"I'm Jules and I'm here to learn about your life story. What's your name? \n> ")
     memory["name"] = name #updates name
-    print ("Durga:  Ok, " + name + "! " + random.choice(intros))
+    print ("Jules:  Ok, " + name + "! " + random.choice(intros))
     volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
 
     while True:
@@ -111,7 +111,7 @@ def main():
             try:
                 response = dig_into_PPT(statement)
             except:
-                response = "da da da"  #put random joke or epigram
+                response = random.choice(martial)  #put random joke or epigram
         while response in memory['last questions']:  #This makes sure you don't repeat items in a volley
             response = analyze(statement)
         if volley_count < 6:  #This makes you change volleys after 7 questions - can make this random from 5 to 8  later

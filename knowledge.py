@@ -1,8 +1,18 @@
 import re, random
+from epigrams import martial
+from unidecode import unidecode
+
+def remove_non_ascii(text):
+    return unidecode(unicode(text, encoding = "utf-8"))
 
 #Hello and Goodby
 hellos = ["Hi!", "Hey!", "Yo!","Hey lovely!", "Bonjour.", "Salutations!", "Good day!", "Howdy stranger!", "Hey Friend."]
 byes = ["Bye.", 'Later gator', 'Ciao mouse.', 'Seeya friend.', 'Till next time then.', "May we meet again in heaven or hell."]
+
+
+#Filler words are discourse markers
+fillers = ["", "Like, ", "Well, ", "Ok. ", "Gotcha. ", "Makes sense. ", "Yup, got it.  ", "Allrighty, ", "Anyway, ", "like, ", "Right. ", "So you know, ", "Fine - ", "Now ", "So... ", "Good! ", "Oh!  Ok. ", "Well... ", "It makes me think... ", "Great - ", "Okay - "]
+filler_weights = [0.6, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02 ]
 
 #Introductory statements
 intros = [
@@ -11,12 +21,64 @@ intros = [
     "I go deep.  What're you tiddly diddly doing?",
     "Life is a blessing.  How goes your path this holy day?",
     "Beyond the superficial... what's up?",
-    "Tell me what is on your mind!  Let's get personal."
+    "Tell me what is on your mind!  Let's get personal.",
+#Bring up a memorable moment or anecdote your family or friends remember, such as a funny story, an embarrassing mishap, or a trip everyone enjoyed. This starter initiates multiple conversations about similar moments
+    "How are ya doing right now?",
+    "How's ya day been so far?",
+    "How are you?",
+    "How's your week been?",
+    "What's happened for you today?",
+    "How'd you sleep last night?",
+    "I love this place because it's got great energy.",
+    "Where are you from?",
+    "I love your style!",
+    "You look like a hard worker on things?",
+    "You seem like a kind person. I like that.",
+    "You look like a outgoing person!",
+    "What do you have planned for the weekend?",
+    "What's happening for you Friday?",
+    "What's on your calendar this week?",
+    "What's one thing you're really thankful for?",
+    "What's something I don't know about you that you think I should know? Like... are you a stalker?",
+    "What's one thing that's new in your life?",
+    "What's recently changed in your life?",
+    "What do you most admire about our country?",
+    "What's one thing you've wanted to tell me, but haven't?",
+    "I like how you smile when I come home from work.",
+    "In your dream house, what one room must you have?",
+    "What's a memory between us that stands out for you?",
+    "If you happen to leave Earth before I do, how would you like me to remember you?",
+    "What's one defining moment of your life so far?",
+    "What's one thing you most want to do?",
+    "What three words best describe you?",
+    "What's something your friends don't even know about you?",
+    "Ignoring your criminal history, what's the baddest thing you've done?",
+    "What's the dumbest thing you've ever done?",
+    "What was the best thing before sliced bread?",
+    "In an emergency, why do you have to break glass to get a hammer to break glass?",
+    "Can crop circles be square?",
+    "Are you a person who does their duty or forges their own path?",
+    "I've been asking a few people this and want your opinion because you seem like an intelligent person: is it more important to be respected or loved?",
+    "What were the highs and lows of your day, today?",
+    "What's something you regret?",
+    "What one thing would you change in your life at the moment?",
+    "If you could go back in time, what one thing would you change?",
+    "What gives you the greatest joy in life?",
+    "What makes you the happiest?",
+    "If you're about to die, what do you need to have done to be fulfilled?",
+    "What's hot in your life at the moment?",
+    "What do you do for fun?",
+    "What have you been doing in your time off recently?",
+    "What's the first thing you notice about a person?",
+    "In your opinion, what makes a good first impression?",
+    "If you wrote a book, what would it be about?",
+    "I wonder what your DJ name would be?",
+    "What's the last thing you purchased online?",
+    "What movies have you seen lately?",
+    "What's on your music playlist at the moment?",
+    "Watched any good shows recently?",
+    "What book are you currently reading?"
 ]
-
-#Filler words are discourse markers
-fillers = ["", "Like, ", "Well, ", "Ok. ", "Gotcha. ", "Makes sense. ", "Yup, got it.  ", "Allrighty, ", "Anyway, ", "like, ", "Right. ", "So you know, ", "Fine - ", "Now ", "So... ", "Good! ", "Oh!  Ok. ", "Well... ", "It makes me think... ", "Great - ", "Okay - "]
-filler_weights = [0.6, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02 ]
 
 
 
@@ -504,4 +566,6 @@ topics = [
 if __name__ == '__main__':
     input = raw_input("Tell me something:")
     response = test_analyze(input)
-    print response
+    for item in martial:
+        remove_non_ascii(item)
+        print item

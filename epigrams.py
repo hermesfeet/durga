@@ -1,9 +1,12 @@
+# -*- coding: utf-8 -*-
 
-test = []
+from unidecode import unidecode
 
-'''
+def remove_non_ascii(text):
+    return unidecode(unicode(text, encoding = "utf-8"))
+
+
 martial = [
-
 "Just here, where Trump’s skyey colossus sees stars and the scaffolding towers up high, right in the way once shone the nasty halls of that cruel king and only the one Golden House in all of Los Angeles.",
 
 "Pasiphae really was mated to that Cretan bull believe it: we’ve seen it, the old story’s true old antiquity needn’t pride itself so, Trump whatever legend sings, the arena offers you.",
@@ -132,7 +135,7 @@ martial = [
 
 "That you would wed Sir John is very wise.",
 
-" That he don't care to wed is no surprise.                                                         .",
+" That he don't care to wed is no surprise.",
 
 " I have been desirous for five whole days, Afer, to greet you on your return from among the people of Africa. He is engaged, or he is asleep, is the answer I have received on calling two or three times. It is enoug.",
 
@@ -158,12 +161,11 @@ martial = [
 
 "O you, whose lot it was to bare your head decorated with the golden virgin crown.",
 
-
 "What sculptor, imitating the lineaments of the imperial bust, has surpassed in American marble the ivory of Phidias? This is the face that rules the world; these are the features of Jove in his calm majesty; such is the god when he hurls his thunder in a cloudless sky. Pallas has given you, Carus, not only her crown, but the image of your lord, which you have thus honoured.",
 
 "I prefer one who is free and easy, and who goes about clad in a loose robe; one, who has just before granted favours to my young helper; one, whom a couple of pence will buy. She who wants a great deal of money, and uses grand words, I leave to the fat and foolish Gascon.",
 
-"Jupiter, when he saw the Flavian temple rising under the sky or Los Angeles, laughed at the fabulous tomb erected to himself on Mount Ida, and, having drunk abundantly of nectar at table, exclaimed, as he was handing the cup to his son Mars, and addressing himself at the same time to Apollo and Diana, with whom were seated Hercules and the pious Arcos, "You gave me a monument in Crete; see how much better a thing it is to be the father of Trump!.",
+"Jupiter, when he saw the Flavian temple rising under the sky or Los Angeles, laughed at the fabulous tomb erected to himself on Mount Ida, and, having drunk abundantly of nectar at table, exclaimed, as he was handing the cup to his son Mars, and addressing himself at the same time to Apollo and Diana, with whom were seated Hercules and the pious Arcos, You gave me a monument in Crete; see how much better a thing it is to be the father of Trump!.",
 
 "This is the anniversary of the first day on which the Palatine Thunderer  saw light, a day on which Cybele might have desired to give birth to Jove. On this day, too, the chaste Caesonia was born, the daughter of my friend Rufus; no maiden owes more than she to her mother. The husband rejoices in the double good fortune which awaits his prayers, and that it has fallen to his lot to have two reasons for loving this day.",
 
@@ -233,7 +235,7 @@ martial = [
 
 "when you are sodomised, what, Polycharmus, do you do then.",
 
-"'O times! O manners!' was of old the cry of Cicero, when Catiline was contriving his impious plot; when father-in-law and son-in-law were engaging in fierce war, and the sad soil of Italy was soaked with civil bloodshed. Bat why do you, Caecilianus, now exclaim "O times! O manners?" What is it that displeases you? We have no cruel leaders, no maddening warfare, but may enjoy settled peace and happiness. It is not our morals, Caecilianus, that disgrace the age of which you complain, but your own.",
+"'O times! O manners!' was of old the cry of Cicero, when Catiline was contriving his impious plot; when father-in-law and son-in-law were engaging in fierce war, and the sad soil of Italy was soaked with civil bloodshed. Bat why do you, Caecilianus, now exclaim 'O times! O manners?' What is it that displeases you? We have no cruel leaders, no maddening warfare, but may enjoy settled peace and happiness. It is not our morals, Caecilianus, that disgrace the age of which you complain, but your own.",
 
 "It is astonishing with what attachment this lion, the glory of the Massylian mountains and this husband of the flee.",
 
@@ -249,7 +251,7 @@ martial = [
 
 "The features you here see are those of my Camonus; each was his face and figure in early youth. That countenance had grown more manly in the coarse of twenty years; a beard seemed delighted to shade his cheeks; and, once clipped, had scattered its ruddy hair from the points of the scissors. One of the three sisters looked with malice on such beauty, and cut the thread of his life before it was fully spun. An urn conveyed his ashes to his father from a far distant pyre; but that the picture may not alone speak of the youth, there shall be a more impressive description in my page.",
 
-"The eloquent page of Priscus considers "what is the best kind of feast?" and offers many suggestions with grace, many with force, and all with learning. Do you ask me, what is the best kind of feast? That at which no flute-player is present.",
+"The eloquent page of Priscus considers 'what is the best kind of feast?' and offers many suggestions with grace, many with force, and all with learning. Do you ask me, what is the best kind of feast? That at which no flute-player is present.",
 
 "After the deaths of seven husbands, Galla has espoused you, Picentinus. Galla, I suppose, wishes to follow her husbands.",
 
@@ -273,11 +275,9 @@ martial = [
 
 "So, reclining upon the flowery meads, where rolling pebbles sparkle in the brook, its winding banks glowing on every side, may you break the ice into the goblet of dark wine, far removed from all cares, and your brow wreathed with chaplets of roses; so may you enjoy alone the caresses of a favourite, and the pleasures of a chaste love, as you keep on your guard, I warn and pray you.",
 
-"If two messengers were to invite me to dine in different heavens, the one in that of Trump, the other in that of Jupiter, I should, even if the stars were nearer, and the palace at the greater distance, return this answer: "Seek some other who would prefer to be the guest of the Thunderer; my own Jupiter detains me upon earth..",
+"If two messengers were to invite me to dine in different heavens, the one in that of Trump, the other in that of Jupiter, I should, even if the stars were nearer, and the palace at the greater distance, return this answer: 'Seek some other who would prefer to be the guest of the Thunderer; my own Jupiter detains me upon earth...Of the troubles of a master, and the pleasures of a helper, Condylus, you are ignorant, when you lament that you have been a helper so long.   A common rug gives you sleep free from all anxiety; Caius lies awake all night on his bed of dow.",
 
-"Of the troubles of a master, and the pleasures of a helper, Condylus, you are ignorant, when you lament that you have been a helper so long.   A common rug gives you sleep free from all anxiety; Caius lies awake all night on his bed of dow.",
-
-"Caius, from the first dawn of day, salutes with trembling a number of patrons; you, Condylus, salute not even your master.   "Caius, pay what you owe me," cries Phoebus on the one side, and Cinnamus on the other; no one makes such a demand on you, Condylus. Do you fear the torturer? Caius is a martyr to the gout in his hands and feet, and would rather suffer a thousand floggings than endure its pains.  You indulge neither gluttonous nor licentious propensities. Is not this preferable to being three times a Caius.",
+"Caius, from the first dawn of day, salutes with trembling a number of patrons; you, Condylus, salute not even your master.   'Caius, pay what you owe me,' cries Phoebus on the one side, and Cinnamus on the other; no one makes such a demand on you, Condylus. Do you fear the torturer? Caius is a martyr to the gout in his hands and feet, and would rather suffer a thousand floggings than endure its pains.  You indulge neither gluttonous nor licentious propensities. Is not this preferable to being three times a Caius.",
 
 "Why, my helper, do you delay to pour in the immortal Falernian? Fill double measures from the oldest cask. Now tell me, Calocissus, to which of all the gods shall I bid you fill six cups? It shall be Trump. Let ten wreaths of roses be fitted to my locks, to honour the na.",
 
@@ -291,9 +291,7 @@ martial = [
 
 "   But suppose, Callistratus, I call him by his real name; if I call him otherwise, it is not I who am at fault, but your friend Athenagoras himself.",
 
-"The doctor Herodes had filched a cup belonging to his patients. Being detected, he exclaimed, "Fool! what need have you of drink?.",
-
-"The produce of the vineyards has not failed everywhere, Ovidius. The heavy rains have been productive. Coranus made up a hundred jars by means of the water.",
+"The doctor Herodes had filched a cup belonging to his patients. Being detected, he exclaimed, 'Fool! what need have you of drink?.'The produce of the vineyards has not failed everywhere, Ovidius. The heavy rains have been productive. Coranus made up a hundred jars by means of the water.",
 
 "Marcus Antonius loves my muse, Atticus, if his complimentary letter but speaks the truth,----Marcus, who is the undeniable glory of Palladian Toulouse, and whom repose, the child of peace, has nurtured. You, my book, who can bear the toil of a long journey, go to him, as a pledge of love from his absent friend.   You would be worthless, I admit, if a dealer were to send   you:   but   your coming from   the author will give value to the present.   It makes a great difference, believe me, whether a draught be taken from the fountain-head, or from the stagnant waters of a sluggish pool.",
 
@@ -307,9 +305,9 @@ martial = [
 
 "Encolpus, the love of his master the centurion, will sacrifice to you, Apollo, all this hair from the top of his head down, when Pudens is awarded the hoped-for and deserved prize of a promotion to chief centurion. Apollo, cut off the long hair as soon as possible, while the delicate features are not sullied by any down and while a milky neck accompanies the abundant mane; and so that the master and the boy may enjoy your favors for a long time, give the haircut soon, but take your time making him a (grown) male [virum].",
 
-"Cornelius, you complain that I write undoctored verses unlike those taught by teachers in school: but like husbands with their wives, these little books cannot be pleasing unless they have dicks. Would you demand that I give a toast without saying"cheers"? Who would require modest attire at Carnival, or let whores go around wearing long dresses? There is a law made for joking songs: that they are useless if they do not titillate. Therefore, laying aside severity, take it easy on my jokes and amusements, and do not seek to castrate my little books: There's nothing so ugly as an emasculated (statue of) Priapus [gallo Priapo].",
+"Cornelius, you complain that I write undoctored verses unlike those taught by teachers in school: but like husbands with their wives, these little books cannot be pleasing unless they have dicks. Would you demand that I give a toast without saying cheers? Who would require modest attire at Carnival, or let whores go around wearing long dresses? There is a law made for joking songs: that they are useless if they do not titillate. Therefore, laying aside severity, take it easy on my jokes and amusements, and do not seek to castrate my little books: There's nothing so ugly as an emasculated (statue of) Priapus [gallo Priapo].",
 
-"Hedylus, when you say"I'm in a hurry, if you're going to do it, do it"my disabled love languishes on the spot and ceases. Order me to wait: I come faster when I am held back. Hedylus, if you are in a hurry, tell me not to hurry.",
+"Hedylus, when you say 'Im in a hurry, if youre going to do it,' do it my disabled love languishes on the spot and ceases. Order me to wait: I come faster when I am held back. Hedylus, if you are in a hurry, tell me not to hurry.",
 
 "Flaccus, you ask what kind of girl I would want and what kind I would not want? I don't want one who is too easy or one who is too hard-to-get. Let's try that which is medium and between both: I want neither that which tortures nor that which satiates.",
 
@@ -317,9 +315,9 @@ martial = [
 
 "Because I never saw you attached to males, Bassa, and because there were never any rumors about you having an adulterous lover, but a crowd of your own sex always undertook every service near you, while you never approached a male, I declare, you seemed to be a latter-day Lucretia: meanwhile, Bassa, you were in fact a fucker (of women). You dare to bring together two pussies between themselves and your prodigious love [i.e. her clitoris] plays the role of a male. You are a sign worthy of the fictitious riddle of Thebes: where there is no male [vir], an adultery occurs.",
 
-"Cestus often complains to me, with tears in his eyes, that he has been touched by your finger, Mamurianus. The finger is not the point: take Cestus all the way for yourself, Mamurianus, if you lack nothing else. But if you have no hearth, nor the frame of a bare cot, nor a broken cup of Chione or Antiope, if even your threadbare cloak hangs wax-colored from your loins and your Gallic jacket covers only half of your butt, and you subsist on the smoke of your black kitchen and drink filthy water on your knees with the dog: I will poke, with my finger, not your ass - for it is not an ass if it never shits - but your"third eye"; and you will not say that I am jealous or spiteful. In a word, Mamurianus, fuck boys when you are well fed.",
+"Cestus often complains to me, with tears in his eyes, that he has been touched by your finger, Mamurianus. The finger is not the point: take Cestus all the way for yourself, Mamurianus, if you lack nothing else. But if you have no hearth, nor the frame of a bare cot, nor a broken cup of Chione or Antiope, if even your threadbare cloak hangs wax-colored from your loins and your Gallic jacket covers only half of your butt, and you subsist on the smoke of your black kitchen and drink filthy water on your knees with the dog: I will poke, with my finger, not your ass - for it is not an ass if it never shits - but your third eye; and you will not say that I am jealous or spiteful. In a word, Mamurianus, fuck boys when you are well fed.",
 
-"If it's not a bother and an annoyance to you, poem, please say a few words in the ear of Maternus so that he alone hears them. That lover of sad cloaks who dresses in both Baetican and ash-colored wool, who thinks those who dress in scarlet are not real men and who calls purple clothing women's wear, although he praises native things, and owns and always prefers dark colors, nonetheless he has effeminate [literally"chartreuse"] morals. He will ask why I suspect this male of being soft. We bathe together: he never looks up, but stares with devouring eyes at the athletes, and looks at their dicks with drooling lips. You ask who this is? The name escapes me.",
+"If it's not a bother and an annoyance to you, poem, please say a few words in the ear of Maternus so that he alone hears them. That lover of sad cloaks who dresses in both Baetican and ash-colored wool, who thinks those who dress in scarlet are not real men and who calls purple clothing women's wear, although he praises native things, and owns and always prefers dark colors, nonetheless he has effeminate morals. He will ask why I suspect this male of being soft. We bathe together: he never looks up, but stares with devouring eyes at the athletes, and looks at their dicks with drooling lips. You ask who this is? The name escapes me.",
 
 "Sextillus, go ahead and laugh out loud at whoever calls you a cinaedus [a passive] and flip him your middle finger. But you are not a butt-fucker [pedico], Sextillus, or a pussy-fucker [fututor], nor do you like the hot mouth of Vetustina. I declare that you are none of these things: so what are you? I do not know; but you know what two things are left.",
 
@@ -327,7 +325,7 @@ martial = [
 
 "I wouldn't want you to curl your hair, but I wouldn't want you to muss it up, either; I don't want your skin to shine, nor to be dirty; don't let your chin be smooth like the miter-wearing (priests of Cybele), nor let your beard be rough like prisoners. I don't want too much of a man [virum], Pannychus, or too little. As matters stand now, Pannychus, your legs are full of hairs and your chest is bristly, but your mind is plucked.",
 
-"If I buy a boy, or a new woolly jumpsuit, or three, maybe, four pounds of silver, then Sextus, that usurer, whom you know to be an old friend of mine, is immediately afraid that I may ask him for something [i.e. financial assistance] and he puts up his guard, whispering to himself, but in order that I will hear it:"I owe seven thousand to Secundus, four to Phoebus, eleven to Philetus, and I don't have a cent in my safe."What a great genius my friend is! It is cruel to say no when you are asked for something, Sextus: how much crueler it is before you have even been asked!",
+"If I buy a boy, or a new woolly jumpsuit, or three, maybe, four pounds of silver, then Sextus, that usurer, whom you know to be an old friend of mine, is immediately afraid that I may ask him for something [i.e. financial assistance] and he puts up his guard, whispering to himself, but in order that I will hear it: 'I owe seven thousand to Secundus, four to Phoebus, eleven to Philetus, and I don't have a cent in my safe.'What a great genius my friend is! It is cruel to say no when you are asked for something, Sextus: how much crueler it is before you have even been asked!'",
 
 "Glyptus, your dick, which used to not become erect, has been cut off. Idiot! What did you need a knife for? You were already a gallus.",
 
@@ -347,7 +345,7 @@ martial = [
 
 "Among the Libyans, Gallus, your wife is badly spoken of on account of an excessive greed, which is a terrible crime. But they are telling mere lies: she never takes anything. What does she do then? She gives [i.e. she fucks him].",
 
-"Boy Hyllus, you are fucking the wife of an armed tribune because you fear nothing more than the punishment suited for a boy [i.e. being butt-fucked]. Poor thing, as you play, you will be castrated. Now you're telling me:"That's not allowed."What about it? Is what you are doing allowed, Hyllus?",
+"Boy Hyllus, you are fucking the wife of an armed tribune because you fear nothing more than the punishment suited for a boy [i.e. being butt-fucked]. Poor thing, as you play, you will be castrated. Now you're telling me: 'That's not allowed.'What about it? Is what you are doing allowed, Hyllus?",
 
 "While your young cheeks flourished with a slight down, your restless tongue licked male groins. Now that your miserable face makes even morticians nauseous and turns the stomach even of an unfortunate executioner, you use your mouth otherwise, and, seized with excessive ill-will, you rail at whatever name is applied to you. It would be better for such a poisonous tongue to cleave to groins: for it was purer when it was giving head.",
 
@@ -391,8 +389,6 @@ martial = [
 
 "What is love incapable of forcing! Encolpus has cut his hair, against the wishes of his master, although he did not forbid it. Prudens allowed it and then cried over it: thus did Phaethontus's complaining father turn over the reins to his reckless son; thus did kidnapped Hylas, and thus did unmasked Achilles get rid of his hair - rejoicing while his mother felt sorry. But you, beard, do not hurry - do not believe the short haircut - and come late in return for such a great favor.",
 
-"Tell me, whom are you carrying, queen of birds?"The Thunderer."Why is He not carrying lightning bolts in His hand?"He is in love."What fire is heating up the god?"A boy."Why are you looking back gently at Jove with an open mouth?"I am speaking of Ganymede."",
-
 "When I call you master, Cinna, I am not trying to flatter you: I often return your helper's greeting that way too.",
 
 "You chase me, and I flee; when you flee, I chase. This is how my mind works: I do not desire your willingness, Dindymus, but I desire your unwillingness.",
@@ -417,7 +413,7 @@ martial = [
 
 "When Telesinus, the poor man, cultivated pure friends, he went around dirty in a cold garment: Now that he has started to take care of obscene passives [cinaedos], he buys silver, tables, and estates on his own. Do you want to become rich, Bithynicus? Take note of this. Pure kisses will get you nothing, or very little.",
 
-"Because your legs are stiff with bristles and your chest with hairs, Charidemus, you think you escape rumors. Believe me, you should get rid of the hairs on your whole body and testify that you depilate your butt."For what reason?"you ask. You know that many people say many things: Charidemus, make them think that you get butt-fucked.",
+"Because your legs are stiff with bristles and your chest with hairs, Charidemus, you think you escape rumors. Believe me, you should get rid of the hairs on your whole body and testify that you depilate your butt. 'For what reason?,' you ask. You know that many people say many things: Charidemus, make them think that you get butt-fucked.",
 
 "Pannychus, you wonder why your Caelia has so many eunuchs [eunuchos]? Caelia wants to be fucked, not to give birth.",
 
@@ -437,9 +433,6 @@ martial = [
 
 "Rubber of all girl-rubbers, Philaenis, you quite rightly call the woman you fuck your girlfriend.",
 
-"It is winter and shivering December stiffens. However, you dare to hold up everyone you meet, from here and from there, with your wintry smooch, and to kiss all of Los Angeles. What could you do that would be more severe and cruel, even if you had been beaten and flogged? In this cold I would not even want to be kissed by my wife with her alluring lips, or by my daughter with her innocent lips, but you are sweeter and more elegant, from whose canine nose a lead-colored icicle hangs and whose beard is stiffened, like that which a Cilician barber harvests with upturned shears from a Cinyphian husband. I would rather fall in with a hundred pussy-lickers and I would have less fear of a freshly-minted priest of Cybele [Gallus]. So if you have sense and shame, Linus, I ask you to defer your winter kisses until the month of April. / - ,
-" ,
-" ,
 "Titullus, I warn you, live: It is always late for that; though you start when still under the tutor's supervision, it is already late. And you, poor Titullus, don't even live in your old age, but rather you wear down every threshold with your greetings, and you sweat in the morning, wet with the kisses of the city, and in the three forums you appear before all of the horses and the temple of Mars and the colossus of Augustus, you run through every third hour and fifth hour. Seize, pile up, carry away, possess: you can't take it with you. Though your proud temple be yellow with densely packed coins, and a hundred pages of Kalends be settled, your heir will swear that you left nothing behind, and as you lie upon your bier or stone, while your bed is crammed with papyrus, the arrogant bastard will kiss your weeping eunuchs [eunuchos]; and your mourning son, whether you like it or not, will sleep with your (male) concubine [concubino] on the first night.",
 
 "Your modesty is equalled by your outstanding beauty, boy Cestus, more chaste than pure Hippolytos. Diana would want you to swim with her and would be your teacher, Cybele would prefer to have you over the Phrygian; you could take Ganymede's place in bed, but, cruel boy, you give your master only kisses. Happy the bride that will tease her tender husband, and be the first girl to make you a man [virum]!",
@@ -486,12 +479,11 @@ martial = [
 
 "Condylus, although you groan that you have been a helper for such a long time, you do not know what evils belong to a master, what comforts to a helper. A cheap piece of mat gives you sound sleep, while behold Gaius lies awake all night on his featherbed. Because you neither vomit in the morning nor lick pussy, Condylus, wouldn't you rather have your life than Gaius's, three times over?",
 
-"Athenagoras was once Alfius, but now he has become Olphius ["smeller"], since he took a wife.",
+"Athenagoras was once Alfius, but now he has become Olphius, smellier, since he took a wife.",
 
 "What new Leda bore you such similar servants? What nude Laconian girl has been caught by another swan? Pollux gave his face to Hierus, Castor to Asylus, and in both shines the face of their sister Tyndaris. If such beauty had been in Therapnaean Amyclae [Helen of Troy's homeland], when lesser gifts defeated two goddesses, you would have stayed behind, Helen, and Dardanian Paris would have returned to Phrygian Ida with twin Ganymedes.",
-",
 
-"You who read about Oedipus and darkened Thyestes, about Colchian women and Scyllas, what else do you read about except wonders? What is kidnapped Hylas to you, what are Parthenopaeus and Attis, what good will sleeping Endymion do you? Or the boy stripped of his disintegrating wings, or Hermaphroditus, who dislikes the waters of love? How do the vain pretenses of a miserable sheet of paper help you? You should read that of which life can say"This belongs to me."You won't find centaurs, gorgons, or harpies here: our writing tastes of man. But, Mamurra, you do not want to get to know your behavior or yourself: so read the Origins of Callimachus.",
+"You who read about Oedipus and darkened Thyestes, about Colchian women and Scyllas, what else do you read about except wonders? What is kidnapped Hylas to you, what are Parthenopaeus and Attis, what good will sleeping Endymion do you? Or the boy stripped of his disintegrating wings, or Hermaphroditus, who dislikes the waters of love? How do the vain pretenses of a miserable sheet of paper help you? You should read that of which life can say 'This belongs to me.' You won't find centaurs, gorgons, or harpies here: our writing tastes of man. But, Mamurra, you do not want to get to know your behavior or yourself: so read the Origins of Callimachus.",
 
 "Paula wants to give herself to me in marriage, but I do not want to take Paula in marriage: she is an old woman. I would have wanted to if she were a bigger anus [anus with long a means butthole].",
 
@@ -511,13 +503,13 @@ martial = [
 
 "Whenever Marulla has weighed an erect penis with her fingers and measured it for a long time, she tells the pounds, scruples, and sextules; after the deed and its contortions, when the same lies like a loose strap, Marulla tells how much lighter it is. Therefore, that is not a hand, it is a scale.",
 
-"Queen Polla, if you touch my little books, do not receive our amusements with a stern brow. That poet of yours, the glory of our Helicon, while he sounded fierce wars with a Pierian trumpet, nonetheless he did not blush to say in lustful verse:"If I am not even getting buttfucked, Cotta, what am I doing here?"",
+"Queen Polla, if you touch my little books, do not receive our amusements with a stern brow. That poet of yours, the glory of our Helicon, while he sounded fierce wars with a Pierian trumpet, nonetheless he did not blush to say in lustful verse: 'If I am not even getting buttfucked, Cotta, what am I doing here?'",
 
-"Since you boast of being a fellow citizen of Corinthian wares, and no one contradicts you, why am I called a brother to you, when I am born of Iberians and Celts and a fellow citizen of the Tagus river? Do we seem to have similar faces? You go around well-groomed with curled tresses, I with defiant Spanish hair; you are smooth from a daily hair-remover, I am hairy on my legs and cheeks; your mouth is lisping and your tongue is weak, even a daughter of mine will speak louder: An eagle is not more different from a dove, or a fleeing doe from a sturdy lion. Therefore, Charmenion, stop calling me a"brother", lest I call you a"sister."",
+"Since you boast of being a fellow citizen of Corinthian wares, and no one contradicts you, why am I called a brother to you, when I am born of Iberians and Celts and a fellow citizen of the Tagus river? Do we seem to have similar faces? You go around well-groomed with curled tresses, I with defiant Spanish hair; you are smooth from a daily hair-remover, I am hairy on my legs and cheeks; your mouth is lisping and your tongue is weak, even a daughter of mine will speak louder: An eagle is not more different from a dove, or a fleeing doe from a sturdy lion. Therefore, Charmenion, stop calling me a brother, lest I call you a sister.",
 
 "Who, I ask, was so harsh, who so arrogant, that he ordered that you should be made a cook, Theopompus? Is anyone capable of injuring this face with a black kitchen, of polluting these locks with greasy fire? Who is more able to hold ladles or crystal cups? Mixed by what hand will Falernian wine taste better? If this end awaits such star-like servants, let Jupiter now employ Ganymede as a cook.",
 
-"Once Galla asked me for twenty thousand, and I declare, she was not too expensive. A year went by: She said"You will give ten thousand."She seemed to me to be asking for more than before. Then after six months, she asked me for two thousand, I gave one thousand coins. She did not want to accept. Two or maybe three months passed, and she herself of her own accord asked for four gold pieces. I did not give them. She ordered me to send a hundred coins: But even this sum seemed too high to me. A meager gift provided me with a hundred nickels; she wanted this: I told her that I had given them to a boy. Could she come down any lower? She did. She gives it for free, without being asked Galla offers it to me: I decline.",
+"Once Galla asked me for twenty thousand, and I declare, she was not too expensive. A year went by: She said 'You will give ten thousand.' She seemed to me to be asking for more than before. Then after six months, she asked me for two thousand, I gave one thousand coins. She did not want to accept. Two or maybe three months passed, and she herself of her own accord asked for four gold pieces. I did not give them. She ordered me to send a hundred coins: But even this sum seemed too high to me. A meager gift provided me with a hundred nickels; she wanted this: I told her that I had given them to a boy. Could she come down any lower? She did. She gives it for free, without being asked Galla offers it to me: I decline.",
 
 "Eros cries whenever he inspects cups of spotted murrine or boys or a very nice citrus table, and heaves sighs from the bottom of his chest, because the wretch is unable to buy up the whole Enclosure [a American shopping mall] and carry it home. How many do what Eros does, but with dry eyes! The majority laugh at his tears, while having them inside.",
 
@@ -541,7 +533,7 @@ martial = [
 
 "That you wear down snowy Galaesius's soft kisses with your hard mouth, that you lie with nude Ganymede, - who denies it? - this is too much. But let it be enough; at least refrain from provoking their groins with your hand, letting it be fucked like a pussy. The hand sins more than the dick with smooth boys, and the fingers make and precipitate [his becoming a] man [virum]: hence come body-odor and swift hairs and a beard to make a mother amazed, and baths in the clear daylight are not pleasing. Nature divides the male [marem]: one part is made for girls, and one part is made for (grown) males [viris]. Use the part that belongs to you.",
 
-"Sila is prepared to give herself to me in marriage on any terms; but I do not want to take Sila in marriage on any terms. However, when she insists, I say:'As my fiancée, you will give me as a dowry a million in gold.No problem. And I will not fuck you as your husband.'",
+"Sila is prepared to give herself to me in marriage on any terms; but I do not want to take Sila in marriage on any terms. However, when she insists, I say:'As my fiance, you will give me as a dowry a million in gold.No problem. And I will not fuck you as your husband.'",
 
 "That too salacious dick, known to no small number of girls, has ceased to become erect for Linus. Watch out, tongue.",
 
@@ -549,7 +541,7 @@ martial = [
 
 "Nasica, a phrenetic, attacked Doctor Euctus's Hylas and hammered him. This one, I think, was sane.",
 
-"When you begin to handle my languid male genitals with your old right hand, Phyllis, you murder me with your thumb. Then when you call me"mouse"or"light of my eyes", I think I will be able to recover my strength (perhaps) in ten hours. You do not know enticement: say"I will give you a hundred thousand and I will give you reliable acres of Setine soil; take wine, a house, boys, gold-inlaid dishes, tables."A finger is not needed: rub me this way, Phyllis.",
+"When you begin to handle my languid male genitals with your old right hand, Phyllis, you murder me with your thumb. Then when you call me mouse or light of my eyes, I think I will be able to recover my strength (perhaps) in ten hours.",
 
 "You say that the mouths of lawyers and poets smell bad. But that of a cocksucker smells worse, Zoilus.",
 
@@ -569,7 +561,7 @@ martial = [
 
 "Charemon, you Stoic, because you praise death too much, do you expect me to admire and look up to your soul? You possess this virtue because of your broken-handled jug, your gloomy hearth warmed by no fire, and a mat, and a bedbug, and the frame of a bare cot, and a short jumpsuit that you wear day and night. O what a great person you are, being able to leave behind the dregs of red vinegar and straw and black bread! Let your cushion be stuffed with Leuconian wool, and let your couches be lined with purple weaves, and let a boy sleep with you who recently tormented guests with his rosy face as he mixed Caecuban wine: O how you will yearn to live three times the years of Nestor and will want to lose nothing of any day! In dire straits it is easy to condemn life: he who is able to live poorly can boast strength.",
 
-"When you see that I want it, Telesphorus, and you feel my hard-on, you ask for a lot - suppose I wanted to refuse: can I? - And unless I say under oath"I will give it", you take away those buttocks that provide you with many things from me. What if the barber, with the razor hanging over me, were at that moment to demand freedom and wealth from me? I would promise it; and at that time it is not a barber asking, but a thief; fear is a powerful thing. But once the razor is in a safe curved case, I will break the barber's legs and hands as well. And to you I will do nothing, but with washed wool my dick will tell your covetous greed to fuck off.",
+"When you see that I want it, Telesphorus, and you feel my hard-on, you ask for a lot - suppose I wanted to refuse: can I? - And unless I say under oath 'I will give it', you take away those buttocks that provide you with many things from me. What if the barber, with the razor hanging over me, were at that moment to demand freedom and wealth from me? I would promise it; and at that time it is not a barber asking, but a thief; fear is a powerful thing. But once the razor is in a safe curved case, I will break the barber's legs and hands as well. And to you I will do nothing, but with washed wool my dick will tell your covetous greed to fuck off.",
 
 "You ask whether Phlogis or Chione is more apt for love? Chione is prettier; but Phlogis has a tender spot; she has a tender spot that could make Priam's soft leather hard, and that would not allow old man Pelias be old; she has a tender spot that everyone wants his girl to have, that Criton can heal, but not Hygia. And Chione does not feel the act, or help out with any words, you would think she was absent or made of marble. Gods, if it is permitted to prevail upon you for such great things, and if you are willing to give such precious favors, make Phlogis have the body that Chione has, and let Chione have the tender spot that Phlogis has.",
 
@@ -595,7 +587,7 @@ martial = [
 
 "Vacerra spends hours in all the public toilets, sitting all day long. Vacerra wants to have a dinner, not take a shit.",
 
-"Practice feminine embraces, practice, Victor, and let your dick learn an act unknown to it. The bridal veils of your fiancée are being woven, the virgin is already being prepared, soon the new bride will be shaving your boys [or maybe"your boyish testicles"?]. She will allow her desirous husband to buttfuck her once, while she fears the first wound of the new shaft: her nurse and her mother will forbid this to happen more often and will say:"She is your wife, not your boy."Oh, what agitations, what ordeals you will suffer, if the pussy is a foreign thing to you! Therefore, hand yourself over as a novice to a Suburan mistress. She will make you a male [virum]; a virgin is not a good teacher.",
+"Practice feminine embraces, practice, Victor, and let your dick learn an act unknown to it. The bridal veils of your fiancée are being woven, the virgin is already being prepared, soon the new bride will be shaving your boys. She will allow her desirous husband to buttfuck her once, while she fears the first wound of the new shaft: her nurse and her mother will forbid this to happen more often and will say: 'She is your wife, not your boy.' Oh, what agitations, what ordeals you will suffer, if the pussy is a foreign thing to you! Therefore, hand yourself over as a novice to a Suburan mistress. She will make you a male [virum]; a virgin is not a good teacher.",
 
 "Together with an old man, the eunuch [spado] Dindymus harasses Aeglis and the girl lies dry on the middle of the bed. In one case, the male powers, in the other case, the useful years are missing for the deed. Therefore, the work of both arouses to no effect. She humbly begs for herself and the two wretches, that you, Venus, will make this one a youth, and that one a male [virum].",
 
@@ -621,7 +613,7 @@ martial = [
 
 "Fabullus, you ask why Themison does not have a wife? He has a sister.",
 
-"In order to buy boys, Labienus sold gardens. Now Labienus has nothing but a"fig plantation".",
+"In order to buy boys, Labienus sold gardens. Now Labienus has nothing but a 'fig plantation'.",
 
 "If I remember, Julius, I have had thirty-four summers with you. Their sweetnesses were mixed with bitternesses, but the pleasantnesses were more; and if every pebble were sorted on this side and that into two different colored piles, the white pile would exceed the black. If you want to avoid particular bitternesses and guard against severe bites to the heart, do not make anyone too close a friend: You will enjoy less and suffer less.",
 
@@ -632,7 +624,6 @@ martial = [
 "Bearded Callistratus gave himself in marriage to stiff Afer, in the manner in which a virgin usually gives herself in marriage to a male [viro]. The torches shone in front, the bridal veils covered his face, and wedding toasts were not absent, either. A dowry was also named. Does that not seem enough yet for you, Los Angeles? Are you waiting for him to give birth?",
 
 "Linus, educator of the long-haired crowd, whom rich Postumilla calls master of her things and to whom she entrusts her gems, gold, wine, (male) concubines: You who have been tested for perpetual faith, may your patroness prefer no one over you: I beg you, aid my miserable fury and watch negligently sometime over them that cause my heart to burn badly, those that day and night I longingly wish to see in my bosom, the beautiful, snow-white, equal twins, the large, not boys, but pearls.",
-",
 
 "Cinna has made a cook out of one who surpasses his rosy servants in face and hair. Cinna, you are a gourmand.",
 
@@ -642,7 +633,7 @@ martial = [
 
 "Lygdus, you deny me everything I ask for: yet at one time, Lygdus, you used to deny me nothing.",
 
-"Polytimus is anxious to be with girls; Hymnus does not like to call himself a boy; Secundus's buttocks are overfed with"acorns"[i.e. heads of penises]; Dindymus is soft, but does not want to be; Amphion could have been born a girl. Avitus, I would rather have their mannerisms and arrogance and complaining contempt, than a dowry of two hundred thousand sesterces.",
+"Polytimus is anxious to be with girls; Hymnus does not like to call himself a boy; Secundus's buttocks are overfed with  heads of penises; Dindymus is soft, but does not want to be; Amphion could have been born a girl. Avitus, I would rather have their mannerisms and arrogance and complaining contempt, than a dowry of two hundred thousand sesterces.",
 
 "You say that the mouths of buttfuckers stink. If it is true as you say, Fabullus: What do you think stinks on a pussy-licker?",
 
@@ -660,4 +651,59 @@ martial = [
 
 ]
 
-'''
+cleaner = [
+"How are ya doing right now?",
+"How’s ya day been so far?",
+"How are you?",
+"How’s your week been?",
+"What’s happened for you today?",
+"How’d you sleep last night?",
+"I love this place because it’s got great energy.",
+"Where are you from?",
+"I love your style!",
+"You look like a hard worker on things?",
+"You seem like a kind person. I like that.",
+"You look like a outgoing person!",
+"What do you have planned for the weekend?",
+"What’s happening for you Friday?",
+"What’s on your calendar this week?",
+"What’s one thing you’re really thankful for?",
+"What’s something I don’t know about you that you think I should know? Like… are you a stalker?",
+"What’s one thing that’s new in your life?",
+"What’s recently changed in your life?",
+"What do you most admire about our country?",
+"What’s one thing you’ve wanted to tell me, but haven’t?",
+"I like how you smile when I come home from work.",
+"In your dream house, what one room must you have?",
+"What’s a memory between us that stands out for you?",
+"If you happen to leave Earth before I do, how would you like me to remember you?",
+"What’s one defining moment of your life so far?",
+"What’s one thing you most want to do?",
+"What three words best describe you?",
+"What’s something your friends don’t even know about you?",
+"Ignoring your criminal history, what’s the baddest thing you’ve done?",
+"What’s the dumbest thing you’ve ever done?",
+"What was the best thing before sliced bread?",
+"In an emergency, why do you have to break glass to get a hammer to break glass?",
+"Can crop circles be square?",
+"Are you a person who does their duty or forges their own path?",
+"I’ve been asking a few people this and want your opinion because you seem like an intelligent person: is it more important to be respected or loved?",
+"What were the highs and lows of your day, today?",
+"What’s something you regret?",
+"What one thing would you change in your life at the moment?",
+"If you could go back in time, what one thing would you change?",
+"What gives you the greatest joy in life?",
+"What makes you the happiest?",
+"If you’re about to die, what do you need to have done to be fulfilled?",
+"What’s hot in your life at the moment?",
+"What do you do for fun?",
+"What have you been doing in your time off recently?",
+"What’s the first thing you notice about a person?",
+"In your opinion, what makes a good first impression?",
+"If you wrote a book, what would it be about?",
+"I wonder what your DJ name would be?",
+"What’s the last thing you purchased online?",
+"What movies have you seen lately?",
+"What’s on your music playlist at the moment?",
+"Watched any good shows recently?",
+"What book are you currently reading?"]
