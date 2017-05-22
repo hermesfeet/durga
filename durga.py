@@ -4,6 +4,15 @@ import nltk, re, pprint, urllib
 from nltk.tokenize import *
 from nltk import word_tokenize
 from numpy.random import choice
+import time, datetime, uuid
+import collections
+
+
+
+ts = time.time()
+st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+id = str(uuid.uuid4())
+
 #from epigrams import test
 
 
@@ -20,8 +29,8 @@ volley_question = "a"
 
 #Memory as a dictionary of lists - simple state management
 name = "friend"
-question_history = []
-memory = {"name":name, "age":23, "last questions":question_history, "volley":volley, "volley_count":volley_count, "volley_question":volley_question}
+question_history = collections.deque(maxlen=20) # this is the memory of the last 20 questions asked, older than 20 are popped out
+memory = {"name":name, "age":23, "volley":volley, "volley_count":volley_count, "last questions":question_history, "volley_question":volley_question}
 
 # Reflections replace 1st person user input with bot's response, in the 2nd person
 reflections = {
@@ -91,20 +100,30 @@ def dig_into_PPT(statement):
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
 func_list = [analyze, dig_into_PPT]
-weights = [0.7, 0.3]
+weights = [0.55, 0.45]
 
 # The core function that is running - starts with intros and then runs analyze over and over
 # Volley count is some state management to know which volley you are in
 # Note the print statement for memory - it allows you to debug and follow the memory as needed
 
+def printer(print_this):
+    # Prints conversation to a simple text log
+    with open('chat_logs.txt', 'a') as logs:
+        logs.write(print_this)
+
 def main():
-    name = raw_input("Jules: "+ random.choice(hellos)+"I'm Jules and I'm here to learn about your life story. What's your name? \n> ")
+    name = raw_input("JULES: "+ random.choice(hellos)+" I'm Jules and I'm here to learn about your life story. What's your name? \n> ")
     memory["name"] = name #updates name
-    print ("Jules:  Ok, " + name + "! " + random.choice(intros))
+    salutations = "JULES:  Ok, " + name + "! " + random.choice(intros)
+    printer("\n\nConversation ID:  " + id + "\nTimestamp:  " + st + "\n")  #prints conversation information
+    with open('chat_logs.txt', 'a') as logs:
+        logs.write(salutations + "\n")
+    print (salutations)
     volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
 
     while True:
         statement = raw_input(name + ":  ")
+        printer("   "+ name.upper()+":  "+ statement + "\n")
         try:
             response = choice(func_list, p=weights)(statement) #weighted choice
         except:
@@ -120,11 +139,17 @@ def main():
             volley_count = 0
             new_volley = random.choice(volleys)
             memory["volley"] = new_volley
-            print "Durga:  " + random.choice(change_topics) + new_volley + ". " + random.choice(["But one last thing...", "One final question though.", "One thing I want to ask before moving on."])
-        print "Durga:  " + choice(fillers, p=filler_weights) + response
+            alternate = "JULES:  " + random.choice(change_topics) + new_volley + ". " + random.choice(["But one last thing...", "One final question though.", "One thing I want to ask before moving on."])
+            with open('chat_logs.txt', 'a') as logs:
+                logs.write(alternate + "\n")
+            print (alternate)
+        combined_response = "JULES:  " + choice(fillers, p=filler_weights) + response
+        with open('chat_logs.txt', 'a') as logs:
+            logs.write(combined_response + "\n")
+        print(combined_response)
         memory["volley_count"] = volley_count
         question_history.append(response)
-        print "        ", memory  # use this to look at memory
+        print( "        ", memory)  # use this to look at memory
  
         if statement in ["quit", "exit", "bye", "au revoir"]:
             print (name + ", you said "+statement+", so I am saying bye. \n" + random.choice(byes)+"\n")
@@ -145,39 +170,3 @@ if __name__ == "__main__":
 # ^\?  not any optional character
 # [ab] only what is in this group, so here a and/or b
 #  ([^\?]*)\? - these are many characters, so a group of words, a phrase
-
-
-'''
-STUFF TO DO NEXT:
--More state management: don't repeat volleys (keep track of them) ***
--Small talk module (questions people commonly ask) - "You" function to deflect questions about self
--Personal reflection function - tell a story from the bank
--Update PPT to ask questions about a proper noun using NLTK
--Maybe a counter when we get to PPTs, 2-5 follow ups?
--Update memory module -
-    -ST Memory - what was recently said, context, name, volley count, PPT count to dig in, what sentences or volleys to not repeat
-    -LT Memory - User profile, Bot profile of itself, PPT triples of what was discussed
--Empathic statements
--Jokes function module - weighted low, based on what someone says, takes a diff versus a jokes database and returns one
--Epigrams function module, works like jokes, smaller weight
--Function after some time to go to LT memory and dig into user profile or PPT triples
--Emotional state (analyze sentiment of last 5-15 user statements, map to 7 main emotions and store in memory, and create fillers and language to mirror
--Movie lines and famous quotes - take a user string, do a diff and match it to a movie quote or pithy quote
--Kind of transitional filler words before doing new questions, but only 30-60% of the time
--Logging of the entire transcript
--Upgrade topics with common things said in chats
--Record answers in a KB as a certain format
--Current news - ask them if there's something current (sports, politics, etc) that has been on their mind, then do a Google News scraper search and ask them 1-2 follow up qs
-
-
-Go over Chatscript documents - how does it work, what to learn?
-
-CORPORA TO CHECK OUT:
-http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008
-http://courses.washington.edu/englhtml/engl560/corplingresources.htm
-https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F
-https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html
-https://chenhaot.com/pages/changemyview.html
-http://faculty.nps.edu/cmartell/NPSChat.htm
-
-'''
