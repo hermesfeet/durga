@@ -8,7 +8,6 @@ import time, datetime, uuid
 import collections
 
 
-
 ts = time.time()
 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 id = str(uuid.uuid4())
@@ -26,6 +25,7 @@ volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
 last_volley = volley_completed[-1]
 volley_question = "a"
+sentiment = 0.5
 
 #Memory as a dictionary of lists - simple state management
 name = "friend"
@@ -113,7 +113,7 @@ def printer(print_this):
 
 def main():
     name = raw_input("JULES: "+ random.choice(hellos)+" I'm Jules and I'm here to learn about your life story. What's your name? \n> ")
-    memory["name"] = name #updates name
+    memory["name"] = name.upper() #updates name
     salutations = "JULES:  Ok, " + name + "! " + random.choice(intros)
     printer("\n\nConversation ID:  " + id + "\nTimestamp:  " + st + "\n")  #prints conversation information
     with open('chat_logs.txt', 'a') as logs:

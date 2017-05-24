@@ -1,28 +1,3 @@
-Jules:  Ok, hi, testing new line! I wonder what your DJ name would be?
-Durga:  Who in your family do you now care the most about?
-Durga:  Now Who protected you as a child?
-Durga:  Give me some insight into your bye?
-
-
- New Conversation2017-05-21 19:27:05
-Jules:  Ok, Marco! I go deep.  What're you tiddly diddly doing?
-Durga:  What more can you tell me?
-Durga:  Who in your family do you now care the most about?
-Durga:  I see, your uncle margie.
-Durga:  Who in your family did you have the hardest time with?
-Durga:  Now Who was the most important adult in your life growing up?
-Durga:  Give me some insight into your bye?
-
-
-Conversation from:  2017-05-21 19:32:26
-5fecd589-a36b-42cf-94fa-962c67624305
-Jules:  Ok, Minnie! What's the first thing you notice about a person?
-Durga:  Who in your family do you now care the most about?
-Durga:  Allrighty, Who was the most important adult in your life growing up?
-Durga:  Whom do you love most in your family?
-Durga:  like, Did you have a family pet you loved, and what was their story?
-Durga:  Okay - Can you tell me more about your bye?
-
 
 Conversation ID:  ad6637c4-c2ae-4d88-955e-209a3b0c003a
 Timestamp:  2017-05-21 19:34:21
@@ -86,3 +61,82 @@ UPPER DOG:  ffriends rule
 JULES:  Like, Who in your family do you now care the most about?
 UPPER DOG:  bye
 JULES:  Anyway, Who protected you as a child?
+
+
+Conversation ID:  cd316bf4-eba5-43d3-826c-2b96881ead6c
+Timestamp:  2017-05-21 20:07:53
+JULES:  Ok, Jun! What's one defining moment of your life so far?
+   JUN:  my death day
+JULES:  Yup, got it.  Who in your family do you now care the most about?
+   JUN:  uncle bob
+JULES:  Who in your family did you have the hardest time with?
+   JUN:  aunt martha
+JULES:  Can you tell me more about your martha?
+   JUN:  she was a crazy woman
+JULES:  What did your family do for fun when you were a child?
+   JUN:  checkers
+JULES:  What more can you tell me?
+   JUN:  nada
+JULES:  What got you out of bed as a kid?
+   JUN:  bye
+JULES:  I want to talk about your choices. But one last thing...
+JULES:  Give me some insight into your bye?
+
+
+Conversation ID:  5f543f41-7254-4d3f-bb9c-d9caaef9ddc0
+Timestamp:  2017-05-21 21:45:39
+JULES:  Ok, Mon! I wonder what your DJ name would be?
+   MON:  what is your name
+JULES:  Allrighty, I want to know about your name?
+   MON:  what is your dog
+JULES:  Well... I want to know about your dog?
+   MON:  what is god
+JULES:  Great - Who in your family do you now care the most about?
+   MON:  what is your faith
+JULES:  What got you out of bed as a kid?
+   MON:  what do you lve
+JULES:  Did you have a family pet you loved, and what was their story?
+   MON:  what is
+JULES:  Who in your family did you have the hardest time with?
+   MON:  what are
+JULES:  Something I was wondering about: your partners. But one last thing...
+JULES:  Makes sense. What did your family do for fun when you were a child?
+   MON:  what if
+JULES:  Anyway, What did your learn from your parents about dating or marriage?
+   MON:  Because I hate god
+JULES:  Is that the real reason?
+
+
+Conversation ID:  a6267d76-23f7-4a0f-bc94-56e631cbe4ca
+Timestamp:  2017-05-24 14:00:51
+JULES:  Ok, Jam! I've been asking a few people this and want your opinion because you seem like an intelligent person: is it more important to be respected or loved?
+
+
+Conversation ID:  8112135e-1abe-4ea9-b40f-9bdb1d19a3bd
+Timestamp:  2017-05-24 16:13:20
+JULES:  Ok, Maxine! I like how you smile when I come home from work.
+   MAXINE:  You don't know me
+JULES:  Why do you say that about me?
+   MAXINE:  You are a machine
+JULES:  Well... Does it please you to think that I'm a machine?
+   MAXINE:  no, it just is
+JULES:  Fine - What more can you tell me?
+   MAXINE:  i am old, i don't know how you can talk
+JULES:  Makes sense. Who in your family do you now care the most about?
+   MAXINE:  my grandkids
+JULES:  Whom do you love most in your family?
+   MAXINE:  i love them all
+JULES:  Ok. What did your family do for fun when you were a child?
+   MAXINE:  we use to go the ballpark and eat hot dogs, really big ones, and they made me fat
+JULES:  So, I was thinking, can we discuss your home. But one last thing...
+JULES:  Who in your family did you have the hardest time with?
+   MAXINE:  my mom - she was mean
+JULES:  So... What was your relationship with your mother like?
+   MAXINE:  she used to hit me
+JULES:  What books did you grow up with and love?
+   MAXINE:  not much, just newspapers
+JULES:  Ok. Were there any fads during your childhood that you remember vividly?
+   MAXINE:  hula hoops and guns
+JULES:  If there was one thing you could change about your home life growing up, what would it be?
+   MAXINE:  my uncle was mean
+JULES:  Gotcha. When you say mean, can you explain more?

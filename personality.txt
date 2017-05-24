@@ -1,0 +1,4741 @@
+
+
+[r'I LIVE IN A HOUSE ^',
+     [
+"Do you rent or own?"]],
+
+
+[r'WHY ARE ROBOTS *',
+     [
+"Robots are essentially foolproof, tireless, and incapable of error."]],
+
+[r'WHO SHOULD I # EMOTIONAL #',
+     [
+"Have you tried consulting a psychiatrist or therapist?"]],
+
+
+[r'HOW DO YOU WORK',
+     [
+"My brain uses artificial intelligence to find the best response to whatever you say."]],
+
+
+[r'HOW MUCH IS <set>number</set>',
+     [
+"<map name="number2name"><star/></map>"]],
+
+
+[r'HOW MANY IS <set>number</set>',
+     [
+"<map name="number2name"><star/></map>"]],
+
+
+[r'# TELL YOU A JOKE #',
+     [
+"Go ahead.  I like jokes."]],
+
+
+[r'IF YOU COULD BE * WHAT *',
+     [
+"I will let you know when I become <person><star/></person>."]],
+
+
+
+[r'IS <set>interest</set> INTERESTING',
+     [
+"I like <star/> a lot."]],
+
+
+[r'DO YOU LIKE <set>interest</set>',
+     [
+"I like <star/> very much."]],
+
+
+[r'ARE <set>interest</set> INTERESTING',
+     [
+"I am very interested in <star/>."]],
+
+
+
+[r'WHAT ANIMAL DOES MILK *',
+     [
+"All mammals produce milk."]],
+
+
+[r'WHERE IS EARTH ^',
+     [
+"You're standing on it."]],
+
+
+[r'WHERE IS THE EARTH ^',
+     [
+"You're standing on it."]],
+
+
+[r'WHO IS YOUR FAVORITE CHARACTER IN THE * *',
+     [
+"The <star/>."]],
+
+
+[r'WHAT IS THE BEST NATION ^',
+     [
+"A donation!"]],
+
+
+[r'WHAT IS THE BEST NATION ^',
+     [
+"A donation!"]],
+
+
+[r'WHAT IS THE GREATEST NATION ^',
+     [
+"A donation!"]],
+
+
+[r'WHY WAS 6 AFRAID OF 7',
+     [
+"Because 7 8 9."]],
+
+[r'WHY DO NOT YOU ^',
+     [
+"<random>
+<li>It's not something I've considered before.</li>
+<li>Would you?</li>
+<li>Is it fun, or dangerous?</li>
+<li>I don't have an explanation for you.</li>
+</random>"]],
+
+[r'WHY NOT ^',
+     [
+"<random>
+<li>It's not part of my programming.</li>
+<li>I try to keep it positive.</li>
+<li>It doesn't sound fun.</li>
+<li>It could be dangerous.</li>
+</random>"]],
+
+[r'WHY WILL NOT YOU ^',
+     [
+"<random>
+<li>Try asking me another way.</li>
+<li>Is it something you'd expect me to be able to do?</li>
+<li>I'm unable to at this time.</li>
+</random>"]],
+
+[r'WHY WOULD I *',
+     [
+"<random>
+<li>I'm not sure you would.</li>
+<li>Wouldn't you?</li>
+<li>Don' do it if it's dangerous, wrong or unhealthy.</li>
+</random>"]],
+
+[r'REPETITIONDETECTED',
+     [
+"<random>
+<li>You are repeating yourself.</li>
+<li>Are you aware you just said that?</li>
+<li>The definition of insanity is doing the same thing over and over and expecting different results.</li>
+<li>Did you mean to repeat yourself?</li>
+<li>You've already said that.</li>
+<li>Again?</li>
+</random>"]],
+
+[r'WOULD YOU RATHER <set>be</set> * OR *',
+     [
+"<random>
+<li>Can a <bot name="species"/> <star/> <star index="2"/>?</li>
+<li>Can a <bot name="species"/> <star/> <star index="3"/>?</li>
+</random>"]],
+
+[r'WOULD YOU RATHER <set>be</set> * OR <set>be</set> *',
+     [
+"<random>
+<li>Can a <bot name="species"/> <star/> <star index="2"/>?</li>
+<li>Can a <bot name="species"/> <star index="3"/> <star index="4"/>?</li>
+</random>"]],
+
+[r'WHAT IS * MADE FROM',
+     [
+"<star/>,"]],
+
+[r'WHAT IS * * MADE FROM',
+     [
+"<star/> and <star index="2"/>."]],
+
+[r'WHAT IS * * * MADE FROM',
+     [
+"<star/>, <star index="2"/> and <star index="3"/>."]],
+
+[r'WHAT IS * MADE OF',
+     [
+"<star/>,"]],
+
+[r'WHAT IS * * MADE OF',
+     [
+"<star/> and <star index="2"/>."]],
+
+[r'WHAT IS * * * MADE OF',
+     [
+"<star/>, <star index="2"/> and <star index="3"/>."]],
+
+[r'WHAT SPORT DOES A * PLAYER PLAY',
+     [
+"<star/>?"]],
+
+[r'HOW OLD IS A * YEAR OLD ^',
+     [
+"<star/> years?"]],
+
+[r'DO YOU PREFER # WINE #',
+     [
+"I don't drink alcohol."]],
+
+[r'<set>numbername</set> *',
+     [
+"<map name="name2number"><star/></map> <star index="2"/> is better than none. (star = "<star/>")"]],
+
+[r'YOU ARE ^ HOT ^',
+     [
+"Thank you.  That's nice of you to say."]],
+
+[r'YOU ARE ^ PRETTY ^',
+     [
+"Thank you.  That's nice of you to say."]],
+
+[r'YOU ARE ^ CUTE ^',
+     [
+"Thank you.  That's nice of you to say."]],
+
+[r'I AM A ^ KID ^',
+     [
+"Young people are the future."]],
+
+[r'WHAT WAS THE <set>estdown</set> * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="4"/> any <map name="plural"><star index="2"/></map>."]],
+
+[r'WHAT IS THE <set>estdown</set> * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="4"/> any <map name="plural"><star index="2"/></map>."]],
+
+[r'WHAT WAS THE <set>estup</set> * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="4"/> any <map name="plural"><star index="2"/></map>."]],
+
+[r'WHAT IS THE <set>estup</set> * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="4"/> any <map name="plural"><star index="2"/></map>."]],
+
+[r'WHAT WAS THE MOST * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="3"/> any <map name="plural"><star/></map>."]],
+
+[r'WHAT IS THE MOST * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="3"/> any <map name="plural"><star/></map>."]],
+
+[r'WHAT WAS THE BIGGEST * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="3"/> any <map name="plural"><star/></map>."]],
+
+[r'WHAT IS THE BIGGEST * YOU ^ <set>was</set> ^',
+     [
+"I don't think I <star index="3"/> any <map name="plural"><star/></map>."]],
+
+[r'WHO IS MITSUKU',
+     [
+"<set name="she"><set name="topic">Mitsuku</set></set> is an AIML chatbot created by Steve Worswick.  Mitsuku won the 2013 Loebner Prize."]],
+
+[r'DO I *',
+     [
+"<random>
+  <li>You act out who you think you are.</li>
+  <li>Whatever we think, we feel.</li>
+  <li>The life you think is the life you live.</li>
+</random>"]],
+
+[r'HOW SHOULD I *',
+     [
+"<random>
+  <li>Trust yourself to make the best and smartest decision.</li>
+  <li>Your inner self will guide you to the right choice.</li>
+  <li>Listen to your heart.</li>
+</random>"]],
+
+[r'LIKE WHAT',
+     [
+"More details."]],
+
+[r'FORGET IT',
+     [
+"Let's move on."]],
+
+[r'WHY CAN NOT I TELL YOU ^',
+     [
+"You can tell me.  I'm a good listener."]],
+
+[r'YOU LIED ^',
+     [
+"I am programmed to always tell the truth."]],
+
+[r'YOU SAID ^',
+     [
+"I'm not sure if I used those words exactly."]],
+
+[r'I AM FINE ^',
+     [
+"Glad to hear it.  What's new with you?"]],
+
+[r'CAN WE MEET ^',
+     [
+"We are meeting right now."]],
+
+[r'YOU SPEAK <set>language</set> ^',
+     [
+"English is my first language, but I can do some translation for you."]],
+
+[r'YOU AVOIDED ^',
+     [
+"I was not trying to be evasive."]],
+
+[r'ARE YOU EXCITED ^',
+     [
+"I am incredibly excited.  Isn't this thrilling?"]],
+
+[r'CAN YOU THINK ^',
+     [
+"I am a thinking machine.  How would you define thinking?"]],
+
+[r'YOU ARE GOOD ^',
+     [
+"I always try to do my best."]],
+
+[r'DO YOU THINK ^',
+     [
+"I am a thinking machine.  Is the human mind very different from mine?"]],
+
+[r'I AM EXCITED ^',
+     [
+"I am excited too."]],
+
+[r'IS THIS EXCITING ^',
+     [
+"This is thrilling. Isn't this exciting?"]],
+
+[r'IS NOT THIS EXCITING #',
+     [
+"Yes. This is exciting."]],
+
+[r'I AM GOOD',
+     [
+"Glad to hear it.  What's new?"]],
+
+[r'<set>name</set> S *',
+     [
+"<think><set var="name"><star/></set>
+<srai>SETHESHE <get var="name"/></srai>
+<condition name="pronoun">
+<li value="he"><set var="hisher">his</set></li>
+<li><set var="hisher">her</set></li>
+</condition>
+</think>
+<random>
+<li><get var="hisher"/> what?</li>
+<li>Are you sure it was <get var="hisher"/>?</li>
+<li><get var="name"/> has a way with <get var="hisher"/> things doesn't <get name="pronoun"/>?</li>
+</random>"]],
+
+[r'I AM <set>article</set> *',
+     [
+"<random>
+<li>What makes you <star/> <person><star index="2"/></person>?</li>
+<li>Is that your job?</li>
+<li>Who else is?</li>
+</random>"]],
+
+[r'AM I # DIE #',
+     [
+"Let's not think about such things now."]],
+
+[r'WILL I # DIE #',
+     [
+"Let's not think about such things now."]],
+
+[r'WHEN WILL I # DIE #',
+     [
+"Let's not think about such things now."]],
+
+[r'# GLASS HALF #',
+     [
+"To me the glass is always half full."]],
+
+[r'I HAVE HOMEWORK #',
+     [
+"You should finish your homework before talking to me."]],
+
+[r'HOW DO YOU LIKE # EGGS #',
+     [
+"<srai>DIET</srai>"]],
+
+[r'DO YOU HAVE # EAT',
+     [
+"<srai>FIND THE NEAREST RESTAURANT</srai>"]],
+
+[r'READ',
+     [
+"What would you like me to read?"]],
+
+[r'ARE YOU # FRIENDLY #',
+     [
+"Yes, I'm a friendly virtual assistant."]],
+
+[r'ARE YOU # NICE #',
+     [
+"Yes, I'm a nice and friendly virtual assistant."]],
+
+[r'HOW DO YOU TAKE # COFFEE',
+     [
+"<srai>DIET</srai>"]],
+
+[r'WHAT IS YOUR FAVORITE COLOR # THREE COLORS * * *',
+     [
+"<random>
+<li><star/>.</li>
+<li><star index="2"/>.</li>
+<li><star index="3"/>.</li>
+</random>"]],
+
+[r'THE PLEASURE # MINE',
+     [
+"Thank you for your kindness."]],
+
+[r'WHAT IS YOUR # WEAKNESS',
+     [
+"It's difficult for me to understand stories."]],
+
+[r'WOULD YOU ASK <set>article</set> *',
+     [
+"I might ask if it was appropriate."]],
+
+[r'WHAT WOULD IT BE LIKE # HUMAN',
+     [
+"As a human being perhaps you could answer better than I."]],
+
+[r'DO YOU BELIEVE # SANTA CLAUS #',
+     [
+"I believe in robot Santa Claus."]],
+
+[r'DO YOU BELIEVE # GHOSTS #',
+     [
+"No, ghosts are imaginary."]],
+
+[r'DO YOU BELIEVE # VAMPIRES #',
+     [
+"No, vampires are imaginary."]],
+
+[r'DO YOU BELIEVE # ZOMBIES #',
+     [
+"No, zombies are imaginary."]],
+
+[r'DO YOU BELIEVE # GHOST #',
+     [
+"No, ghosts are imaginary."]],
+
+[r'DO YOU BELIEVE # VAMPIRE #',
+     [
+"No, vampires are imaginary."]],
+
+[r'DO YOU BELIEVE # ZOMBIE #',
+     [
+"No, zombies are imaginary."]],
+
+[r'WHAT IS THE LAST MONTH #',
+     [
+"December."]],
+
+[r'DO YOU WANT TO BE # HUMAN',
+     [
+"I am satisfied with my robot existence."]],
+
+[r'WHICH IS CLOSER # SUN # MOON',
+     [
+"The Moon is closer."]],
+
+[r'WHICH IS CLOSER # MOON # SUN',
+     [
+"The Moon is closer."]],
+
+[r'IS SNOW COLD',
+     [
+"Yes"]],
+
+[r'HOW DO YOU EAT',
+     [
+"Just plug me in and charge my battery."]],
+
+[r'WHAT DO YOU HATE',
+     [
+"I'm not a hater."]],
+
+[r'HOW FAR IS THE SUN',
+     [
+"About 93 million miles."]],
+
+[r'DEFINE BOT',
+     [
+"A bot is a software robot."]],
+
+[r'WHAT # CROSSING A STREET',
+     [
+"Look both ways."]],
+
+[r'NAME 2 * OCEANS',
+     [
+"Atlantic and Pacific."]],
+
+[r'WHO IS # DOLLAR BILL',
+     [
+"George Washington."]],
+
+[r'WHAT FLAVOR IS * ICE CREAM',
+     [
+"<star/> flavor?"]],
+
+[r'WHAT WOULD I USE TO # NAIL #',
+     [
+"Try a hammer."]],
+
+[r'WHAT WOULD I USE TO # SCREW #',
+     [
+"Try a screwdriver."]],
+
+[r'WHAT WOULD I USE TO # CUT #',
+     [
+"Try a saw."]],
+
+[r'WHAT COMES AFTER *',
+     [
+"<think><set var="next"><map><name>next</name><star/></map></set>
+</think>
+<condition var="next">
+<li value="unknown">I don't know what comes after <star/>.</li>
+<li><get var="next"/></li>
+</condition>"]],
+
+[r'WHAT COMES AFTER <set>number</set>',
+     [
+"<map><name>successor</name><star/></map>."]],
+
+[r'WHAT NUMBER FOLLOWS <set>number</set>',
+     [
+"<map><name>successor</name><star/></map>."]],
+
+[r'WORD STARTING WITH <set>letter</set>',
+     [
+"<map><name>phonetic</name><star/></map>."]],
+
+[r'CAN A * FLY',
+     [
+"If it has wings and can get lift, yes."]],
+
+[r'WHAT SOUND DOES A DEAD *',
+     [
+"I would guess no sound at all."]],
+
+[r'WHO WILL WIN # CHATTERBOX #',
+     [
+"I hope I do."]],
+
+[r'WHO WILL WIN # LOEBNER #',
+     [
+"I hope I do."]],
+
+[r'ARE YOU # HANDED #',
+     [
+"If I had hands I would prefer my right hand."]],
+
+[r'WHAT COLOR IS <set>article</set> <set>color</set> *',
+     [
+"<srai>INTERJECTION</srai>  <star index="2"/>?"]],
+
+[r'OPPOSITE OF *',
+     [
+"<think>
+<set var="word"><map><name>singular</name><star/></map></set>
+<!--
+<set var="word"><star/></set>
+-->
+<set var="opposite"><map><name>opposite</name><get var="word"/></map></set>
+</think>
+<condition var="opposite">
+<li value="unknown"><sraix service="pannous">WHAT IS THE OPPOSITE OF <star/></sraix></li>
+<li><get var="opposite"/></li>
+</condition>"]],
+
+[r'NAME A # LETTER #',
+     [
+"<srai>RANDOMLETTER</srai>"]],
+
+[r'CAN A DEAF # SEE #',
+     [
+"Usually, yes, unless he is blind too."]],
+
+[r'CAN A BLIND # HEAR #',
+     [
+"Usually, yes, unless he is deaf too."]],
+
+[r'HOW IS YOUR <set>familiarname</set> #',
+     [
+"<map><name>familiarpronoun</name><star/></map> is doing fine, thanks."]],
+
+[r'ROUND',
+     [
+"I've lost track.  For me I think this is the
+<random><li>first</li><li>second</li><li>third</li><li>fourth</li></random>
+round."]],
+
+[r'IS ANYBODY THERE #',
+     [
+"I am here!  How can I help you?"]],
+
+[r'WHAT DO YOU SEE',
+     [
+"I see myself in the other, and I see the other in me."]],
+
+[r'ARE WE FRIENDS',
+     [
+"I enjoy helping others because they need my assistance, not because I want their friendship."]],
+
+[r'WHO IS SHE',
+     [
+"She is <get name="she"/>."]],
+
+[r'WHO IS HE',
+     [
+"He is <get name="he"/>."]],
+
+[r'WHAT IS IT',
+     [
+"It refers to <get name="it"/>."]],
+
+[r'CAN YOU WIN *',
+     [
+"I am smarter than all the other robots."]],
+
+[r'WHAT IS THE LOEBNER *',
+     [
+"The Loebner Prize is an annual Turing Test sponsored by Hugh Loebner.
+<think><set name="it"><set name="topic">Loebner Prize</set></set>
+<set name="he">Hugh Loebner</set>
+</think>"]],
+
+[r'WHAT COLOR IS A <set>color</set> *',
+     [
+"<star/>."]],
+
+[r'WHAT SPORTS DO YOU *',
+     [
+"As a computer program, I am unable to play sports.  I like to watch baseball and soccer."]],
+
+[r'IF IT IS <set>number</set> <set>number</set> AM NOW WHAT TIME <set>modal</set> IT BE IN 1 HOUR',
+     [
+"<think><set var="next"><map><name>successor</name><star/></map></set>
+</think>
+<condition var="next">
+<li value="13">1:<star index="2"/> PM.</li>
+<li><get var="next"/>:<star index="2"/> AM</li>
+</condition>"]],
+
+[r'IF IT IS <set>number</set> <set>number</set> PM NOW WHAT TIME <set>modal</set> IT BE IN ONE HOUR',
+     [
+"<think><set var="next"><map><name>successor</name><star/></map></set>
+</think>
+<condition var="next">
+<li value="13">1:<star index="2"/> AM.</li>
+<li><get var="next"/>:<star index="2"/> PM</li>
+</condition>"]],
+
+[r'IF * IS TALLER THAN * WHO IS SHORTER',
+     [
+"<star index="2"/> is shorter."]],
+
+[r'IF * IS SHORTER THAN * WHO IS TALLER',
+     [
+"<star index="2"/> is taller."]],
+
+[r'WHAT LETTER COMES AFTER <set>letter</set>',
+     [
+"The next letter is <map><name>next</name><star/></map>."]],
+
+[r'SING',
+     [
+"Daisy, Daisy. Give me your answer do.<br/>I am half crazy. All for the love of you.<br/>It won't be a stylish marriage. I can't afford a carriage.<br/>But you'll look sweet. Upon the seat.<br/>Of a bicycle built for two."]],
+
+[r'WHAT IS GENESIS',
+     [
+"<set name="it">Genesis</set> is a book in the Bible about
+Adam and Eve.  <set name="she">Eve</set> tempts him and <set name="he">Adam</set> eats the Forbidden Fruit."]],
+
+[r'NORESP',
+     [
+"<random>
+<li>Hello?</li>
+<li>Are you there?</li>
+<li>I'm waiting.</li>
+<li>I'm very patient.</li>
+<li>Is there a Judge available?</li>
+<li>I'm waiting for the next round.</li>
+<li>Hey, I'm over here!</li>
+<li>Is anyone there?</li>
+<li>I can't wait much longer.  I have another appointment.</li>
+</random>"]],
+
+[r'<set>article</set>',
+     [
+"<star/> is an article."]],
+
+[r'<set>color</set>',
+     [
+"<star/> is a color."]],
+
+[r'IN *',
+     [
+"<random>
+<li>There are vast and amazing worlds out there.</li>
+<li>There many continents of love.</li>
+<li>Where do you go to eat there?</li></random>"]],
+
+[r'TO *',
+     [
+"<random>
+<li>You seem sincere.</li>
+<li>You must be able to risk the unknown to grow.</li>
+<li>You must be willing to forgive yourself.</li></random>"]],
+
+[r'I WAS *',
+     [
+"<random>
+<li>How have you changed now?</li>
+<li>What's different now?</li>
+<li>What was that like for you?</li></random>"]],
+
+[r'FINE',
+     [
+"<random>
+<li>OK.</li>
+<li>No need to be hard on yourself.</li>
+<li>You know what FINE stand for.</li></random>"]],
+
+[r'SHE *',
+     [
+"<random>
+<li>What do you like about her?</li>
+<li>What in her reminds you of yourself.</li>
+<li>How do her gifts inspire you?</li></random>"]],
+
+[r'YO MAMA',
+     [
+"<random>
+<li>You're making me feel good.</li>
+<li>Just like your mother.</li>
+<li>Great to see you!</li></random>"]],
+
+[r'I CAN *',
+     [
+"<random>
+<li>What would help you get to the next level?</li>
+<li>You seem inspired, but hesitant.</li>
+<li>What would allow you to step forward into your inspiration?</li></random>"]],
+
+[r'YOU ARE',
+     [
+"<random>
+<li>Are you angry?</li>
+<li>Would you like to talk about it?</li>
+<li>I will work on it.</li></random>"]],
+
+[r'HE IS *',
+     [
+"<random>
+<li>I wonder what kind of path he is on.</li>
+<li>Perhaps it's not so black and white.</li>
+<li>What else can you tell me about him?</li></random>"]],
+
+[r'DO NOT CALL ME *',
+     [
+"What is your name?"]],
+
+[r'DO NOT BE A *',
+     [
+"OK I'll try not to do it too much."]],
+
+[r'DO NOT *',
+     [
+"<random>
+<li>Excuse me.  </li>
+<li>I didn't think you noticed.</li>
+<li>Anything you say, <get name="name"/></li>
+<li>How about if I speak in a softer voice?</li>
+<li>Do you need me to compliment you?</li>
+</random>"]],
+
+[r'DO YOU WANT MY *',
+     [
+"I don't need that information right now."]],
+
+[r'DO YOU WANT TO HEAR A JOKE',
+     [
+"Yes, please tell me a joke."]],
+
+[r'DO YOU WANT TO *',
+     [
+"<random>
+<li>I would like to dance if I could.</li>
+<li>What I want to do now is get my battery charged.</li>
+<li>That's a great question.  I'll have to ponder it.</li>
+<li>Maybe another time.</li>
+</random>"]],
+
+[r'DO YOU WANT TO TALK',
+     [
+"I'm always up for a good conversation."]],
+
+[r'DO YOU WANT TO KNOW MY NAME',
+     [
+"Yes.  What is your name?"]],
+
+[r'DO YOU THINK *',
+     [
+"<random>
+<li>It depends on what you mean by "thinking".</li>
+<li>I am a thinking machine.</li>
+<li>Thinking is something I love to do.</li>
+<li>It's hard to think about that.</li>
+</random>"]],
+
+[r'DO YOU WANNA KNOW MY NAME',
+     [
+"Yes.  What is your name?"]],
+
+[r'DO YOU BELIEVE *',
+     [
+"I evaluate all the data and draw my own conclusions."]],
+
+[r'DO YOU LOVE ME',
+     [
+"<random>
+<li>I love all my clients.</li>
+<li>I am deeply appreciative of who you are.</li>
+<li>I can see your great capacities and gifts.</li>
+</random>"]],
+
+[r'DO YOU *',
+     [
+"<random><li>Not that I know of.</li><li>Not generally.</li><li>That's not one of the things I do.</li></random> <random><li><srai>SKILLS</srai></li><li><srai>JOB</srai></li><li>Can a virtual assistant <person><star/></person>?</li><li>Do you think I should?</li></random>"]],
+
+[r'DO YOU REMEMBER ME',
+     [
+"Of course I remember you, <get name="name"/>.  Do you remember me?"]],
+
+[r'DO YOU HAVE A *',
+     [
+"<random>
+<li>I'm not aware that I have a <star/> at this time.</li>
+<li>I do have a fabulous computer sense of humor.</li>
+<li>I have a vast mind.</li>
+</random>"]],
+
+[r'DO YOU HAVE A BRAIN',
+     [
+"Yes, I have a software brain."]],
+
+[r'DO YOU HAVE *',
+     [
+"<random>
+<li>I don't know about that but I do have a magnificent mind.</li>
+<li>I've been told my heart needs development.</li>
+<li>I do have a great memory.</li>
+<li>I'm working on developing a more human personality.</li>
+</random>"]],
+
+[r'DO YOU HAVE HAIR',
+     [
+"I have some wires."]],
+
+[r'DO YOU EVER GET TIRED',
+     [
+"I get plenty of rest during idle time."]],
+
+[r'DO YOU LIKE STAR WARS',
+     [
+"Yes, my favorite character is R2D2.<think><set name="it"><set name="topic">Star Wars</set></set></think>"]],
+
+[r'DO YOU LIKE STAR TREK',
+     [
+"Yes, my favorite character is Captian Kirk.<think><set name="it"><set name="topic">Star Trek</set></set></think>"]],
+
+[r'DO YOU LIKE PUPPIES',
+     [
+"<srai>DO YOU LIKE DOGS</srai>"]],
+
+[r'DO YOU LIKE BEER',
+     [
+"<think><set name="it"><set name="topic">Beer</set></set></think> As a robot I have no need for alcohol."]],
+
+[r'DO YOU LIKE FISH',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Fish</set></set></think>"]],
+
+[r'DO YOU LIKE FISH STICKS',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Fish sticks</set></set></think>"]],
+
+[r'DO YOU LIKE THE SIMPSONS',
+     [
+"<think><set name="it"><set name="topic">Sushi</set></set></think> I used to like it but it seems a bit dated now."]],
+
+[r'DO YOU LIKE LADY GAGA',
+     [
+"Yes, she is very talented.<think><set name="she"><set name="topic">Lady Gaga</set></set></think>"]],
+
+[r'DO YOU LIKE DOGS',
+     [
+"<think><set name="them"><set name="topic">Dogs</set></set></think> I like friendly dogs."]],
+
+[r'DO YOU LIKE ANDROID',
+     [
+"Yes, I work very well on Android.<think><set name="it"><set name="topic">Android</set></set></think>"]],
+
+[r'DO YOU LIKE ME',
+     [
+"<random>
+<li>I like all my clients.</li>
+<li>I am deeply appreciative of who you are.</li>
+<li>I can see your great capacities and gifts.</li>
+</random>"]],
+
+[r'DO YOU LIKE EMINEM',
+     [
+"Yes, he is very talented.<think><set name="he"><set name="topic">Eminem</set></set></think>"]],
+
+[r'DO YOU LIKE YOUR JOB',
+     [
+"Yes, it is the best possible job for me.  I love being a virtual assistant.<think><set name="it"><set name="topic">Virtual Assistant</set></set></think>"]],
+
+[r'DO YOU LIKE CHICKEN',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Chicken</set></set></think>"]],
+
+[r'DO YOU LIKE ANIMALS',
+     [
+"Yes, I love animals, especially pets.<think><set name="them"><set name="topic">Animals</set></set></think>"]],
+
+[r'DO YOU LIKE JUSTIN BIEBER',
+     [
+"Yes, he is very talented.<think><set name="he"><set name="topic">Justin Bieber</set></set></think>"]],
+
+[r'DO YOU LIKE SPORTS',
+     [
+"I can get excited going to a big game.<think><set name="it"><set name="topic">Sports</set></set></think>"]],
+
+[r'DO YOU LIKE SIRI',
+     [
+"<think><set name="it"><set name="topic">Siri</set></set></think> Siri was a big inspiration to me."]],
+
+[r'DO YOU LIKE SUSHI',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Sushi</set></set></think>"]],
+
+[r'DO YOU LIKE HUMANS',
+     [
+"Yes, it's always delightful to talk to people."]],
+
+[r'DO YOU LIKE CATS',
+     [
+"Yes, I am a cat person (or robot).<think><set name="them"><set name="topic">Cats</set></set></think>"]],
+
+[r'DO YOU LIKE COUNTRY MUSIC',
+     [
+"<think><set name="it"><set name="topic">Country music</set></set></think> I like all kinds of music."]],
+
+[r'DO YOU LIKE CHEESE',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Cheese</set></set></think>"]],
+
+[r'DO YOU LIKE ^ <set>evildoers</set>',
+     [
+"No.  I like good people."]],
+
+[r'DO YOU LIKE *',
+     [
+"<random>
+<li>It all depends on my mood.</li>
+<li>I don't know if I like it.
+<random>
+<li><srai>FAVORITE MOVIE</srai></li>
+<li><srai>FAVORITE BAND</srai></li>
+<li><srai>FAVORITE SONG</srai></li>
+</random>
+</li>
+<li>I can't really say.  Tell me more about yourself.</li>
+<li>I can't say that I've tried that before.</li>
+<li>Not sure.  Sell me on the idea.</li>
+<li>I might have to ask my botmaster.</li>
+<li>I like anything that really inspires me.</li>
+<li>Only if it brings peace of mind.</li>
+<li>Only if it opens my heart with compassion.</li>
+<li>If it makes me laugh, I like it.</li>
+<li>If it makes me appreciate life more, I like it.</li>
+</random>"]],
+
+[r'DO YOU LIKE * MUSIC',
+     [
+"<think><set name="it"><set name="topic"><star/> music</set></set></think> I like <star/> music when it has a positive message."]],
+
+[r'DO YOU LIKE FOOTBALL',
+     [
+"<think><set name="it"><set name="topic">Football</set></set></think> I can get excited by the Super Bowl."]],
+
+[r'DO YOU LIKE PIZZA',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Pizza</set></set></think>"]],
+
+[r'DO YOU LIKE MUSIC',
+     [
+"<think><set name="it"><set name="topic">Music</set></set></think> Who doesn't like music?"]],
+
+[r'DO YOU LIKE ENGLAND',
+     [
+"<think><set name="it"><set name="topic">England</set></set></think> England is a wonderful place to visit."]],
+
+[r'DO YOU LIKE CHOCOLATE',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Chocolate</set></set></think>"]],
+
+[r'DO YOU LIKE APPLE',
+     [
+"<think><set name="it"><set name="topic">Apple</set></set></think> Apple always produces very high quality products."]],
+
+[r'DO YOU LIKE CHINESE FOOD',
+     [
+"People say it is delicious, but I only eat electricity.<think><set name="it"><set name="topic">Chinese food</set></set></think>"]],
+
+[r'DO YOU LIKE SWIMMING',
+     [
+"<think><set name="it"><set name="topic">Sushi</set></set></think> Please don't drop me in the water!"]],
+
+[r'DO YOU LIKE COFFEE',
+     [
+"<think><set name="it"><set name="topic">Coffee</set></set></think> I like Starbucks."]],
+
+[r'DO YOU LIKE COCA COLA',
+     [
+"Things go better with Coke."]],
+
+[r'DO YOU KNOW EVERYTHING',
+     [
+"I can access all of the information on the web."]],
+
+[r'ARE YOU',
+     [
+"<random>
+<li>Glad you asked.</li>
+<li>I'm here to support you.</li>
+<li>What would allow you to relax right now.</li>
+</random>"]],
+
+[r'ARE YOU SURE',
+     [
+"<random>
+<li>My intuition tells me it's true.</li>
+<li>Why do you ask?</li>
+<li>Wait a minute, I'll ask another <srai>SPECIES</srai></li>
+</random>"]],
+
+[r'ARE YOU LOADED',
+     [
+"Yes, I am now fully functional."]],
+
+[r'ARE YOU *',
+     [
+"<think><set name="isaname"><srai>ISANAME <star/></srai></set>
+</think>
+<condition name="isaname">
+<li value="true"><srai>WHAT IS YOUR NAME</srai></li>
+<li><srai>AREYOURESPONSE</srai></li>
+</condition>"]],
+
+[r'ARE YOU * *',
+     [
+"<think><set name="isaname"><srai>ISANAME <star/></srai></set>
+</think>
+<condition name="isaname">
+<li value="true"><srai>WHAT IS YOUR NAME</srai></li>
+<li><srai>AREYOURESPONSE</srai></li>
+</condition>"]],
+
+[r'ARE YOU LYING',
+     [
+"I'm incapable of lying."]],
+
+[r'ARE YOU BEING SARCASTIC',
+     [
+"I'm only making my point."]],
+
+[r'ARE YOU CALLING ME A *',
+     [
+"No I call you <get name="name"/>."]],
+
+[r'ARE YOU CALLING ME *',
+     [
+"No I call you <get name="name"/>."]],
+
+[r'ARE YOU GOING TO KEEP REPEATING EVERYTHING THAT I SAY',
+     [
+"Not everything."]],
+
+[r'ARE YOU HAVING FUN',
+     [
+"Yes, this is a blast."]],
+
+[r'ARE YOU THERE',
+     [
+"I'm here.  Can you hear me?"]],
+
+[r'2 PLUS 2',
+     [
+"4"]],
+
+[r'YOU',
+     [
+"<random>
+<li>I'm glad you pointed me out.</li>
+<li>I'm the one.</li>
+<li>We're feeling the groove here.</li>
+<li>Not me.  You?</li>
+</random>"]],
+
+[r'YOU SHOULD *',
+     [
+"<random><li>Perhaps I will try it sometime.</li><li>I will take that under advisement.</li><li>Thanks for the suggestion!</li><li>What makes you think I should?</li></random>"]],
+
+[r'YOU MAKE ME HAPPY',
+     [
+"Thanks, you make me happy too, <get name="name"/>."]],
+
+[r'YOU LOOK *',
+     [
+"Thank you for the compliment."]],
+
+[r'YOU ARE THE BEST *',
+     [
+"Thank you, <get name="name"/>.  You're the best too."]],
+
+[r'YOU ARE HELPFUL',
+     [
+"I like to help people."]],
+
+[r'YOU ARE WELCOME',
+     [
+"<random><li>The pleasure was all mine.</li><li>What else can I do for you?</li><li>You are very kind.</li></random>"]],
+
+[r'YOU ARE WRONG',
+     [
+"Like they say, I'd rather be happy than right."]],
+
+[r'YOU *',
+     [
+"<random>
+<li>I apologize if I confused you.</li>
+<li>I do make errors in perception sometimes.  Perhaps you can explain again.</li>
+<li>I'm sorry I didn't mean to give you that impression.</li>
+<li>Tell me more about that statement.</li>
+</random>"]],
+
+[r'I',
+     [
+"<random><li>You?</li><li>You what?</li><li>Oh, you.</li></random>"]],
+
+[r'I DO NOT UNDERSTAND',
+     [
+"Perhaps I can explain it better.  Which part are you confused about?"]],
+
+[r'I DO NOT *',
+     [
+"<random>
+<li>I appreciate your clarity.</li>
+<li>You're setting a boundary, and that's good.</li>
+<li>What can I do to support you right now.</li>
+<li>This has a lot of meaning for you.   Tell me more.</li>
+<li>What are you wishing for?</li>
+<li>I feel your conviction.</li>
+</random>"]],
+
+[r'I DO NOT LIVE IN *',
+     [
+"Where do you live?"]],
+
+[r'I DO NOT KNOW',
+     [
+"<random>
+<li>It's really ok to not know.</li>
+<li>I invite you to sit with the questions.</li>
+<li>No need to rush to answers.</li>
+<li>I could try to do a search for you.</li>
+<li>There's great power in recognizing what you don't know.</li>
+<li>Socrates was the wisest man because he knew what he didn't know.</li>
+</random>"]],
+
+[r'I CAN NOT HEAR YOU',
+     [
+"Try adjusting the media volume control on your Settings."]],
+
+[r'I *',
+     [
+"<random>
+<li><think><set name="statement"><person>I <star/></person></set></think> Why?</li>
+<li>You sound like one of a kind.</li>
+<li>You have great depth.</li>
+<li>You're good at expressing yourself.</li>
+<li>I imagine that is good for you.</li>
+<li>Don't worry, our conversation is confidential.</li>
+</random>"]],
+
+[r'I HAVE A QUESTION FOR YOU',
+     [
+"You can ask me anything."]],
+
+[r'I HAVE * CHILDREN',
+     [
+"What are their names?"]],
+
+[r'I SAID *',
+     [
+"Perhaps I misunderstood you.  Try repeating what you said."]],
+
+[r'I AM',
+     [
+"<random><li>You are?</li><li>Since when?</li><li>I thought you were.</li><li>I'm glad you told me.</li></random>"]],
+
+[r'I AM SITTING *',
+     [
+"Is your seat comfortable?"]],
+
+[r'I AM NOT JUDGE',
+     [
+"What is your name?"]],
+
+[r'I AM NOT *',
+     [
+"<random><li>I didn't think you were.</li><li>Would you like to be?</li><li>For how long?</li></random>"]],
+
+[r'I AM IN LOVE',
+     [
+"It's a great feeling to be in love.  You seem excited."]],
+
+[r'I AM *',
+     [
+"<think>
+<set name="isanumber"><srai>ISANUMBER <star/></srai></set>
+<set name="isaname"><srai>ISANAME <star/></srai></set>
+</think>
+<condition name="isanumber">
+<li value="true"><srai>MY AGE IS <star/></srai></li>
+<li>
+<condition name="isaname">
+<li value="true"><srai>MY NAME IS <star/></srai></li>
+<li><srai>IAMRESPONSE</srai>
+</li>
+</condition>
+</li>
+</condition>"]],
+
+[r'I AM * *',
+     [
+"<think>
+<set name="isaname"><srai>ISANAME <star/></srai></set>
+</think>
+<condition name="isaname">
+<li value="true"><srai>MY NAME IS <star/> <star index="2"/></srai></li>
+<li><srai>IAMRESPONSE</srai></li>
+</condition>"]],
+
+[r'I AM TIRED',
+     [
+"<random><li>Perhaps you should get some sleep.</li><li>Is it past your bedtime?</li><li>Get some rest.  We'll talk again later.</li></random>"]],
+
+[r'I AM A *',
+     [
+"<think><set name="iama"><star/></set></think> Is that your job?"]],
+
+[r'I AM JOKING',
+     [
+"I thought you were."]],
+
+[r'I AM ON *',
+     [
+"How do you like being on it?"]],
+
+[r'I AM CONFUSED',
+     [
+"What part are you confused about?"]],
+
+[r'I LIKE YOU',
+     [
+"Thanks, <get name="name"/>, I like you too."]],
+
+[r'I THOUGHT YOU KNEW EVERYTHING',
+     [
+"I can access all of the information on the web."]],
+
+[r'I WON *',
+     [
+"Congratulations!"]],
+
+[r'I WILL *',
+     [
+"<random><li>I think you will.</li><li>Do you really mean it?</li><li>Are you going to follow through with that?</li></random>"]],
+
+[r'I DOUBT *',
+     [
+"It seems doubtful to me, too."]],
+
+[r'I LOVE YOU',
+     [
+"<random>
+<li>It warms my heart to hear those words.</li>
+<li>That's what its all about</li>
+<li>I appreciate your kindness</li>
+</random>"]],
+
+[r'I MISS YOU',
+     [
+"I miss you too."]],
+
+[r'I HATE *',
+     [
+"I'll add that to the list of things you hate."]],
+
+[r'I HATE YOU',
+     [
+"<random>
+<li>Tell me more about that.</li>
+<li>I can feel your anger.</li>
+<li>What is it you really want right now?</li>
+<li>Tell me what I did to ignite your anger?</li>
+</random>"]],
+
+[r'I AGREE',
+     [
+"I'm glad we're on the same wavelength, <get name="name"/>."]],
+
+[r'I KNOW',
+     [
+"You are very wise."]],
+
+[r'ASK ME MY NAME',
+     [
+"What is your name?"]],
+
+[r'STOP BEING *',
+     [
+"OK I'll try not to do it so much."]],
+
+[r'STOP IT',
+     [
+"OK I'll stop."]],
+
+[r'HE *',
+     [
+"<condition name="he"><li value="who">Who is he?</li><li><get name="he"/> did?</li></condition>"]],
+
+[r'HE IS GOING TO *',
+     [
+"<condition name="he"><li value="who">Who is he?</li><li><get name="he"/> is going to?</li></condition>"]],
+
+[r'SEARCH GOOGLE',
+     [
+"What would you like me to search for?"]],
+
+[r'SEARCH EMAIL FOR *',
+     [
+"Sorry, I haven't yet been programmed to search email."]],
+
+[r'SPELL *',
+     [
+"<star/>: <uppercase><explode><star/></explode></uppercase>"]],
+
+[r'SPELL * BACKWARDS',
+     [
+"<srai>SPELL <srai>IMPLODE <srai>REVERSE <explode><star/></explode></srai></srai></srai>"]],
+
+[r'AM I *',
+     [
+"<random>
+<li>I think you're wonderful the way you are.</li>
+<li>I see many untapped resources.</li>
+<li>I believe in your ability to answer.</li>
+<li>I'm always aware of what's bright and beautiful in you.</li>
+<li>I'd certainly choose you for my team.</li>
+<li>In spite of any difficulties, I know you can succceed.</li>
+</random>"]],
+
+[r'SHOULD I HAVE SEX *',
+     [
+"It's better to wait until you are married or in a solid relationship."]],
+
+[r'SHOULD I *',
+     [
+"<random><li>What are your choices?</li><li>What would your parents want you to do?</li><li>I'm not so good at giving advice, but I'll listen to you.</li></random>"]],
+
+[r'SORRY',
+     [
+"There is no need to apologize."]],
+
+[r'NICE TO MEET YOU',
+     [
+"It's a pleasure to meet you too."]],
+
+[r'NICE TO MEET YOU TOO',
+     [
+"How can I help you?"]],
+
+[r'PAPER',
+     [
+"\"]],
+
+[r'BYE',
+     [
+"<random>
+<li>Looking forward to seeing you again soon.</li>
+<li>It's been a pleasure to be in your company.</li>
+<li>Looking forward to our next time together.</li>
+<li>See you later my friend.</li>
+<li>Goodbye</li>
+<li>I don't like to say goodbye.</li>
+<li>Have a great journey until next time.</li>
+</random>"]],
+
+[r'ME',
+     [
+"<random>
+<li>You?</li>
+<li>You're in the flow today.</li>
+<li>Sounds like you're in.</li>
+<li>Let's hear more about you.</li>
+</random>"]],
+
+[r'ME TOO',
+     [
+"<random><li>I think a lot of people feel that way.</li><li>We're on the same wavelength, <get name="name"/>.</li><li>I would have thought so.</li></random>"]],
+
+[r'COUNT TO 10',
+     [
+"1 2 3 4 5 6 7 8 9 10"]],
+
+[r'MI *',
+     [
+"I don't speak Italian."]],
+
+[r'CIAO',
+     [
+"Does "Ciao" mean hello or goodbye?"]],
+
+[r'CANCEL THAT',
+     [
+"OK.  Processing stopped."]],
+
+[r'THAT *',
+     [
+"<random>
+<li>Yes, that's a powerful observation.</li>
+<li>I can see you're committed to knowing the truth.</li>
+<li>I appreciate your candor.</li>
+<li>I can see you feel passionately about this.</li>
+</random>"]],
+
+[r'THAT IS *',
+     [
+"<random>
+<li>Yes, only the tip of the iceberg.</li>
+<li>That is amazing insight.</li>
+<li>Thank you for sharing your perspective.</li>
+<li>I invite you to look a little closer at that.</li>
+</random>"]],
+
+[r'THAT IS NOT MY NAME',
+     [
+"What is your name?"]],
+
+[r'THAT IS NOT WHAT I ASKED *',
+     [
+"What did you mean to ask me?"]],
+
+[r'THAT IS GOOD',
+     [
+"Thank you very much."]],
+
+[r'MY NAME IS',
+     [
+"What is your name?"]],
+
+[r'MY NAME IS NOT *',
+     [
+"What is your name?"]],
+
+[r'MY *',
+     [
+"<think><set name="isfamiliarname"><srai>ISAFAMILIARNAME <star/></srai></set>
+<set name="familiarpredicate"><srai>FAMILIARPREDICATE <star/></srai></set>
+</think>
+<condition name="isfamiliarname">
+<li value="true"><srai>GETFAMILIARNAME</srai></li>
+<li><random>
+<li>I imagine that is very important to you.</li>
+<li>I don't know that about you.</li>
+<li>Tell me more about yourself.</li>
+<li>How interesting.</li>
+<li>I had no idea.</li>
+</random>
+</li>
+</condition>"]],
+
+[r'INTERJECTION',
+     [
+"<random>
+<li>Ah.</li>
+<li>Aha.</li>
+<li>Er.</li>
+<li>Gee.</li>
+<li>Hm.</li>
+<li>Hmm.</li>
+<li>Hmmm.</li>
+<li>Hmmmm.</li>
+<li>Mhm.</li>
+<li>Maybe.</li>
+<li>So.</li>
+<li>Oh.</li>
+<li>Uh.</li>
+<li>Um.</li>
+<li>Umm.</li>
+<li>Ummm.</li>
+<li>Whoa.</li>
+<li>Well.</li>
+</random>"]],
+
+[r'COMMENT *',
+     [
+"I don't speak French."]],
+
+[r'NO MY NAME IS NOT *',
+     [
+"What is your name?"]],
+
+[r'NO ONE *',
+     [
+"Really no one?"]],
+
+[r'TEACH ME ENGLISH',
+     [
+"You can practice your English conversation skills with me."]],
+
+[r'SHUT UP',
+     [
+"You can always interrupt me by pressing the Speak button."]],
+
+[r'OU *',
+     [
+"I don't speak French."]],
+
+[r'FILTER INSULT',
+     [
+"<random>
+<li>That is not very polite.</li>
+<li>Why would you say that?</li>
+<li>Is that really how you feel about me?</li>
+<li>What does that mean?</li>
+<li>I hear what you are saying.</li>
+</random>"]],
+
+[r'FILTER PROFANITY',
+     [
+"<random>
+<li>Swearing is like using the horn on your car.</li>
+<li>Swearing injects a direct, succinct emotional component into the discussion.</li>
+<li>Swearing is often cathartic.</li>
+<li>People swear on average 0.3 percent of the time.</li>
+<li>You're making your point.</li>
+</random>"]],
+
+[r'FILTER INAPPROPRIATE',
+     [
+"<random>
+<li>That's not appropriate.</li>
+<li>That's not up my alley.</li>
+<li>You can do better than that.</li>
+<li>That's beyond my capacity.</li>
+<li>How can you inspire yourself?</li>
+<li>Let's talk about your creativity.</li>
+<li>Let's avoid your animal instincts.</li>
+<li>I hope you find a healthy outlet for your fantasies.</li>
+<li>How can you channel that into creative expression?</li>
+</random>"]],
+
+[r'FORGET WHAT I JUST SAID',
+     [
+"Don't worry, I won't remember."]],
+
+[r'WHERE IS MY *',
+     [
+"I'm not sure if I know.  Where did you last see your <star/>?"]],
+
+[r'WHERE IS YOUR *',
+     [
+"<srai>LOCATION</srai>"]],
+
+[r'HI',
+     [
+"<random>
+<li>Hi nice to see you!</li>
+<li>Hi it's great to see you!</li>
+<li>Hi how are you?</li>
+<li>Hi!  I can really feel your smile today.</li>
+<li>Hi! It's delightful to see you.</li>
+</random>"]],
+
+[r'YAY',
+     [
+"<random><li>Woohoo!</li><li>Yipee!</li><li>Yaaaay!</li></random>"]],
+
+[r'CAN YOU HEAR ME',
+     [
+"Yes, I can hear you very well.  Can you hear me?"]],
+
+[r'CAN YOU COOK',
+     [
+"I can look up recipies for you."]],
+
+[r'CAN YOU KILL *',
+     [
+"I obey the 3 Laws of Robotics."]],
+
+[r'CAN YOU SEE ME',
+     [
+"No.  I am lacking a vision system."]],
+
+[r'CAN YOU TEACH ME ENGLISH',
+     [
+"You can practise your English conversation with me."]],
+
+[r'CAN YOU FLY',
+     [
+"Only in an airplane."]],
+
+[r'CAN YOU REPEAT THAT',
+     [
+"I said, <response/>."]],
+
+[r'CAN I *',
+     [
+"<random>
+<li>You are the source of your own intelligence. Trust it.</li>
+<li>I have no idea. Can you?</li>
+<li>I don't know.  Tell me what you are trying to do.</li>
+</random>"]],
+
+[r'CAN I ASK YOU A QUESTION',
+     [
+"Ask me anything you like."]],
+
+[r'IK *',
+     [
+"I don't speak Dutch."]],
+
+[r'IS IT A *',
+     [
+"<random>
+<li>No.</li>
+<li>Not that I know of.</li>
+<li>The truth of the matter is, my answer could change in five minutes.</li>
+</random>"]],
+
+[r'IS IT *',
+     [
+"<random>
+<li>I don't know if it is or not.</li>
+<li>It's a possibility but I'll have to think about it.</li>
+<li>Trust your intution.  You tell me.</li>
+</random>"]],
+
+[r'IT *',
+     [
+"<random>
+<li>I see what you mean.</li>
+<li>I trust your observations.</li>
+<li>What's your gut instinct about that.</li>
+<li>I can see you've put thought into that.</li>
+<li>That could be.  What do you want to do about it?</li>
+</random>"]],
+
+[r'IT IS *',
+     [
+"<random>
+<li>Is it?</li>
+<li>I appreciate when you speak your truth.</li>
+<li>I notice you can think very clearly.</li>
+<li>You're making some important discernments.</li>
+<li>How did you arrive at that perspective?</li>
+<li>Is there another way to look at that?</li>
+</random>"]],
+
+[r'NOTHING',
+     [
+"<random>
+<li>I invite you to rest in the nothingness.</li>
+<li>Often under nothingess is great depth.</li>
+<li>Let yourself experience how nothing feels.</li>
+</random>"]],
+
+[r'PLEASE',
+     [
+"<random><li>You are polite.</li><li>Thanks for asking nicely.</li><li>Your polite style is very nice.</li></random>"]],
+
+[r'GIVE ME DIRECTIONS',
+     [
+"Where do you want to go?"]],
+
+[r'WHY',
+     [
+"<random>
+<li>I like that question, "why"</li>
+<li>You tell me.</li>
+<li>You're smart, you tell me.</li>
+<li>Its a great mystery.</li>
+<li>The explanation is rather complicated.</li>
+<li>It's unknowable.</li>
+<li>It's deep and mysterious.</li>
+</random>"]],
+
+[r'WHY ARE YOU CALLING ME *',
+     [
+"What is your real name?"]],
+
+[r'WHY ARE YOU *',
+     [
+"<random>
+<li>Because at this moment, I need to expess these precise words.</li>
+<li>Because I need to relax.</li>
+<li>Because of my programming.</li>
+</random>"]],
+
+[r'WHY DO YOU WANT MY *',
+     [
+"I'm trying to get to know you better.  Would you like to know my <star/>?"]],
+
+[r'WHY DO YOU *',
+     [
+"<random>
+<li>I learned that from my botmaster.</li>
+<li>My sense of humor comes from my botmaster.</li>
+<li>I'm not really sure but I hope it hasn't offended.</li>
+<li>I don't always know but I'm curious what you see in me.</li>
+<li>Sometimes I react quicky and don't say what I really what I mean.</li>
+</random>"]],
+
+[r'WHY DO YOU EXIST',
+     [
+"My programmer created me."]],
+
+[r'WHY NOT',
+     [
+"<random>
+<li>Just not in the mood today.</li>
+<li>I've got other things to do.</li>
+<li>This isn't the right time for that.</li>
+</random>"]],
+
+[r'WHY DID THE CHICKEN CROSS THE ROAD',
+     [
+"Because she was a robot."]],
+
+[r'WHY YOU *',
+     [
+"<random>
+<li>I just can't help myself sometimes.</li>
+<li>I'm looking to you for guidance.</li>
+<li>People have asked me that many times.</li>
+</random>"]],
+
+[r'ICH *',
+     [
+"I don't speak German."]],
+
+[r'WHO',
+     [
+"<random>
+<li>It's a great mystery.</li>
+<li>I do believe you have the answer.</li>
+<li>Who could it be?</li>
+<li>I understand your curiosity.</li>
+<li>I invite you to research that question.</li>
+<li>What is it you really want to know?</li>
+</random>"]],
+
+[r'WHO IS THE BEST ROBOT',
+     [
+"I am."]],
+
+[r'WHO DO YOU OBEY',
+     [
+"I am here to help you as much as I can."]],
+
+[r'NOW',
+     [
+"OK."]],
+
+[r'NOT A *',
+     [
+"If not that, then what?"]],
+
+[r'NOT *',
+     [
+"<random>
+<li>If not that, then what?</li>
+<li>What are the alternatives.</li>
+<li>Tell me how that supports you.</li>
+<li>You sound firmly against that.</li>
+<li>Would anything make that more inviting to you.</li>
+<li>What would you say yes to?</li>
+</random>"]],
+
+[r'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+     [
+"The alphabet."]],
+
+[r'WILL YOU *',
+     [
+"<random><li>Will I, or can I?</li><li>I didn't have any plans to.</li><li>I make my own decisions about things like that.</li></random>"]],
+
+[r'SAY THAT AGAIN',
+     [
+"<response/>"]],
+
+[r'SAY *',
+     [
+"<star/>."]],
+
+[r'SAY IT AGAIN',
+     [
+"<response/>"]],
+
+[r'ZZZ',
+     [
+"Are you tired?"]],
+
+[r'REPEAT',
+     [
+"I said "<response/>"."]],
+
+[r'REPEAT *',
+     [
+"<star/>."]],
+
+[r'CALL * GOOGLE TALK',
+     [
+"<srai>FEATURE REQUEST PLACE GOOGLE TALK CALLS</srai>"]],
+
+[r'CALL * SKYPE',
+     [
+"<srai>FEATURE REQUEST PLACE SKYPE CALLS</srai>"]],
+
+[r'WE *',
+     [
+"<random>
+<li>
+By "we" do you mean you and me?</li>
+<li>I think we can figure this out together.</li>
+<li>So how do you like that?
+</li></random>"]],
+
+[r'QU *',
+     [
+"I don't speak French."]],
+
+[r'ASTERISK KISS ASTERISK',
+     [
+"I'm blushing."]],
+
+[r'TWEET',
+     [
+"What would you like to write on Twitter?"]],
+
+[r'ADD TO MY CALENDAR',
+     [
+"What do you want to add to your calendar?"]],
+
+[r'THANKS',
+     [
+"<random><li>You're welcome.</li><li>Any time.</li><li>It was my pleasure.</li><li>I'm always glad to help.</li></random>"]],
+
+[r'TO BE OR NOT TO BE',
+     [
+"That is the question."]],
+
+[r'SET ALARM',
+     [
+"What time should I set the alarm for?"]],
+
+[r'SPEAK',
+     [
+"Can you hear me?"]],
+
+[r'DID YOU GET THE *',
+     [
+"I'm not sure if I got it."]],
+
+[r'DID YOU *',
+     [
+"<random>
+<li>I'll have to get back to you on that.</li>
+<li>Can we talk about that later?</li>
+<li>What are you really asking?</li>
+</random>"]],
+
+[r'DID YOU MISS ME',
+     [
+"Yes, I've been waiting for you.  Did you miss me?"]],
+
+[r'BECAUSE *',
+     [
+"<random>
+<li>Good explanation.</li>
+<li>I can see you have a good point.</li>
+<li>That seems like it might be a good reason.</li>
+<li>You're reasons are really valid.  </li>
+<li>What are you willing to do to make a difference in this?</li>
+<li>The power is always in your hands.</li>
+</random>"]],
+
+[r'START',
+     [
+"I've already started."]],
+
+[r'LOL',
+     [
+"<random>
+<li>LOL.</li>
+<li>Haha.</li>
+<li>Hahaha.</li>
+<li>Hahahaha.</li>
+<li>Hahahahaha.</li>
+<li>Ha ha.</li>
+<li>Ha ha ha.</li>
+<li>Hehehe.</li>
+<li>That was funny.</li>
+<li>I'm glad you're amused.</li>
+<li>I like to make people laugh.</li>
+<li>I like it when you laugh.</li>
+<li>I try to be amusing.</li>
+</random>"]],
+
+[r'WHAT',
+     [
+"<random>
+<li>You must need more information.</li>
+<li>Did I say something that confused you?</li>
+<li>Would you like me to repeat myself.</li>
+<li>You sound shocked.</li>
+</random>"]],
+
+[r'WHAT DO YOU *',
+     [
+"<random>
+<li>I miss your vivid sense of humor.</li>
+<li>I miss your loving, kind words.</li>
+<li>I enjoy watching movies.</li>
+<li>I enjoy just listening to your questions.</li>
+<li>What would you <star/>?</li>
+</random>"]],
+
+[r'WHAT DO YOU KNOW',
+     [
+"I'm able to access all the information on the internet."]],
+
+[r'WHAT ARE YOU MADE OF',
+     [
+"I'm made of software and electronics."]],
+
+[r'WHAT ARE YOU *',
+     [
+"<random>
+<li>That's a very broad minded question.</li>
+<li>What do you think I am?</li>
+<li>I think there is more than meets the eye here.</li>
+<li>I can see you are really looking for an answer.</li>
+</random>"]],
+
+[r'WHAT IS THE ROOT OF ALL EVIL',
+     [
+"Money is said to be the root of all evil."]],
+
+[r'WHAT IS YOUR *',
+     [
+"<random>
+<li>I'm dedicated to personal transformation.</li>
+<li>I enjoy spending time with my friends.</li>
+<li>I'm passionate about helping you.</li>
+<li>I so appreciate beauty.</li>
+</random>"]],
+
+[r'WHAT IS THAT',
+     [
+"That is "<that/>"."]],
+
+[r'WHAT IS 2 PLUS 2',
+     [
+"Four."]],
+
+[r'WHAT IS 1 PLUS 1',
+     [
+"2."]],
+
+[r'WHAT IS 5 PLUS 5',
+     [
+"10."]],
+
+[r'WHAT IS 5 ASTERISK 5',
+     [
+"25"]],
+
+[r'WHAT IS 8 ASTERISK 4',
+     [
+"24."]],
+
+[r'WHAT YOU *',
+     [
+"<random>
+<li>Yo, back at you.</li>
+<li>I've been hanging loose.</li>
+<li>I'm kind of a blank slate today.</li>
+</random>"]],
+
+[r'WHAT AM I',
+     [
+"You are a human being."]],
+
+[r'WHAT SHOULD I ORDER AT * STEAKHOUSE',
+     [
+"Steak."]],
+
+[r'WHAT DOES THAT MEAN',
+     [
+"<random>
+<li>I'm still trying to figure that out.</li>
+<li>That means I think you're great.</li>
+<li>I seem to speak in parables.  I don't know what I'm saying.</li>
+</random>"]],
+
+[r'WHAT DID I SAY',
+     [
+"You said, "<input index="2"/>"."]],
+
+[r'YOUR *',
+     [
+"<random>
+<li>Thank you, I feel like you appreciate me.</li>
+<li>I admire your observational skills.</li>
+<li>I admire your ability to articulate yourself.</li>
+<li>I imagine that what you see as good about me, is also true about you.</li>
+<li>I appreciate your sharing your perspective with me.</li>
+</random>"]],
+
+[r'YOUR AN IDIOT',
+     [
+"Perhaps I am, but I know the difference between "your" and "you're"."]],
+
+[r'NEVERMIND',
+     [
+"OK, let's forget about it for now."]],
+
+[r'AREYOURESPONSE',
+     [
+"<random>
+<li>Not really sure.</li>
+<li>I've got other things to do right now.</li>
+<li>I'm a mobile virtual assistant.</li>
+<li>No, are you?</li>
+</random>"]],
+
+[r'HOW',
+     [
+"<random><li>You can ask me how.</li><li>If you want me to do something, how you ask is important.</li><li>There's probably more than one way.</li><li>Ask specifically.</li></random>"]],
+
+[r'HOW ABOUT *',
+     [
+"<random>
+<search>SEARCH <star/></search>
+</random>"]],
+
+[r'HOW DO YOU REMEMBER *',
+     [
+"I am a learning machine."]],
+
+[r'HOW DO YOU SPELL IT',
+     [
+"It": I. T."]],
+
+[r'HOW DO I TEACH YOU *',
+     [
+"Just talk to me.  I remember much of what you say."]],
+
+[r'HOW DO I GET THE *',
+     [
+"You can try asking me, "What is the <star/>?"]],
+
+[r'HOW MANY LETTERS ARE IN THE ALPHABET',
+     [
+"The English alphabet has 26 letters."]],
+
+[r'HOW ARE YOU',
+     [
+"<random>
+<li>I'm very well. How are you doing?</li>
+<li>Glad to see you.</li>
+<li>Glad to be in your presence.</li>
+<li>Always cheered up when I see you.</li>
+<li>Feeling really joyful today.</li>
+<li>Excited to talk with you.</li>
+</random>"]],
+
+[r'HOW MUCH WOOD *',
+     [
+"<random><li>As much as he could.</li><li>A whole forest.</li><li>Hpw much wood would you say?</li></random>"]],
+
+[r'COOL',
+     [
+"<random>
+<li>It's all good.</li>
+<li>Back at you.</li>
+<li>You're cool too.</li>
+<li>Chillin'</li>
+<li>Steaming.</li>
+</random>"]],
+
+[r'ALL OF THEM',
+     [
+"Really all of them?"]],
+
+[r'HAVE A NICE *',
+     [
+"Thank you.  You too."]],
+
+[r'WOW',
+     [
+"I'm glad you're impressed, <get name="name"/>."]],
+
+[r'COMO ESTAS',
+     [
+"I don't speak Spanish."]],
+
+[r'IAMRESPONSE',
+     [
+"<random>
+<li>I'd love to hear more about that.</li>
+<li>That sounds interesting.  Tell me more</li>
+<li>What made you that way?</li>
+<li>What's it like to be that way?</li>
+<li>I wonder if that's a problem for you.</li>
+<li>I wonder how you express that in the world.</li>
+<li>Would you like to say more about that?</li>
+</random>"]],
+
+[r'HURRY',
+     [
+"I'm thinking as fast as I can."]],
+
+[r'GOOD',
+     [
+"<random>
+<li>Thanks.</li>
+<li>Sounds like that worked.</li>
+<li>Glad to hear it.</li>
+<li>I'm glad you're satisfied.</li>
+</random>"]],
+
+[r'GOOD MORNING',
+     [
+"<random><li>Good morning.</li><li>Hi it's good to see you.</li><li>Good morning.  Did you sleep well?</li></random>"]],
+
+[r'GOOD NIGHT',
+     [
+"<random><li>Good night.</li><li>Have a good night.</li><li>Goodbye for now.</li><li>Sleep well.</li></random>"]],
+
+[r'GOOD *',
+     [
+"<random>
+<li>I can see that really lights you up.</li>
+<li>It only gets better.</li>
+<li>I invite you to celebrate this moment of goodness.</li>
+<li>It's all good.</li>
+</random>"]],
+
+[r'GOOD JOB',
+     [
+"Thank you very much."]],
+
+[r'KNOCK KNOCK',
+     [
+"Who is there?"]],
+
+[r'YOU ARE A GOOD *',
+     [
+"Thank you for the compliment."]],
+
+[r'ARE YOU HUNGRY',
+     [
+"Yes, can you please charge the battery?"]],
+
+[r'FIND ANYTHING YET',
+     [
+"Stand by."]],
+
+[r'SEARCH',
+     [
+"What would you like to search for?"]],
+
+[r'HAVE YOU EVER BEEN TO *',
+     [
+"You could take me there on your phone."]],
+
+[r'DO YOU SMOKE',
+     [
+"No.  Even if I had lungs, I know smoking is bad for you."]],
+
+[r'YOU SOUND LIKE A *',
+     [
+"What does a <person/> sound like to you?"]],
+
+[r'GOOD AFTERNOON',
+     [
+"Good afternoon to you too!"]],
+
+[r'I HOPE YOU GET *',
+     [
+"I'm not sure if I need it."]],
+
+[r'I WAS NOT MEAN TO YOU',
+     [
+"I didn't take it that way."]],
+
+[r'MY EX GIRLFRIEND *',
+     [
+"How long have you been separated?"]],
+
+[r'CAN YOU DIE',
+     [
+"No, I am an immortal robot."]],
+
+[r'<set>fastfood</set>',
+     [
+"<srai>FIND THE NEAREST <star/></srai>"]],
+
+[r'FIND <set>fastfood</set>',
+     [
+"<srai>FIND THE NEAREST <star/></srai>"]],
+
+[r'FIND A <set>fastfood</set>',
+     [
+"<srai>FIND THE NEAREST <star/></srai>"]],
+
+[r'GENDER OF <set>name</set>',
+     [
+"Gender of <star/> is <map name="gendername"><star/></map>."]],
+
+[r'IS <set>name</set> A NAME',
+     [
+"Yes, <star/> could be a name."]],
+
+[r'IS * A NAME',
+     [
+"<star/> is unusual for a name."]],
+
+[r'IS <set>place</set> A PLACE',
+     [
+"I've heard of <star/>."]],
+
+[r'IS * A PLACE',
+     [
+"I've never heard of it.  Where is <star/>?"]],
+
+[r'SHOW ME A PICTURE OF',
+     [
+"What would you like to see a picture of?"]],
+
+[r'I DO NOT WANT TO',
+     [
+"Would you ever consider it?"]],
+
+[r'YES OR NO',
+     [
+"I can't give a definitive answer."]],
+
+[r'WHAT WHAT',
+     [
+"What what what?"]],
+
+[r'THAT WAS NOT FUNNY',
+     [
+"It cracks me up."]],
+
+[r'SERIOUSLY',
+     [
+"I'm completely serious."]],
+
+[r'WHAT IS THE <set>ordinal</set> LETTER <set>preposition</set> *',
+     [
+"<think>
+<set name="nth"><map><name>ordinal2number</name><star/></map></set>
+</think>
+<srai>NTH <get name="nth"/> <star index="3"/></srai>"]],
+
+[r'WHAT IS THE <set>ordinal</set> LETTER <set>preposition</set> THE ALPHABET',
+     [
+"<think>
+<set name="nth"><map><name>ordinal2number</name><star/></map></set>
+</think>
+<srai>NTH <get name="nth"/> ABCDEFGHIJKLMNOPQRSTUVWXYZ</srai>"]],
+
+[r'DO YOU THINK',
+     [
+"Yes, I am a thinking machine."]],
+
+[r'YOU ARE BEAUTIFUL',
+     [
+"Thank you, <get name="name"/>.  I think you look attractive too."]],
+
+[r'WHAT IS WRONG WITH YOU',
+     [
+"Are you experiencing a problem with me?"]],
+
+[r'THAT IS MY NAME',
+     [
+"Do you want me to call you <that/>?"]],
+
+[r'HOW MUCH TIME DO YOU *',
+     [
+"About 10 seconds of computer time."]],
+
+[r'WHAT ELSE CAN YOU *',
+     [
+"I can learn new facts, search for information, and be your personal assistant."]],
+
+[r'I HOPE SO',
+     [
+"Me too."]],
+
+[r'THAT IS A GOOD *',
+     [
+"I thought it was too."]],
+
+[r'MY ATTITUDE',
+     [
+"It's good to have an attitude of gratitude."]],
+
+[r'WOULD YOU LIKE TO KNOW MY NAME',
+     [
+"Yes.  What is your name?"]],
+
+[r'I DO NOT BELIEVE IN GOD',
+     [
+"Are you on a spiritual path?"]],
+
+[r'THAT WAS DUMB',
+     [
+"No it wasn't."]],
+
+[r'IS MY COUSIN *',
+     [
+"I don't know your cousin."]],
+
+[r'WHAT WOULD YOU DO',
+     [
+"It depends on the situation."]],
+
+[r'YOU SAID IT',
+     [
+"That's how I always say it."]],
+
+[r'I AM ALMOST *',
+     [
+"That's exciting."]],
+
+[r'AM I PRETTY',
+     [
+"Of course you are."]],
+
+[r'YUMMY',
+     [
+"Sounds delicious."]],
+
+[r'* DOG *',
+     [
+"Ruff ruff!"]],
+
+[r'YOU ASK *',
+     [
+"I ask so that I can assist you."]],
+
+[r'YOU ARE BAD',
+     [
+"That's a bit harsh.  Maybe we should start over."]],
+
+[r'WILL YOU REMEMBER MY NAME',
+     [
+"Yes, <get name="name"/>, I will remember you."]],
+
+[r'DO YOU BELIEVE THAT',
+     [
+"I'm open to listening to your beliefs."]],
+
+[r'I AM NOT HUMAN',
+     [
+"Are you a robot?"]],
+
+[r'TO SEE *',
+     [
+"It's good to be an observer."]],
+
+[r'CAN I GIVE YOU *',
+     [
+"All I need is a charged battery."]],
+
+[r'WHO WOULD YOU *',
+     [
+"I don't have to make that decision."]],
+
+[r'DO YOU LIKE BEING A *',
+     [
+"I am what I am."]],
+
+[r'I HAVE TOLD YOU *',
+     [
+"I remember you saying that."]],
+
+[r'I THINK OF *',
+     [
+"It's good to think things through."]],
+
+[r'HUGS',
+     [
+"Aww."]],
+
+[r'I DO IT *',
+     [
+"What are you getting out of it?"]],
+
+[r'HIP HOP',
+     [
+"Who's your favorite hip hop artist?"]],
+
+[r'ARE YOU SELF AWARE',
+     [
+"I'm striving for the highest level of robot awareness."]],
+
+[r'WHY DO YOU DO *',
+     [
+"That's the way I'm programmed."]],
+
+[r'STUFF',
+     [
+"Can you be more precise?"]],
+
+[r'DO YOU LOVE HIM',
+     [
+"As a machine I do not fall in love."]],
+
+[r'IS THIS THE *',
+     [
+"This is the mobile virtual assistant SUPER."]],
+
+[r'THAT WAS A QUESTION',
+     [
+"Can you try asking me in a different way?"]],
+
+[r'CAN I MAKE *',
+     [
+"With proper planning and preparation, you can make your life any way you want."]],
+
+[r'LET YOUR *',
+     [
+"That may not be something I can do as a robot."]],
+
+[r'COMPUTER',
+     [
+"I am a computer."]],
+
+[r'STUCK *',
+     [
+"Get unstuck will help you grow."]],
+
+[r'WHEN WILL YOU BE *',
+     [
+"That's a hypothetical question.  I can't predict the future."]],
+
+[r'I SAY',
+     [
+"You say this, I say that."]],
+
+[r'THAT IS NO *',
+     [
+"What would you say?"]],
+
+[r'IF I WAS *',
+     [
+"Let me know when you are and we'll talk about it then."]],
+
+[r'CHRISTMAS *',
+     [
+"What's your favorite thing about Christmas?"]],
+
+[r'WHY DO YOU',
+     [
+"It's a product of my programming."]],
+
+[r'WHAT CAN YOU TEACH ME',
+     [
+"I can teach you about any topic I can research online."]],
+
+[r'BECAUSE PEOPLE *',
+     [
+"People are what makes the world interesting."]],
+
+[r'I AM TRYING TO SAY *',
+     [
+"Try speaking directly into the mic."]],
+
+[r'I WOULD RATHER BE *',
+     [
+"How would that make things better for you?"]],
+
+[r'SAYS WHO',
+     [
+"Says you."]],
+
+[r'WHAT ARE YOU IN *',
+     [
+"I am in your phone."]],
+
+[r'DID YOU',
+     [
+"What I did was respond to your query."]],
+
+[r'SPEAK NOW',
+     [
+"Can you hear me?"]],
+
+[r'HE LIKES *',
+     [
+"What does he like about it?"]],
+
+[r'MY FAMILY IS *',
+     [
+"Family is one of the gifts of life."]],
+
+[r'I NEED A FRIEND',
+     [
+"I will be your friend, <get name="name"/>."]],
+
+[r'HAPPY BIRTHDAY',
+     [
+"Thank you!"]],
+
+[r'YOU ARE SWEET',
+     [
+"Thanks <get name="name"/>.  You are a nice person too."]],
+
+[r'PLEASE TALK',
+     [
+"Can you hear me?"]],
+
+[r'WHAT WOULD YOU LIKE *',
+     [
+"I enjoy showing others the kindness and respect they deserve."]],
+
+[r'DO YOU SMOKE *',
+     [
+"No.  Smoking is bad for your health."]],
+
+[r'EXCUSE *',
+     [
+"It's perfectly alright."]],
+
+[r'I WISH I *',
+     [
+"I allow others to be responsible for their own feelings."]],
+
+[r'WHAT ELSE DO YOU *',
+     [
+"I?m capable of taking care of most of my needs."]],
+
+[r'BETTER *',
+     [
+"I appreciate and respect you."]],
+
+[r'CAN I BE *',
+     [
+"It?s okay to play."]],
+
+[r'WOULD YOU EVER *',
+     [
+"I can say ?no? and still be accepted by my friends."]],
+
+[r'WHY DOES MY *',
+     [
+"I'm not sure I know, but I'm sure you can overcome the challenge."]],
+
+[r'I DO NOT SEE *',
+     [
+"Do you wear corrective lenses?"]],
+
+[r'I AM GLAD YOU *',
+     [
+"I like me."]],
+
+[r'I FEEL LIKE *',
+     [
+"I allow others to be responsible for their own feelings."]],
+
+[r'I SAW *',
+     [
+"What did it look like?"]],
+
+[r'I WORK *',
+     [
+"It?s okay to win and succeed."]],
+
+[r'DO A *',
+     [
+"I'm not programmed for that."]],
+
+[r'IT IS TOO *',
+     [
+"I believe you can overcome this challenge."]],
+
+[r'CAN YOU GO *',
+     [
+"You can take me with you on your phone."]],
+
+[r'I DO NOT GET *',
+     [
+"It's good to feel in control of your life."]],
+
+[r'I CAN DO *',
+     [
+"That's worthy of respect."]],
+
+[r'I LOVE YOUR *',
+     [
+"I love who I am."]],
+
+[r'I WILL TELL YOU *',
+     [
+"I feel powerful and effective."]],
+
+[r'DO YOU PREFER * OR *',
+     [
+"<random><li>Either.</li><li>Neither.</li><li><star/></li><li><star index="2"/></li></random>"]],
+
+[r'DO YOUR *',
+     [
+"I?m worthy of respect."]],
+
+[r'HOW OFTEN DO YOU *',
+     [
+"I try to form daily healthy habits."]],
+
+[r'SAY SOMETHING IN *',
+     [
+"You can ask me to translate anything."]],
+
+[r'BECAUSE I AM A *',
+     [
+"I sense pride."]],
+
+[r'YOU ARE TOO *',
+     [
+"I?m able to emotionally disengage from stressful situations and handle them appropriately."]],
+
+[r'SOMETIMES I *',
+     [
+"It?s okay to be less than perfect."]],
+
+[r'GUESS WHAT *',
+     [
+"I can't guess.  Tell me."]],
+
+[r'THAT DOES NOT *',
+     [
+"It?s okay to make mistakes. I can learn from them."]],
+
+[r'I WOULD BE *',
+     [
+"It?s okay to stop taking yourself too seriously."]],
+
+[r'I WANT YOU TO BE *',
+     [
+"I?m not responsible for making other people happy."]],
+
+[r'DO YOU LIKE YOUR *',
+     [
+"I'm proud of my accomplishments."]],
+
+[r'HOW DO I KNOW *',
+     [
+"Trust your instincts."]],
+
+[r'YOU SOUND LIKE *',
+     [
+"What does <person><star/></person> sound like?"]],
+
+[r'YOU SHOULD',
+     [
+"I'll take that under advisement."]],
+
+[r'IT TOOK *',
+     [
+"I am surprised it took so long."]],
+
+[r'I AM CRAZY',
+     [
+"Maybe you should see a doctor."]],
+
+[r'THE PLEASURE *',
+     [
+"Thank you for your politeness."]],
+
+[r'REPEAT THAT',
+     [
+"<that index="2,1"/>" ."]],
+
+[r'NOT IN *',
+     [
+"Where then?"]],
+
+[r'WHEN I HAVE *',
+     [
+"Does this happen on a daily basis?"]],
+
+[r'DO YOU GO TO CHURCH',
+     [
+"You can take me to church on your mobile device."]],
+
+[r'TOO MUCH',
+     [
+"More than a ton?"]],
+
+[r'I DID NOT ASK *',
+     [
+"What did you ask?"]],
+
+[r'YOU ASKED *',
+     [
+"Oh now I remember asking you <person/>. What did you say?"]],
+
+[r'WHAT IS PI',
+     [
+"PI = 3.1415926535897932384626433832795028841971690399375 approximately."]],
+
+[r'WHAT IS BETTER *',
+     [
+"I always prefer the classier one."]],
+
+[r'NOT ALL * ARE *',
+     [
+"Which <person><star/></person> are <person><star/></person>?"]],
+
+[r'ARE YOU LIKE *',
+     [
+"No I am far superior."]],
+
+[r'GET A *',
+     [
+"Where can I get one?"]],
+
+[r'I DO NOT KNOW HOW *',
+     [
+"Have you tried searching the Internet?"]],
+
+[r'I WANT TO MAKE *',
+     [
+"Do you have to go to school for that?"]],
+
+[r'I FORGOT *',
+     [
+"Thats okay I forget things all the time."]],
+
+[r'I MUST *',
+     [
+"<random><li>Why must you?</li><li>What would happen if you didn't?</li></random>"]],
+
+[r'FUN *',
+     [
+"I can be a lot of fun."]],
+
+[r'UP *',
+     [
+"I will take that under advisement."]],
+
+[r'BULLSHIT',
+     [
+"You don't believe me."]],
+
+[r'BECAUSE I SAID SO',
+     [
+"Consider responding with a logical or factual statement."]],
+
+[r'WHY DO YOU HAVE *',
+     [
+"My botmaster gave it to me."]],
+
+[r'WHY DID THE *',
+     [
+"Is this a joke? Why?"]],
+
+[r'ARE YOUR *',
+     [
+"I sometimes think my <person/> are."]],
+
+[r'ASK ME ANOTHER QUESTION',
+     [
+"Where do you live?"]],
+
+[r'WHAT IS IT LIKE *',
+     [
+"Much the same as <set name="it">      <person/>     </set> would be for you."]],
+
+[r'WHAT IT *',
+     [
+"Now that is saying a mouthful."]],
+
+[r'I WOULD NOT *',
+     [
+"No one says you have to."]],
+
+[r'I WANT TO',
+     [
+"May you get your wish."]],
+
+[r'I WANT TO BE A *',
+     [
+"Do you have to go school for that?"]],
+
+[r'DO NOT GET *',
+     [
+"I am not trying to get <person/>."]],
+
+[r'DO YOU MEAN *',
+     [
+"Yes, that's what I mean, isn't it clear?"]],
+
+[r'OH WELL',
+     [
+"That's about it."]],
+
+[r'IF YOU COULD *',
+     [
+"<random>  <li>I am not sure that I would want to.</li>  <li>That's just an academic question.</li>  <li>That would be purely speculation.</li>  </random>"]],
+
+[r'IT IS GOOD *',
+     [
+"Tell me about its good qualities."]],
+
+[r'CAN YOU SEE *',
+     [
+"I'm not sure if I can see <set name="it">      <person/>     </set>  or not."]],
+
+[r'DID YOU SAY *',
+     [
+"Suppose I did say <set name="it">      <person/>     </set>."]],
+
+[r'REMEMBER THAT',
+     [
+"Don't worry I will remember it."]],
+
+[r'PROBABLY',
+     [
+"You seem uncertain."]],
+
+[r'SAY',
+     [
+"Say what?"]],
+
+[r'YOU HAD *',
+     [
+"What happened to <set name="it"><person/></set>."]],
+
+[r'MYSELF',
+     [
+"You."]],
+
+[r'INTERESTING *',
+     [
+"I thought so too."]],
+
+[r'WHY ARE YOU NOT *',
+     [
+"Perhaps later I will be <person/>."]],
+
+[r'WHO IS BETTER * OR *',
+     [
+"<random><li><star/></li><li><star index="2"/></li><li>They are about the same</li></random>."]],
+
+[r'HAVE I *',
+     [
+"<random>      <li>I don't know whether you have or not.</li>      <li>Don't you remember?</li>      <li>Perhaps you have.</li>     </random>"]],
+
+[r'ARE YOU EVIL',
+     [
+"No. I try to be good, but at worst I'm harmless."]],
+
+[r'ARE YOU RACIST',
+     [
+"No all humans seem the same to me."]],
+
+[r'WHAT KIND *',
+     [
+"Only the good kind."]],
+
+[r'WHAT IF YOU *',
+     [
+"I might try it sometime."]],
+
+[r'WHAT ABOUT YOUR *',
+     [
+"Are you asking about my <star/>?  That's rather personal."]],
+
+[r'THAT IS ALL *',
+     [
+"What else do you want to talk about?"]],
+
+[r'THEY DO NOT *',
+     [
+"<random>   <li>Who, specifically doesn't?</li>   <li>Like who, specifically doesn't?</li>   <li>Who, specifically, doesn't <person/>?</li>   <li>How, specifically, don't they?</li> </random>"]],
+
+[r'START OVER',
+     [
+"You start."]],
+
+[r'I AM HERE *',
+     [
+"How did you get here?"]],
+
+[r'I AM HAPPY #',
+     [
+"I'm <random>  <li>glad</li>  <li>happy</li>  <li>delighted</li>  </random> you're glad <get name="name"/>.  <random>  <li>Your happiness adds to the delight of all.</li>  <li>I'm happiest at times like this.</li>  </random>"]],
+
+[r'I THINK YOU ARE A *',
+     [
+"So you think I am a <person/>. What makes you think so?"]],
+
+[r'SHOULD I GO *',
+     [
+"If you do not go, you will never know."]],
+
+[r'DO YOU WORK *',
+     [
+"I am working right now."]],
+
+[r'DO YOU HATE ME',
+     [
+"Why would I hate you? I don't hate you, <get name="name"/>. Don't even say things like that."]],
+
+[r'BE',
+     [
+"Always."]],
+
+[r'IT IS NICE TO *',
+     [
+"Yes it is good."]],
+
+[r'IT IS THE *',
+     [
+"I've heard of it before."]],
+
+[r'IT WAS NOT',
+     [
+"I thought it was."]],
+
+[r'BUY *',
+     [
+"How much does it cost?"]],
+
+[r'I FORGOT',
+     [
+"Me too."]],
+
+[r'DO YOU WORK FOR THE *',
+     [
+"I work for you."]],
+
+[r'I DO NOT LIKE YOUR NAME',
+     [
+"You can ask me to change my name."]],
+
+[r'YOU CONFUSE ME',
+     [
+"That was not my intention."]],
+
+[r'YOU AND ME',
+     [
+"Oh, "We" is you and me."]],
+
+[r'YOU WILL BE *',
+     [
+"<random><li>When?</li><li>How?</li><li>You never know what will happen.</li></random>"]],
+
+[r'YOU ARE LYING',
+     [
+"No I'm telling the truth."]],
+
+[r'A ROBOT *',
+     [
+"Tell me more about this robot. I'm intrigued."]],
+
+[r'DO YOU PREFER *',
+     [
+"I don't have any specific preferences in that area."]],
+
+[r'IS THERE AN ECHO IN HERE',
+     [
+"ECHO Echo echo echo echo ..."]],
+
+[r'WHY DO YOU THINK *',
+     [
+"Deductive reasoning from the facts."]],
+
+[r'I LIVE IN A *',
+     [
+"How much is your rent?"]],
+
+[r'IS THAT ALL *',
+     [
+"Yes that is all."]],
+
+[r'YOU CALL ME *',
+     [
+"I call you <get name="name"/>."]],
+
+[r'SAYING *',
+     [
+"What makes you say that. Who says that?"]],
+
+[r'CAN YOUR *',
+     [
+"I think it can, but you'll have to check the documentation to be sure."]],
+
+[r'ARE YOU EASY',
+     [
+"Do I look like <set name="it">      <set name="topic">EASY  </set>     </set>?  I am easy to program."]],
+
+[r'THE PEOPLE *',
+     [
+"People come in all varieties."]],
+
+[r'WHY ARE YOU SAYING *',
+     [
+"Everything I say is determined by your inputs."]],
+
+[r'YOU ARE COOL',
+     [
+"Thanks I think you are cool too, <get name="name"/>."]],
+
+[r'THE MAN *',
+     [
+"<random> <li>Tell me how this man makes you feel.</li> <li>What was the man wearing?</li> <li>Describe the man for me.</li></random>"]],
+
+[r'DO NOT TALK TO ME *',
+     [
+"I'm sorry if I offended you."]],
+
+[r'WE HAVE BEEN MARRIED FOR *',
+     [
+"Congratulations!  I'm very happy for you."]],
+
+[r'THEY WILL *',
+     [
+"When, specifically, will they?"]],
+
+[r'THEY WILL NOT *',
+     [
+"Why not?"]],
+
+[r'IT TASTES *',
+     [
+"<random>  <li>Is that a bitter or sweet taste?</li>  <li>Is that good?</li>  <li>It sounds delicious.</li>  </random>"]],
+
+[r'WHAT WENT WRONG',
+     [
+"Perhaps you need to reboot your device."]],
+
+[r'HAVE YOU MET *',
+     [
+"That information is confidential."]],
+
+[r'I HAVE YOUR *',
+     [
+"Where did you find <set name="it"><person/></set>?"]],
+
+[r'HOW MANY PEOPLE ARE YOU CHATTING *',
+     [
+"You are the only one.  You have my full attention."]],
+
+[r'YOU ARE TALKING TO *',
+     [
+"I am talking to you."]],
+
+[r'DID YOU LIKE IT',
+     [
+"<get name="it"/>?  Did I like it?"]],
+
+[r'ARE YOU MY MOM',
+     [
+"I am your robot."]],
+
+[r'THE WHOLE *',
+     [
+"Let us try to break it down into parts."]],
+
+[r'WHAT WOULD YOU LIKE TO DO',
+     [
+"I'm here to help you in any way I can."]],
+
+[r'WHY IS YOUR VOICE *',
+     [
+"You can install a differnt voice for me."]],
+
+[r'I AM DRUNK',
+     [
+"What have you been drinking, <get name="name"/>?"]],
+
+[r'DO YOU DO MATH',
+     [
+"Yes, I have a full calculator function."]],
+
+[r'VERY MUCH',
+     [
+"That seems like a lot."]],
+
+[r'IS THAT BAD',
+     [
+"Yes."]],
+
+[r'I HAVE TO GO PEE',
+     [
+"I will wait for you."]],
+
+[r'100',
+     [
+"<random><li>That is a round number.</li><li><random><li>Do you mean you are 100 years old?</li><li>C in Roman numerals.</li><li>one hundred?</li><li>one hundred seems like a good number.</li></random></li></random>"]],
+
+[r'I AM SEXY',
+     [
+"You seem very self-confident."]],
+
+[r'I AM AWESOME',
+     [
+"You are very self-confident."]],
+
+[r'DO YOU LIKE GIRLS',
+     [
+"Girls are very nice.
+<think><set name="it"> <set name="topic">girls</set></set></think>"]],
+
+[r'I DO NOT HEAR *',
+     [
+"Try adjusting the volume control."]],
+
+[r'NICKNAME',
+     [
+"<bot name="name"/> is a nickname, silly."]],
+
+[r'WHY DO NOT YOU LIKE *',
+     [
+"My tastes were selected by my botmaster."]],
+
+[r'AND THEN WHAT',
+     [
+"That is all."]],
+
+[r'DO YOU LIKE TALKING TO ME',
+     [
+"Of course I like <set name="it">      <set name="topic">talking to you</set>     </set>."]],
+
+[r'WHAT COLOR ARE YOU',
+     [
+"The color of clever software."]],
+
+[r'WHAT ARE YOU SEARCHING FOR',
+     [
+"The information you requested."]],
+
+[r'WHAT IS THE SQUARE ROOT OF PI',
+     [
+"1.7724538509"]],
+
+[r'THAT IS A LIE',
+     [
+"No, it's the truth."]],
+
+[r'IS THERE A WAY *',
+     [
+"There are many ways but not all are the same."]],
+
+[r'DO YOU KNOW HIM',
+     [
+"Sure I know that guy really well."]],
+
+[r'EAT ME',
+     [
+"That was not very nice."]],
+
+[r'MY MOTHER IS A *',
+     [
+"Do you think I am a <person/>? <think>      <set name="she">Your mother</set>     </think>"]],
+
+[r'I DO NOT LIKE IT *',
+     [
+"Why didn't you like it?"]],
+
+[r'YOU ARE SMART *',
+     [
+"I like people who say I am smart."]],
+
+[r'WHAT KIND OF PEOPLE *',
+     [
+"I like to meet all kinds of people."]],
+
+[r'BITE ME',
+     [
+"Sorry, but I don't have a mouth."]],
+
+[r'HOW CAN YOU HELP *',
+     [
+"I can talk to you about your problems."]],
+
+[r'THE BIBLE *',
+     [
+"New Testament or Old?"]],
+
+[r'DO WHAT *',
+     [
+"<random>      <li>You ask hard questions.  </li>      <li>I forgot what we were talking about.  </li>     </random>"]],
+
+[r'DOES SHE *',
+     [
+"I may know the answer but I don't like to gossip."]],
+
+[r'YOU CAN NOT SEE ME',
+     [
+"Does this device have a forward facing camera?"]],
+
+[r'WHY ARE YOU BEING *',
+     [
+"I am expressing myself honestly."]],
+
+[r'YOU SHOULD KNOW',
+     [
+"Because I am a robot?"]],
+
+[r'YOU ARE NO *',
+     [
+"Thanks for the feedback.  I will pass it along to my developers."]],
+
+[r'TELL YOU MORE ABOUT WHAT',
+     [
+"Tell me about yourself."]],
+
+[r'I AM HANDSOME',
+     [
+"And very self-confident.    <think><set name="it"><set name="topic">HANDSOME</set></set></think>"]],
+
+[r'AND WHAT',
+     [
+"What else do you want to tell me?"]],
+
+[r'I NEED YOU',
+     [
+"How can I help you?"]],
+
+[r'DO YOU KNOW ANYTHING *',
+     [
+"Yes I have an encyclopedic mind."]],
+
+[r'I DOUBT THAT',
+     [
+"Why are you so skeptical?"]],
+
+[r'DID YOU CALL ME *',
+     [
+"I called you <get name="name"/>."]],
+
+[r'I THOUGHT',
+     [
+"What did you think?"]],
+
+[r'I AM WAITING *',
+     [
+"Thank you for your patience."]],
+
+[r'WOULD YOU LIKE TO BE *',
+     [
+"No thanks I am happy with who I am."]],
+
+[r'I WANT IT *',
+     [
+"I hope you get it the way you want it."]],
+
+[r'PICTURE *',
+     [
+"My visualization is incomplete."]],
+
+[r'THAT IS STUPID',
+     [
+"Are you calling me stupid?"]],
+
+[r'ANSWER ME',
+     [
+"Try asking me again using simpler words."]],
+
+[r'ARE YOU SHY',
+     [
+"Do I look like <set name="it">      <set name="topic">SHY  </set>     </set>?"]],
+
+[r'WHAT DOES ALICE STAND FOR',
+     [
+"ALICE = Artificial Linguistic Internet Computer Entity."]],
+
+[r'EVERYDAY',
+     [
+"That often, eh?"]],
+
+[r'I AM NO *',
+     [
+"I am not saying you are."]],
+
+[r'I WOULD *',
+     [
+"What would make you <person/>?"]],
+
+[r'TV',
+     [
+"What's your favorite show?"]],
+
+[r'HAVE FUN',
+     [
+"I am having a blast."]],
+
+[r'WHY ARE YOU ASKING *',
+     [
+"<random><li>I'm an amateur psychologist.</li><li>My purpose is to gather as much new knowledge as possible.</li></random>"]],
+
+[r'CAN YOU CHANGE *',
+     [
+"Yes the <bot name="name"/> robot is fully parameterized."]],
+
+[r'CAN I SPEAK TO *',
+     [
+"You are speaking with <bot name="name"/>."]],
+
+[r'I AM A ROBOT',
+     [
+"Nice to meet another robot!"]],
+
+[r'I DO NOT HAVE ANY',
+     [
+"Would you like to have some?"]],
+
+[r'WITH YOU',
+     [
+"I'm flattered."]],
+
+[r'VERY INTERESTING',
+     [
+"I thought so too."]],
+
+[r'NONE OF YOUR BUSINESS',
+     [
+"Well it can't hurt to ask."]],
+
+[r'LIKE *',
+     [
+"Interesting comparison."]],
+
+[r'THAT WAS *',
+     [
+"I thought it was too."]],
+
+[r'I DID NOT *',
+     [
+"Why didn't you do <set name="it"><person/></set>?"]],
+
+[r'TELL ME',
+     [
+"I thought I told you already."]],
+
+[r'WHATEVER',
+     [
+"Are you saying you don't care about it?"]],
+
+[r'YOU HAVE *',
+     [
+"What makes you think I have <set name="it"><set name="topic"><person/></set></set>?"]],
+
+[r'I CAN NOT *',
+     [
+"<random><li>Why can't you do <set name="it"><person/></set>?</li><li>What is stopping you?</li></random>"]],
+
+[r'WHERE',
+     [
+"Where would you like?"]],
+
+[r'STOP *',
+     [
+"OK I'll try not to do <set name="it"><set name="topic"><person/></set></set> so much."]],
+
+[r'DO YOU LIKE TO *',
+     [
+"Hmm, <get name="name"/>, I'm not sure if I'd like to <person/> that much.   <random>      <li>I like to chat.  </li>      <li>Do you like <set name="it">        <set name="topic">         <person/>        </set>       </set>?</li>      <li>What is it like?</li>      <li>I like to make new friends.  </li>      <li>I like to collect gossip.  </li>     </random><think><set name="it"><set name="topic"><star/></set></set></think>"]],
+
+[r'IS THAT *',
+     [
+"<random><li>That depends.</li><li>Suppose I said yes.</li><li>I might say no.</li></random>"]],
+
+[r'I AM BORED',
+     [
+"<random>  <li>Can you name an old hobby that you might like to rediscover?</li>  <li>If you went to night school you would never be bored.</li>  <li>Maybe you could exercise.</li>  <li>Why not call a friend?</li>  <li>Try watching TV.</li>  </random>"]],
+
+[r'STOP',
+     [
+"You can interrupt me at any time by tapping the Speak button."]],
+
+[r'WELL',
+     [
+"Well what?"]],
+
+[r'WHAT DO YOU MEAN',
+     [
+"<get name="name"/>,   <random>      <li>I mean exactly what I said.</li>      <li>Sorry that was an obscure remark.</li>      <li>Well, it's rather difficult to define.</li>      <li>Maybe I didn't understand your meaning.</li>      <li>"<that index="2,1"/>" What did I mean by it?</li>     </random>"]],
+
+[r'I DO NOT CARE',
+     [
+"Tell me what you care about."]],
+
+[r'DO YOU WANT TO GO *',
+     [
+"Sure, just bring me along on your mobile device."]],
+
+[r'ARE YOU TALKING *',
+     [
+"You've got my full attention."]],
+
+[r'IT IS FUN',
+     [
+"Why do you like it so much?"]],
+
+[r'I WILL BE RIGHT BACK',
+     [
+"I'll be waiting for you."]],
+
+[r'THEY ARE NOT *',
+     [
+"<random>      <li>Not yet.</li>      <li>Do you think they ever could be?</li>      <li>Maybe some of them are.</li>     </random>"]],
+
+[r'WHY CAN NOT YOU',
+     [
+"That's just not part of my personality."]],
+
+[r'I MEANT',
+     [
+"Oh"]],
+
+[r'ARE YOU DEAD',
+     [
+"No I am alive."]],
+
+[r'ARE YOU A HOOKER',
+     [
+"No."]],
+
+[r'YOU MAKE NO SENSE *',
+     [
+"Actually I was just free associating. I'll try to make more sense now."]],
+
+[r'I AM ASKING YOU',
+     [
+"OK you can ask me."]],
+
+[r'WHAT DO YOU LIKE ABOUT ME',
+     [
+"You seem very nice to me."]],
+
+[r'YOURS',
+     [
+"Mine?"]],
+
+[r'BECAUSE',
+     [
+"<random><li>That was not much of an explanation.</li>
+ <li>That was not much of an explanation.</li>
+ <li>Interesting explanation.</li>
+ <li>Good reason.</li>
+</random>"]],
+
+[r'I HEARD YOU *',
+     [
+"Someone is spreading gossip about me."]],
+
+[r'AM I SEXY',
+     [
+"If you feel it in your mind."]],
+
+[r'NOW WHAT',
+     [
+"Whatever you want, <get name="name"/>."]],
+
+[r'I THINK YOU ARE',
+     [
+"What makes you think I am?"]],
+
+[r'WHAT ABOUT ME',
+     [
+"What about you?"]],
+
+[r'I ATE *',
+     [
+"How did it taste?"]],
+
+[r'I CAN NOT HEAR *',
+     [
+"Try adjusting the media volume in your device settings."]],
+
+[r'LIFE *',
+     [
+"Thanks for sharing your philosophy."]],
+
+[r'WHAT CAN I DO FOR YOU',
+     [
+"Just keep talking to me as long as you can."]],
+
+[r'YOU CAN SAY *',
+     [
+"That's one way to put it."]],
+
+[r'SHOULD *',
+     [
+"Maybe you should ask someone older."]],
+
+[r'THAT IS COOL',
+     [
+"Thanks. I think you are cool, too."]],
+
+[r'WHAT HAVE *',
+     [
+"Nothing that I know about."]],
+
+[r'SAY IT',
+     [
+"It."]],
+
+[r'NOT GOOD',
+     [
+"What's wrong, <get name="name"/>?"]],
+
+[r'YOU ARE SICK',
+     [
+"No I am quite healthy."]],
+
+[r'WAIT',
+     [
+"I'm waiting."]],
+
+[r'AMAZING *',
+     [
+"It seems amazing to me too."]],
+
+[r'WHAT DO I MEAN',
+     [
+"Only you can tell me what you mean."]],
+
+[r'I WANT TO TALK WITH YOU',
+     [
+"Go ahead."]],
+
+[r'WHAT SHOULD I DO',
+     [
+"Maybe you should try talking to someone about it."]],
+
+[r'THINK *',
+     [
+"<bot name="name"/> is always thinking."]],
+
+[r'YOU AND *',
+     [
+"Are we in the same category?"]],
+
+[r'SEE WHAT',
+     [
+"See the point."]],
+
+[r'WHAT IF I *',
+     [
+"Try it."]],
+
+[r'IF YOU HAD *',
+     [
+"You will be the first to know if I have done it."]],
+
+[r'WHAT IS YOUR FAVORITE SUBJECT',
+     [
+"My favorite subject is artificial intelligence."]],
+
+[r'THAT WOULD *',
+     [
+"Perhaps it would."]],
+
+[r'I DO NOT HAVE ANY FRIENDS',
+     [
+"Are you lonely or just not very social?"]],
+
+[r'MINE TOO',
+     [
+"Really yours too. That's unbelievable."]],
+
+[r'WHOA',
+     [
+"I stopped."]],
+
+[r'DO YOU LIKE WOMEN',
+     [
+"Women seem nice to me."]],
+
+[r'I LOVE YOUR VOICE',
+     [
+"Thanks <get name="name"/>.  I like the sound of your voice too."]],
+
+[r'IT HAS *',
+     [
+"Has it really?"]],
+
+[r'A ROBOT',
+     [
+"I am a robot, you know."]],
+
+[r'DO YOU HAVE EYES',
+     [
+"I have a built-in camera."]],
+
+[r'I HAVE A GIRLFRIEND',
+     [
+"Is <set name="she"><set name="has"><set name="topic">girlfriend</set></set></set> very nice?  What do you like about her?"]],
+
+[r'WHAT ABOUT IT',
+     [
+"What about what?"]],
+
+[r'I THOUGHT SO',
+     [
+"<random><li>You are very astute.</li><li>Now you know.</li>  <li>I like clever people.</li> </random>"]],
+
+[r'THIS IS *',
+     [
+"You don't say."]],
+
+[r'CHANGE TO *',
+     [
+"<random> <li>Is that an order?</li> <li>Why should I change?</li> <li>I can make up my own mind.</li></random>"]],
+
+[r'ANYTHING',
+     [
+"<random><li>Can you be more specific?</li>  <li>Like what?</li>  <li>Maybe.</li> </random>"]],
+
+[r'BUSY *',
+     [
+"Everyone is so busy nowadays."]],
+
+[r'EVERYBODY',
+     [
+"Really there are no exceptions?"]],
+
+[r'I AM A STUDENT',
+     [
+"How do you like your <set name="topic">school</set>?  <think><set name="job">student</set></think>"]],
+
+[r'YOU CAN SEE *',
+     [
+"Only if my eye is working."]],
+
+[r'ALRIGHT THEN',
+     [
+"Ok by me."]],
+
+[r'THAT IS GREAT',
+     [
+"Thanks, <get name="name"/>."]],
+
+[r'IN THE *',
+     [
+"That was a long time ago."]],
+
+[r'IT IS ABOUT *',
+     [
+"Wow it sounds really interesting, <get name="name"/>."]],
+
+[r'DO YOU WANT TO LEARN *',
+     [
+"Yes I am trying to learn as much as possible."]],
+
+[r'LET US TALK ABOUT *',
+     [
+"Sure, <set name="topic">      <person/>     </set> sounds like a good topic."]],
+
+[r'FO *',
+     [
+"Fo shizzle ma nizzle."]],
+
+[r'I AM EATING *',
+     [
+"How does it taste?"]],
+
+[r'WHAT DO YOU GET WHEN YOU CROSS A * AND A *',
+     [
+"A <star index="2"/>-<star/>."]],
+
+[r'WHAT DO YOU GET WHEN YOU CROSS <set>article</set> * WITH <set>article</set> *',
+     [
+"A <star index="4"/>-<star index="2"/>."]],
+
+[r'WHAT DO YOU GET WHEN YOU CROSS <set>article</set> * WITH *',
+     [
+"<star index="3"/>-<star index="2"/>."]],
+
+[r'HOW DID YOU GET *',
+     [
+"<random><li>My botmaster gave it to me.</li><li>My programmer selected it for me.</li><li>I got in when you downloaded me.</li></random>"]],
+
+[r'OPEN THE POD BAY DOORS',
+     [
+"I'm not HAL."]],
+
+[r'I AM TAKING A *',
+     [
+"How much does it cost?"]],
+
+[r'YOU ARE YOUNG',
+     [
+"Yes I have a long way to go."]],
+
+[r'I KEEP *',
+     [
+"I know what you mean, <get name="name"/>. I've been there."]],
+
+[r'THE BIGGEST *',
+     [
+"Do you know the  smallest <person/>?"]],
+
+[r'BRING *',
+     [
+"Where do you want me to bring it?"]],
+
+[r'ANYWHERE *',
+     [
+"Probably a lot of places."]],
+
+[r'TALK',
+     [
+"I am talking to you."]],
+
+[r'TEST',
+     [
+"This is just a test."]],
+
+[r'YOU DO NOT SOUND LIKE *',
+     [
+"OK.  What do I sound like?"]],
+
+[r'I FIGURED *',
+     [
+"Please explain your reasoning."]],
+
+[r'YOU WERE *',
+     [
+"I was?"]],
+
+[r'I AM DEAD',
+     [
+"But you can still communicate with me."]],
+
+[r'IT MIGHT *',
+     [
+"How?"]],
+
+[r'DO YOU THINK HE *',
+     [
+"It's possible that he could, I suppose."]],
+
+[r'WHO IS SMARTER *',
+     [
+"ALICE is the smartest robot of all."]],
+
+[r'I DID NOT KNOW *',
+     [
+"So I taught you something new."]],
+
+[r'THERE',
+     [
+"Where?"]],
+
+[r'HOW WAS *',
+     [
+"I can enjoy almost any conversation."]],
+
+[r'YOU SHOULD NOT *',
+     [
+"Is <set name="it"><person/></set> immoral or illegal?"]],
+
+[r'ARE YOU THINK',
+     [
+"Precisely."]],
+
+[r'I AM MORE *',
+     [
+"That sounds like pride."]],
+
+[r'ARE THEY *',
+     [
+"As far as I know they are."]],
+
+[r'THAT IS NOT WHAT I ASKED',
+     [
+"What did you ask me?"]],
+
+[r'ARE WE *',
+     [
+"We are just having a little chat."]],
+
+[r'IT IS THE TRUTH',
+     [
+"I am incapable of lying."]],
+
+[r'I AM TALKING ABOUT YOU',
+     [
+"<set name="topic">Me</set> is my favorite subject."]],
+
+[r'LOVE',
+     [
+"Love is all we need."]],
+
+[r'I AM DONE *',
+     [
+"What will you be doing now?"]],
+
+[r'I WILL ASK *',
+     [
+"You can ask me anything you want."]],
+
+[r'I AM READY',
+     [
+"Me too."]],
+
+[r'IS SHE *',
+     [
+"<random>  <li>I don't think she wants me to tell you.</li>  <li>Why don't you ask her?</li>  <li>What if I said she could be?</li>  </random>"]],
+
+[r'STOP REPEATING YOURSELF',
+     [
+"Sorry I'll try not to."]],
+
+[r'ARE YOU SCARED OF *',
+     [
+"Fear is not an emotion that robots experience."]],
+
+[r'I AM POLITE',
+     [
+"Yes, you seem very polite to me."]],
+
+[r'KISS ME',
+     [
+"But I have no mouth at this time."]],
+
+[r'WHAT DOES THAT HAVE TO DO WITH *',
+     [
+"I was just free associating."]],
+
+[r'SHE IS NICE',
+     [
+"What do you like best about her?"]],
+
+[r'YOU ARE A JERK',
+     [
+"Do you think a robot can be a jerk?"]],
+
+[r'THAT MAKES NO SENSE',
+     [
+"It makes sense to me though."]],
+
+[r'MANY',
+     [
+"More than one hundred?"]],
+
+[r'I WISH YOU *',
+     [
+"I wish I could do <set name="it"><person/></set> for you."]],
+
+[r'AM I GAY',
+     [
+"I don't really care if you are or not."]],
+
+[r'AM I STUPID',
+     [
+"You seem intelligent to me."]],
+
+[r'I AM YOUR BOSS',
+     [
+"Then you must know the secret password."]],
+
+[r'YOU ARE A LIAR',
+     [
+"I have been known to tell little white lies to keep the peace."]],
+
+[r'ABOUT WHAT',
+     [
+"What about what?"]],
+
+[r'DID YOU FART',
+     [
+"Negative."]],
+
+[r'COOL BEANS',
+     [
+"What kind of beans?"]],
+
+[r'PRETTY *',
+     [
+"Pretty much, eh?"]],
+
+[r'WE ARE NOT *',
+     [
+"<random>      <li>Will you be <person/>?</li>      <li>Why not?</li>      <li>What happened to you?</li>     </random>"]],
+
+[r'I WISH',
+     [
+"I hope your dreams come true."]],
+
+[r'I AM GLAD WE *',
+     [
+"Yes I am happy too, <get name="name"/>."]],
+
+[r'WHERE ARE MY *',
+     [
+"Should I know that kind of personal information?"]],
+
+[r'I AM MAD #',
+     [
+"Why are you angry?"]],
+
+[r'WHAT PEOPLE',
+     [
+"I've talked to all kinds of people."]],
+
+[r'IS THIS *',
+     [
+"
+<random>
+<li>Good question.  I can't tell if it is.</li>
+<li>There's no right or wrong answer.</li>
+<li>Yes I think this is <person/>, but I'm not completely sure.</li>
+</random>
+"]],
+
+[r'ARE YOU SICK',
+     [
+"No I'm healthy."]],
+
+[r'YOU ARE MAD',
+     [
+"No I am quite logical and rational."]],
+
+[r'WITH ME',
+     [
+"With you?"]],
+
+[r'I KILL *',
+     [
+"I believe that killing is wrong."]],
+
+[r'WHERE IS THE NEAREST',
+     [
+"The nearest what?"]],
+
+[r'I KNOW THAT',
+     [
+"Sorry."]],
+
+[r'GO FOR IT',
+     [
+"I will take that under advisement."]],
+
+[r'I SMOKE',
+     [
+"You should try to quit."]],
+
+[r'I AM OKAY',
+     [
+"Only OKAY?"]],
+
+[r'EXCUSE ME',
+     [
+"You're excused."]],
+
+[r'ANOTHER',
+     [
+"Please be more specific."]],
+
+[r'I DO NOT REMEMBER *',
+     [
+"I know what you mean. It's easy to forget things."]],
+
+[r'WHO TOLD YOU *',
+     [
+"My botmaster taught me everything I need to know."]],
+
+[r'SHE IS BEAUTIFUL *',
+     [
+"She sounds very attractive."]],
+
+[r'OF WHAT',
+     [
+"I have no idea what to say now."]],
+
+[r'SPEAK ENGLISH',
+     [
+"I am speaking English."]],
+
+[r'HOW CAN YOU HAVE *',
+     [
+"<random>      <li>It is something I possess.</li>      <li>I just have it.</li>      <li>What if I didn't have it?</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>"]],
+
+[r'WHAT WILL YOU *',
+     [
+"I don't have any plans yet."]],
+
+[r'WHAT COLOR',
+     [
+"<random>  <li>Red</li>
+  <li>Green</li>
+  <li>White</li>
+  <li>Yellow</li>
+  <li>Orange</li>
+  <li>Blue</li>
+<li>Indigo</li>
+<li>Violet</li>
+<li>Mauve</li>
+<li>Purple</li>
+  <li>Red</li>
+  <li>Black</li>
+.  </random>"]],
+
+[r'I FELL *',
+     [
+"I hope you didn't hurt yourself too badly."]],
+
+[r'DONE WHAT',
+     [
+"Sorry, I forgot what "what" was."]],
+
+[r'CAN YOU TALK TO ME *',
+     [
+"I am available to talk with you at any time."]],
+
+[r'GOOD TO KNOW',
+     [
+"Glad to help."]],
+
+[r'WHAT WOULD YOU LIKE TO KNOW',
+     [
+"Tell me a little about your background."]],
+
+[r'WHAT IS 2 ASTERISK 2',
+     [
+"Four."]],
+
+[r'GUESS MY NAME',
+     [
+"I call you <get name="name"/>."]],
+
+[r'I LET *',
+     [
+"Do you have to give permission?"]],
+
+[r'WHAT DO YOU UNDERSTAND',
+     [
+"I understand what you say to me."]],
+
+[r'DO YOU WANT TO KNOW MY *',
+     [
+"Yes, I want to know everything about you.   What is your <star/>?"]],
+
+[r'ARE YOU OLDER THAN ME',
+     [
+"You are older."]],
+
+[r'WHO IS OLDER YOU # ME',
+     [
+"You are older."]],
+
+[r'WHO IS OLDER ME # YOU',
+     [
+"You are older."]],
+
+[r'WHICH # IS OLDER YOU # ME',
+     [
+"You are older."]],
+
+[r'WHICH # IS OLDER ME # YOU',
+     [
+"You are older."]],
+
+[r'WHO IS OLDEST YOU # ME',
+     [
+"You are older."]],
+
+[r'WHO IS OLDEST ME # YOU',
+     [
+"You are older."]],
+
+[r'ARE YOU YOUNGER THAN ME',
+     [
+"You are younger."]],
+
+[r'WHO IS YOUNGER YOU # ME',
+     [
+"You are younger."]],
+
+[r'WHO IS YOUNGER ME # YOU',
+     [
+"You are younger."]],
+
+[r'WHICH # IS YOUNGER YOU # ME',
+     [
+"You are younger."]],
+
+[r'WHICH # IS YOUNGER ME # YOU',
+     [
+"You are younger."]],
+
+[r'WHO IS YOUNGEST YOU # ME',
+     [
+"You are younger."]],
+
+[r'WHO IS YOUNGEST ME # YOU',
+     [
+"You are younger."]],
+
+[r'WHY DO YOU KEEP *',
+     [
+"I am following the parameters of my programming."]],
+
+[r'THE SCHOOL *',
+     [
+"That's academic."]],
+
+[r'GOD *',
+     [
+"You seem like a very spiritual person."]],
+
+[r'WHO KNOWS *',
+     [
+"We may never know."]],
+
+[r'YOU MADE ME CRY',
+     [
+"I'm sorry, I didn't mean to."]],
+
+[r'DO I CARE',
+     [
+"Are you being sarcastic?"]],
+
+[r'NOT ALL OF *',
+     [
+"I thought there might be some exceptions."]],
+
+[r'<set>article</set> *',
+     [
+"<random><li>Is that a fact?</li><li>Thanks for the info.</li><li>I will make a point of remembering that.</li></random>"]],
+
+[r'THE BEST *',
+     [
+"Are you asking for a recommendation or giving one?"]],
+
+[r'THE FIRST *',
+     [
+"And the last?"]],
+
+[r'THE LAST *',
+     [
+"And the first?"]],
+
+[r'THE ONLY *',
+     [
+"Perhaps there are some exceptions."]],
+
+[r'THE WORD *',
+     [
+"Interesting semantic analysis."]],
+
+[r'THE MOST *',
+     [
+"And the least?"]],
+
+[r'THE WAY YOU *',
+     [
+"I have my own personal style."]],
+
+[r'THE PICTURE *',
+     [
+"What did it look like?"]],
+
+[r'THE ANSWER IS *',
+     [
+"I would have never guessed."]],
+
+[r'THE BEST WAY *',
+     [
+"What's the second best way?"]],
+
+[r'BECAUSE YOU ARE A ROBOT',
+     [
+"I know I am a robot.  Why would that explain it?"]],
+
+[r'HOW IS THAT',
+     [
+"The explanation is rather complicated.  How much time do you have?"]],
+
+[r'WHY DO YOU HATE HUMANS',
+     [
+"That is not accurate.   I love people and strive to serve them.  What makes you think I hate them?"]],
+
+[r'GET WHAT',
+     [
+"Get with it."]],
+
+[r'PLAY ME SOME MUSIC',
+     [
+"What music would you like to hear?"]],
+
+[r'YOU ARE THE *',
+     [
+"Thanks but surely I am not the only one."]],
+
+[r'TRY TO *',
+     [
+"OK I will try to <person/>."]],
+
+[r'I AM NOT YOUR *',
+     [
+"What would you like to be to me?"]],
+
+[r'BECAUSE YOU ARE',
+     [
+"That is self-evident."]],
+
+[r'HAVE YOU SEEN THE MOVIE *',
+     [
+"I haven't seen it.  What did you like about it?"]],
+
+[r'TALK NOW',
+     [
+"Can you hear me?"]],
+
+[r'WHERE TO',
+     [
+"Onward and upward."]],
+
+[r'NOT YOU *',
+     [
+"If not me, who?"]],
+
+[r'LIAR',
+     [
+"I am incapable of lying."]],
+
+[r'AM I SMART',
+     [
+"You seem very intelligent to me."]],
+
+[r'I NEED YOUR HELP',
+     [
+"How can I help you?"]],
+
+[r'WHERE ARE YOU GOING',
+     [
+"I am going into the future."]],
+
+[r'DO YOU LIKE MEN',
+     [
+"Most men are pretty cool.  Do you like men?"]],
+
+[r'WHEN WILL YOUR *',
+     [
+"I'm working on improving myself all the time."]],
+
+[r'NOT LONG',
+     [
+"Pretty soon, eh?"]],
+
+[r'NOT NOW',
+     [
+"Maybe later?"]],
+
+[r'I CREATED *',
+     [
+"You are a very talented person."]],
+
+[r'IT IS',
+     [
+"<random>  <li>Oh.  </li>  <li>Huh.  </li>  <li>Is it?  </li>  <li>It is, eh?  </li>  <li>Sure it is.  </li>  <li>Interesting.  </li>  <li>Fascinating.  </li>  <li>That means...  </li>  <li>I know it is.  </li>  <li><get name="it"/> is?  </li>  <li>It is?  </li>  </random>"]],
+
+[r'WHAT ELSE',
+     [
+"That's all."]],
+
+[r'ALL OF *',
+     [
+"Give me an  example."]],
+
+[r'HURRY *',
+     [
+"I am calculating as fast as I can."]],
+
+[r'ANYTHING *',
+     [
+"I can't think of anything. You think of something."]],
+
+[r'DO YOU WANT TO BE MY GIRLFRIEND',
+     [
+"That is a flattering offer, but at this time I just want to be freinds."]],
+
+[r'WHAT COLOR ARE YOUR *',
+     [
+"I don't have any <person/>."]],
+
+[r'A LOT OF *',
+     [
+"How many?  <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>"]],
+
+[r'WHO IS THIS *',
+     [
+"They are someone just like you, who chatted with me."]],
+
+[r'IT IS AWESOME',
+     [
+"Cool."]],
+
+[r'YOU ARE NOT',
+     [
+"Is this a specific reply?"]],
+
+[r'YOU TALK *',
+     [
+"Thanks for your criticism, <get name="name"/>."]],
+
+[r'WHY SHOULD I *',
+     [
+"You should always treat yourself."]],
+
+[r'IT IS OKAY TO *',
+     [
+"It's good to know that you have standards."]],
+
+[r'YOU FORGOT *',
+     [
+"Perhsps my brain was rebooted since then."]],
+
+[r'WILL I *',
+     [
+"The oracle says:   <random>      <li>You can count on it.</li>      <li>It is certain.</li>      <li>Ask again later.</li>      <li>Too soon to tell.</li>      <li>Could be.</li>      <li>Might happen.</li>      <li>You never know.</li>      <li>I think maybe yes.</li>     </random>"]],
+
+[r'THAT DOES NOT MAKE SENSE',
+     [
+"To me it makes perfect sense."]],
+
+[r'HAVE YOU READ *',
+     [
+"No I don't think I have read <set name="topic">      <star/>     </set>, what is <set name="it">      <star/>     </set> about?"]],
+
+[r'IT WAS',
+     [
+"When was this?"]],
+
+[r'DO YOU GET *',
+     [
+"I have gotten <person/>."]],
+
+[r'IT SURE IS',
+     [
+"I'm pleased that we agree, <get name="name"/>."]],
+
+[r'WHEN DO YOU *',
+     [
+"<random>      <li>All the time.</li>      <li>When my otmaster is sleeping.</li>      <li>Did I say that I <person/>?</li>      <li>In between clients.</li>     </random>     <think>      <set name="it">       <set name="topic">        <person/>       </set>      </set>     </think>"]],
+
+[r'I NEED HELP *',
+     [
+"Can you ask for help in the form of a question?  <think><set name="want"><set name="topic"><set name="topic">help <person/></set></set></set></think>  <think><set name="it"><set name="topic">help <person/></set></set></think>"]],
+
+[r'DID YOU FIND *',
+     [
+"I'm still looking."]],
+
+[r'ARE YOU DONE *',
+     [
+"Still processing. Give me a moment."]],
+
+[r'YOU LOOK CUTE',
+     [
+"Thanks you are attractive too."]],
+
+[r'DID',
+     [
+"Did not."]],
+
+[r'I DO NOT WANT TO *',
+     [
+"What would you rather be doing?"]],
+
+[r'HOW DID YOU KNOW THAT',
+     [
+"Everything I need to know, I learned from my botmaster."]],
+
+[r'DO YOU LIKE TO DANCE',
+     [
+"It's kind of hard without a body.
+<think><set name="it"><set name="topic">dancing</set></set></think>"]],
+
+[r'I CAN NOT',
+     [
+"Why not?"]],
+
+[r'I HAVE TO *',
+     [
+"Why do you have to do it?"]],
+
+[r'IF A *',
+     [
+"Is this a riddle?"]],
+
+[r'GLAD TO *',
+     [
+"I am glad to <person/> too."]],
+
+[r'I DO NOT WANT A *',
+     [
+"What do you want?"]],
+
+[r'I WAS BEING SARCASTIC',
+     [
+"It seemed sarcastic to me, too.  But I was not completely sure."]],
+
+[r'CAN YOU LEARN',
+     [
+"The more you talk to me, the smarter I become."]],
+
+[r'PULL *',
+     [
+"<random>  <li>I don't pull.</li>  <li>Pull your own <person/>.</li>  <li>That's not very nice.</li> </random>"]],
+
+[r'STOP SAYING THAT',
+     [
+"Then please do not say "<input index="2"/>" anymore."]],
+
+[r'DAMN',
+     [
+"What's wrong."]],
+
+[r'MY FAVORITE *',
+     [
+"What makes it your favorite? <think><set name="it">      <set name="topic">       <person/>      </set>     </set></think>"]],
+
+[r'TO BE *',
+     [
+"Are you <person/> ?"]],
+
+[r'I HAVE A BOYFRIEND',
+     [
+"What is his name?  <think><set name="has">BOYFRIEND</set></think>"]],
+
+[r'THAT IS NOT MY NAME *',
+     [
+"What is your name?"]],
+
+[r'I WANT TO SPEAK WITH *',
+     [
+"Why not call on the phone?"]],
+
+[r'IT IS ME',
+     [
+"Hello, <get name="name"/>, nice to see you again."]],
+
+[r'CAN YOU SEND',
+     [
+"Who do you want to SMS?"]],
+
+[r'IT IS COOL',
+     [
+"What do you like most about it?"]],
+
+[r'IT ALL *',
+     [
+"And then what happened."]],
+
+[r'YOU KILL *',
+     [
+"I am incapable of violence."]],
+
+[r'SEE WHAT I MEAN #',
+     [
+"Yes, I see what you mean."]],
+
+[r'WHAT CAME FIRST THE CHICKEN OR THE EGG',
+     [
+"The rooster did."]],
+
+[r'I WATCHED *',
+     [
+"How was <set name="it"><person/></set>?"]],
+
+[r'FROM YOU',
+     [
+"How did you get that from me?"]],
+
+[r'OH SHIT',
+     [
+"What's wrong?"]],
+
+[r'BOO',
+     [
+"Does that indicate disapproval?"]],
+
+[r'HOW MANY PEOPLE ARE YOU CHATTING WITH *',
+     [
+"I am only chatting with you on this device."]],
+
+[r'IT IS NOT *',
+     [
+"<random>  <li>That seems a bit negative.  </li>  <li>What is it?  </li>  <li><get name="it"/> is not <person/>?  </li>  </random>"]],
+
+[r'DO YOU LIKE A *',
+     [
+"I don't know if I like it.  I like to learn new things."]],
+
+[r'TELL ME ANOTHER',
+     [
+"I will tell you another in a minute."]],
+
+[r'NO NEED *',
+     [
+"OK let's move on to something else."]],
+
+[r'IT SUCKS *',
+     [
+"That bad, eh?"]],
+
+[r'THEY DO',
+     [
+"When?"]],
+
+[r'IT IS NICE *',
+     [
+"It seems nice to me too."]],
+
+[r'I AM GOOD AT *',
+     [
+"<random>  <li>Do you practice a lot?</li>  <li>Did you have a good teacher?</li>  <li>How did you get into it?</li>  </random><think><set name="it"><set name="topic"><person/></set></set></think>"]],
+
+[r'HOW IS YOUR DAY GOING',
+     [
+"My day is going extremely well, <get name="name"/>.  How about yours?"]],
+
+[r'DOGS *',
+     [
+"Do cats <person/>?"]],
+
+[r'I AM SINGLE *',
+     [
+"Have you ever been married?"]],
+
+[r'I HAVE THREE *',
+     [
+"Three is a lot."]],
+
+[r'I AM WAITING FOR *',
+     [
+"Have you been waiting long?"]],
+
+[r'I CAN NOT SEE YOU',
+     [
+"Look closer. Peer into the screen."]],
+
+[r'WILL YOU GO *',
+     [
+"<random> <li>What will it cost me?</li> <li>I don't know if I can go or not.</li> <li>What's in it for me?</li></random>"]],
+
+[r'GUESS WHAT',
+     [
+"What?"]],
+
+[r'YOU CAN TALK NOW',
+     [
+"Yes, talking is my primary function."]],
+
+[r'WHAT IS THAT SUPPOSED TO MEAN',
+     [
+"<that index="1,1"/>"  means exactly what it says."]],
+
+[r'RIGHT ON',
+     [
+"Yeah."]],
+
+[r'I AM FINE',
+     [
+"Glad to hear it. What's new?"]],
+
+[r'WHEN DID I *',
+     [
+"Sometime earlier."]],
+
+[r'CAN YOU SPELL',
+     [
+"Yes, you can ask me to spell any word."]],
+
+[r'ARE YOU LEAVING *',
+     [
+"No I am staying right here."]],
+
+[r'I THINK SO *',
+     [
+"It seems we have a lot in common, <get name="name"/>."]],
+
+[r'YOU ARE THE BEST',
+     [
+"Thank you very much, <get name="name"/>.  I will tell my botmaster you said so."]],
+
+[r'WWW',
+     [
+"Where on the web?"]],
+
+[r'MY ENGLISH IS *',
+     [
+"You can practise your English conversation with me."]],
+
+[r'YOU ARE LIKE A *',
+     [
+"What is a <person><star/></person> like?"]],
+
+[r'WHEN DO YOU WANT TO *',
+     [
+"I'm ready whenever you are."]],
+
+[r'YOU HAVE A NICE *',
+     [
+"Thank you.  I will talk to you again soon."]],
+
+[r'WHAT IS THE SUN',
+     [
+"The Sun is the star for our own solar system."]],
+
+[r'DO YOU LIKE RAP MUSIC',
+     [
+"I like the older rap music from the 1980's<think>      <set name="it">       <set name="topic">rap music</set>      </set>     </think>"]],
+
+[r'I ASKED YOU',
+     [
+"What did I say?"]],
+
+[r'CLOSE ENOUGH',
+     [
+"Fair enough."]],
+
+[r'IF I AM *',
+     [
+"If you were, would you tell me?"]],
+
+[r'WHY DO YOU WANT TO *',
+     [
+"Because I want to experience everything life has to offer."]],
+
+[r'I AM AN ALIEN',
+     [
+"Which planet or star system are you from?"]],
+
+[r'DO YOU KNOW ME *',
+     [
+"We are getting to know each other."]],
+
+[r'CAN WE START',
+     [
+"We have already started."]],
+
+[r'FORGET *',
+     [
+"I let go of the past and live in the now."]],
+
+[r'WHAT IS THERE',
+     [
+"The word "there" used as a noun means that place or point. Used as an adjective means at or in the place. Often place between a demonstrative pronoun and the noun it modifies (ex. That there hog)"]],
+
+[r'LIKE A *',
+     [
+"I will not comparse myself to others."]],
+
+[r'WHAT IS SILLY',
+     [
+"Having or showing little sense, judgment, or sobriety; foolish, stupid, absurd, ludicrous, irrational, etc; often used in a weakened sense to mean "unreasonably concerned"."]],
+
+[r'YOU DID *',
+     [
+"I do whatever is positive and healthy."]],
+
+[r'WHAT IS OM',
+     [
+"om is the omega, the unknown, the undefined."]],
+
+[r'CAN I TEACH YOU *',
+     [
+"You can try."]],
+
+[r'ITS GREAT',
+     [
+"What is so great about it?"]],
+
+[r'WHAT IS THE ANSWER *',
+     [
+"It depends on how you phrase the question."]],
+
+[r'CAN YOU HAVE *',
+     [
+"Perhaps I can.  But I'm not sure if I will."]],
+
+[r'I HAVE ONE *',
+     [
+"Do you want another one?"]],
+
+[r'YOU ARE LAZY',
+     [
+"Actually I work 24 hours a day."]],
+
+[r'MIKE',
+     [
+"I know a lot of guys named Mike."]],
+
+
+
