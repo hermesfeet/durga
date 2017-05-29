@@ -3,18 +3,16 @@ from knowledge import *
 import nltk, re, pprint, urllib
 from nltk.tokenize import *
 from nltk import word_tokenize
-from numpy.random import choice
 import time, datetime, uuid
 import collections
-
+from numpy.random import choice
+import boto3
 
 ts = time.time()
 st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
 id = str(uuid.uuid4())
 
-#from epigrams import test
-
-
+client = boto3.client('dynamodb')
 
 # Install requirement:  Make sure to download:  nltk.download('punkt'), nltk.download('averaged_perceptron_tagger')
 
@@ -23,6 +21,7 @@ volleys = ["school", "religion", "family", "home", "job", "partners", "health", 
 volley = random.choice(["family", "home"])  #start with this is a volley seed
 volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
+question_follow = 1  #if 0, asks a new question, otherwise if another number, could do a followup
 last_volley = volley_completed[-1]
 volley_question = "a"
 sentiment = 0.5
@@ -30,7 +29,7 @@ sentiment = 0.5
 #Memory as a dictionary of lists - simple state management
 name = "friend"
 question_history = collections.deque(maxlen=20) # this is the memory of the last 20 questions asked, older than 20 are popped out
-memory = {"name":name, "age":23, "volley":volley, "volley_count":volley_count, "last questions":question_history, "volley_question":volley_question}
+memory = {"name":name, "age":23, "volley":volley, "volley_count":volley_count, "last questions":question_history, "volley_question":volley_question, "q_follow":question_follow}
 
 # Reflections replace 1st person user input with bot's response, in the 2nd person
 reflections = {
@@ -70,6 +69,7 @@ tell_me_more = [
 ]
 
 def analyze(statement):
+    memory["q_follow"] = random.choice([1,2])
     try:
         #first try to reflect their topic based on the topics list
         for pattern, responses in topics:
@@ -104,11 +104,12 @@ def ask_deeper_question(statement):
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
 func_list = [analyze, ask_deeper_question]
-weights = [0.55, 0.45]
+weights = [0.70, 0.30]
 
 # The core function that is running - starts with intros and then runs analyze over and over
 # Volley count is some state management to know which volley you are in
 # Note the print statement for memory - it allows you to debug and follow the memory as needed
+
 
 def printer(print_this):
     # Prints conversation to a simple text log
@@ -128,10 +129,17 @@ def main():
     while True:
         statement = raw_input(name.upper() + ":  ")
         printer(" "+ name.upper()+":  "+ statement + "\n")
-        try:
-            response = choice(func_list, p=weights)(statement) #weighted choice
+        try:  #first try, if you haven't done follow ups, q follow will be greater than one and it needs to decrement
+            if memory["q_follow"] == 0:
+                response = random.choice(func_list)(statement) #weighted choice - need to do without Numpy random coice
+            else:
+                decrement = memory["q_follow"]
+                memory["q_follow"] = decrement - 1
+                response = ask_deeper_question(statement)
         except:
             try:
+                decrement = memory["q_follow"]
+                memory["q_follow"] = decrement - 1
                 response = ask_deeper_question(statement)
             except:
                 response = random.choice("Boo wha wha!", "Having one of those day, are we!", "May the Lord guide us quietly through the valley of death!")  #put random joke or epigram
@@ -147,13 +155,13 @@ def main():
             with open('chat_logs.txt', 'a') as logs:
                 logs.write(alternate + "\n")
             print (alternate)
-        combined_response = "JULES:  " + choice(fillers, p=filler_weights) + response
+        combined_response = "JULES:  " + random.choice(fillers) + response
         with open('chat_logs.txt', 'a') as logs:
             logs.write(combined_response + "\n")
         print(combined_response)
         memory["volley_count"] = volley_count
         question_history.append(response)
-        #print( "        ", memory)  # use this to look at memory
+        print( "        ", memory)  # use this to look at memory
  
         if statement in ["quit", "exit", "bye", "au revoir"]:
             print (name + ", you said "+statement+", so I am saying bye. \n" + random.choice(byes)+"\n")

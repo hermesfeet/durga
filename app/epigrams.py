@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
 
-from unidecode import unidecode
-
-def remove_non_ascii(text):
-    return unidecode(unicode(text, encoding = "utf-8"))
-
 
 martial = [
 "Just here, where Trump’s skyey colossus sees stars and the scaffolding towers up high, right in the way once shone the nasty halls of that cruel king and only the one Golden House in all of Los Angeles.",

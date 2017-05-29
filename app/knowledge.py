@@ -1,6 +1,6 @@
 import re, random
 from epigrams import martial
-from unidecode import unidecode
+#from unidecode import unidecode
 
 def remove_non_ascii(text):
     return unidecode(unicode(text, encoding = "utf-8"))
@@ -107,16 +107,16 @@ graph_example = { "a" : ["c"],
 #is a list of other graph points/keys that the question could connect to
 life_questions = {
     "family":
-        {"a":["Who in your family do you now care the most about?", ["c", "e", "f", "h", "i", "j", "k", "l", "m"]],
-        "b":["What is the most vivid memory you have of your parents?", ["b", "c", "d", "e", "f", "h", "i", "j", "k", "l", "m"]],
+        {"a":["Who in your family do you now care the most about?", ["c", "e", "h", "j", "k", "l"]],
+        "b":["What is the most vivid memory you have of your parents?", ["b", "c", "d", "e", "h", "i", "j", "k", "l", "m"]],
         "c":["What did your family do for fun when you were a child?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m"]],
-        "d":["Who was the most important adult in your life growing up?", [ "c", "d", "e",  "g","h", "i", "j", "k", "l", "m"]],
-        "e":["What are your mom's pet peeves, or your dad's?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m"]],
+        "d":["Who was the most important adult in your life growing up?", [ "c", "d", "e",  "g","h", "i", "j", "l", "m"]],
+        "e":["What are your mom's pet peeves, or your dad's?", [ "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m"]],
         "f":["Whom do you love most in your family?", ["d","g","h", "i", "j", "k"]],
         "g":["Did you have a family pet you loved, and what was their story?", [ "b",  "d", "f", "h", "j", "k"]],
         "h":["Who in your family did you have the hardest time with?", ["b", "c", "d", "e", "f", "g", "i", "j", "k", "l", "m"]],
         "i":["What got you out of bed as a kid?", ["b", "c", "f", "g", "j", "k"]],
-        "j":["Who protected you as a child?", [ "d", "e", "f", "g","h", "i",  "k", "l", "m"]],
+        "j":["Who protected you as a child?", [ "f", "g","h", "i",  "k", "l", "m"]],
         "k":["Could you tell me a story or any memory of your brothers and sisters?", [ "c", "d", "f", "h", "i", "j"]],
         "l":["If there was one thing you'd want your kin and children to know about your family, what would it be?", [ "d", "f", "g","h", "i",  "k", "l", "m"]],
         "m":["What was the worst thing that happened to your family growing up?", [ "d", "f", "g","h", "i",  "k", "l", "m"]]
@@ -129,8 +129,8 @@ life_questions = {
         "d":["Were ethics or morals built into your childhood", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
         "e":["Do you think God runs the world - why or why not?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
         "f":["Are you an atheist?", ["e", "f", "g","h", "i", "j", "k"]],
-        "g":["What do you think or religious people who do bad things?", [ "b", "c", "d", "e", "f", "g","h", "j", "k"]],
-        "h":["What do you think or religious people who do really kind and generous things?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        "g":["What do you think of religious people who do bad things?", [ "b", "c", "d", "e", "f", "g","h", "j", "k"]],
+        "h":["What do you think of religious people who do really kind and generous things?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
         "i":["What scared you about angels or demons as a child?", ["f", "g","h", "i", "j", "k"]],
         "j":["Who gave you your faith?", ["d", "e", "f", "g","h", "i", "j", "k"]],
         "k":["Do you have any spiritual or religious beliefs you want to pass on?", ["c", "d", "e", "f", "g","h", "i", "j", "k"]]
@@ -162,7 +162,7 @@ life_questions = {
         "f":["Do you remember having a favorite song, cartoon, or TV show growing up?", ["d", "e", "f", "g","h", "i", "k"]],
         "g":["What games did you play the most growing up?", [ "c", "d", "e", "f", "g","h", "k"]],
         "h":["Were there any hard times, like when you didn't have enough food, money, or clothes?", ["e", "f", "g","h", "i", "j", "k"]],
-        "i":["What was the most difficult memory growing up?", [ "f", "g","h", "i", "j", "k"]],
+        "i":["What was your most difficult memory growing up?", [ "f", "g","h", "i", "j", "k"]],
         "j":["Did anyone take advantage of you when you were a child?", [ "d", "e", "f", "g","h", "i", "j", "k"]],
         "k":["If there was one thing you could change about your home life growing up, what would it be?", [ "e", "f", "g","h", "i", "j", "k"]]
          },
@@ -183,7 +183,9 @@ life_questions = {
          },
 
     "partners":
-        {"a": ["How old were you when you started dating?", ["c", "d", "e", ]],
+        {"a": ["How old were you when you started dating?", ["c", "d", "e", "aa" ]],
+        "aa": ["Do you remember your first crush - who was it?", ["ab"]],
+        "ab": ["How old were you again, and what exactly happened?", ["c", "d", "e", ]],
          "b": ["Do you remember the first person you ever loved - who was it and describe them?", ["b", "c", "d", "e"]],
          "c": ["Can you tell me who your last 2 lovers were?",
                ["f", "g", "h", "i", "j", "k"]],
@@ -261,12 +263,15 @@ life_questions = {
          },
 
     "choices":
-{"a": ["How do you feel about the choices you made in school, career, spouse?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+{"a": ["How do you feel about the choices you made in school, career, spouse?", ["c", "d", "e", "f", "h", "i", "j", "k", "aa", "bb", "cc"]],
+"aa": ["What's the biggest life lesson you've learned?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+"bb": ["Any secrets you've kept to yourself till now that you want to share?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
+"cc": ["If you could give advice to your younger self now, what would it be?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
  "b": ["What is the longest trip that you have ever gone on? Where did you go?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
  "c": ["What is the single most memorable moment of your life?",
-       ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
- "d": ["What organizations or groups have you belonged to?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
- "e": ["Have you ever won any special awards or prizes as an adult? What were they for?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
+       ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "aa", "bb", "cc"]],
+ "d": ["What organizations or groups have you belonged to?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "aa", "bb", "cc"]],
+ "e": ["Have you ever won any special awards or prizes as an adult? What were they for?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "aa", "bb", "cc"]],
  "f": ["Describe a time and a place you remember feeling truly at peace and happy to be alive. Where were you and what were you doing?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],
  "g": ["Is there anything you have always wanted to do but haven't?", ["b", "c", "d", "e", "f", "g", "h", "j", "k"]],
  "h": ["What was the favorite place you ever visited and what was it like?", ["b", "c", "d", "e", "f", "g", "h", "i", "j", "k"]],

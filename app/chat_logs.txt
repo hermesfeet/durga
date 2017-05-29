@@ -317,3 +317,208 @@ JULES:  Give me some insight into your guy?
 JULES:  Can you explain some more?
  MAX:  Nah
 JULES:  Did you ever want to get married in your life?
+
+
+Conversation ID:  9f519ca6-29d1-440d-b945-f5e656fbfebd
+Timestamp:  2017-05-29 14:03:43
+JULES:  Ok, Jak! What gives you the greatest joy in life?
+ JAK:  My dog
+JULES:  Gotcha. I want to know about your dog?
+ JAK:  she is great, her name is julie
+JULES:  When you say julie, can you explain more?
+ JAK:  she loves people
+JULES:  What more can you tell me?
+ JAK:  she was little when we ate her mom
+JULES:  Who in your family do you now care the most about?
+ JAK:  my uncle jostin
+JULES:  Whom do you love most in your family?
+
+
+Conversation ID:  daff4d89-73b2-49ff-89eb-315173c41ed1
+Timestamp:  2017-05-29 14:07:04
+JULES:  Ok, Kok! Beyond the superficial... what's up?
+ KOK:  nothig sa
+JULES:  Where was your first home?
+ KOK:  In New Jersey
+JULES:  Do you remember having a favorite song, cartoon, or TV show growing up?
+
+
+Conversation ID:  2e4576dc-2f17-4ed8-8242-ecccd15841bc
+Timestamp:  2017-05-29 14:13:18
+JULES:  Ok, Nuna! I love this place because it's got great energy.
+ NUNA:  Oh, ok.
+JULES:  What more can you tell me?
+ NUNA:  Not much
+JULES:  It makes me think... When you say much, can you explain more?
+ NUNA:  no
+JULES:  Like, I'm curious, can you tell me more?
+ NUNA:  no
+JULES:  Where was your first home?
+ NUNA:  New Jersey
+JULES:  like, Jersey?
+ NUNA:  no by NYC
+JULES:  Who was NYC?
+ NUNA:  New York Cit
+JULES:  OK, changing the topic to your friends. But one last thing...
+JULES:  Yup, got it.  Who was Cit?
+
+
+Conversation ID:  aa76089c-badb-4bf9-a31e-97822a9e9dc7
+Timestamp:  2017-05-29 14:14:27
+JULES:  Ok, Nick! What's the last thing you purchased online?
+ NICK:  A dog and her lover
+JULES:  Where was your first home?
+ NICK:  Mass, Newton
+JULES:  like, Newton?
+ NICK:  Yeah, a small city outside Boston
+JULES:  So you know, Boston?
+ NICK:  Really well actually
+JULES:  Can you explain some more?
+ NICK:  no
+JULES:  Well... What more can you tell me?
+ NICK:  nothing
+JULES:  Good! Can you tell me more about your nothing?
+ NICK:  ho
+JULES:  So, I was thinking, can we discuss your family. One final question though.
+JULES:  Makes sense. Give me some insight into your ho?
+
+
+Conversation ID:  003dd28a-203f-441c-becf-2bb79cf5e439
+Timestamp:  2017-05-29 14:15:30
+JULES:  Ok, Jun! Beyond the superficial... what's up?
+ JUN:  nada
+JULES:  Good! I want to know about your nada?
+ JUN:  rada
+JULES:  It makes me think... Give me some insight into your rada?
+
+
+Conversation ID:  c5039b17-5791-4c23-8d46-a3bf252d2466
+Timestamp:  2017-05-29 14:16:06
+JULES:  Ok, Jin! What do you have planned for the weekend?
+ JIN:  Not much
+JULES:  When you say much, can you explain more?
+ JIN:  rather not
+JULES:  Well, What more can you tell me?
+ JIN:  nothing
+JULES:  Okay - Give me some insight into your nothing?
+ JIN:  nope
+JULES:  Give me some insight into your nope?
+ JIN:  never
+JULES:  Well, Where was your first home?
+ JIN:  Texas
+JULES:  So... Give me details about Texas?
+ JIN:  Rather not
+JULES:  So, I was thinking, can we discuss your choices. One thing I want to ask before moving on.
+JULES:  It makes me think... Can you explain some more?
+ JIN:  nope
+JULES:  Can you tell me more about your nope?
+
+
+Conversation ID:  463dde68-6f18-4bf0-813b-97c7fb742e6a
+Timestamp:  2017-05-29 14:18:24
+JULES:  Ok, Mars! What's one thing you've wanted to tell me, but haven't?
+ MARS:  I am a gay dog
+JULES:  I want to know about your dog?
+ MARS:  No thanks
+JULES:  Where was your first home?
+ MARS:  Mississipi
+JULES:  Can you tell me more about your Mississipi?
+ MARS:  it was a nice place
+JULES:  Fine - I want to know about your place?
+ MARS:  No
+JULES:  Right. I'm curious, can you tell me more?
+ MARS:  no
+JULES:  So... What was the most difficult memory growing up?
+ MARS:  nothing
+JULES:  OK, changing the topic to your religion. But one last thing...
+JULES:  Allrighty, Can you tell me more about your nothing?
+ MARS:  no
+JULES:  Okay - Are you an atheist?
+ MARS:  yes
+JULES:  Yup, got it.  What do you think or religious people who do really kind and generous things?
+
+
+Conversation ID:  b60c17b9-0ff8-431a-87bd-84ec91a3d8a9
+Timestamp:  2017-05-29 14:24:12
+JULES:  Ok, Mars! What's one thing you've wanted to tell me, but haven't?
+ MARS:  what?
+JULES:  Yup, got it.  I'm curious, can you tell me more?
+ MARS:  no
+JULES:  Fine - Where was your first home?
+ MARS:  Mississipi
+JULES:  I want to know about your Mississipi?
+ MARS:  It was hot and terrible, with Jim Crow laws
+JULES:  Now Do you remember having a favorite song, cartoon, or TV show growing up?
+ MARS:  It was Archie BUnkers show
+JULES:  It makes me think... Can you explain some more?
+ MARS:  I loved the racist jokes
+JULES:  If there was one thing you could change about your home life growing up, what would it be?
+
+
+Conversation ID:  7775a58c-a818-4f6b-9daf-4fe7a3a2dd9f
+Timestamp:  2017-05-29 15:01:13
+JULES:  Ok, Ko! What's one thing that's new in your life?
+ KO:  nada
+
+
+Conversation ID:  38e10af1-e61a-479a-b8f3-8b04e601cac4
+Timestamp:  2017-05-29 15:05:47
+JULES:  Ok, Jun! What's something your friends don't even know about you?
+ JUN:  I love dogs
+
+
+Conversation ID:  9df92df1-808e-4fb7-9eda-2737b9aa9708
+Timestamp:  2017-05-29 15:06:24
+JULES:  Ok, Juk! What makes you the happiest?
+ JUK:  Nada
+JULES:  Anyway, Give me some insight into your Nada?
+ JUK:  
+
+
+Conversation ID:  e1286deb-916d-4361-85f4-302954d8d7c0
+Timestamp:  2017-05-29 15:22:20
+JULES:  Ok, Jack! What's one thing you most want to do?
+ JACK:  Nada
+JULES:  Oh!  Ok. Give me some insight into your Nada?
+ JACK:  No, why
+JULES:  Anyway, Who in your family do you now care the most about?
+ JACK:  My aunt
+JULES:  Well... Give me some insight into your aunt?
+ JACK:  She was a good woman
+JULES:  So you know, Can you tell me more about your woman?
+ JACK:  no
+JULES:  What more can you tell me?
+ JACK:  nothing
+JULES:  Gotcha. Who in your family did you have the hardest time with?
+ JACK:  my uncle Millie
+JULES:  Let's switch over to your job. One thing I want to ask before moving on.
+JULES:  Now Millie?
+ JACK:  SHe was mad
+JULES:  Fine - When you say mad, can you explain more?
+ JACK:  not really
+JULES:  like, What job do you wish everyone should experience?
+ JACK:  Gun killing men
+JULES:  So... I'm curious, can you tell me more?
+ JACK:  no
+JULES:  It makes me think... Was there a career you ever got on?
+
+
+Conversation ID:  89c08d9f-69fc-4236-b25e-f1eeb226a8f6
+Timestamp:  2017-05-29 15:29:55
+JULES:  Ok, KIk! Watched any good shows recently?
+ FRIEND:  Nah, hate TV
+
+
+Conversation ID:  48720c4c-2b4c-43a3-b01d-a42f8265e081
+Timestamp:  2017-05-29 15:31:23
+JULES:  Ok, Morley! What book are you currently reading?
+ MORLEY:  Gest
+JULES:  Good! I'm curious, can you tell me more?
+ MORLEY:  ITwasdf 
+JULES:  Yup, got it.  Give me some insight into your ITwasdf?
+ MORLEY:  Nah
+JULES:  Great - Can you tell me more about your Nah?
+ MORLEY:  no
+JULES:  Fine - Can you explain some more?
+ MORLEY:  asdf
+JULES:  Right. Who in your family do you now care the most about?

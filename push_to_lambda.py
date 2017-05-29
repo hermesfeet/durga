@@ -41,6 +41,15 @@ def push_to_lambda(app_name, app_directory, region_name, arn, site_packages_path
     make_zip(make_file_path=temp_file_path, root_dir=app_directory, site_packages_path=site_packages_path,
              prezipped=prezipped)
 
+    aws_access_key_id = os.environ.get('JULES_AWS_ACCESS_KEY_ID')
+    aws_secret_access_key = os.environ.get('JULES_AWS_SECRET_KEY')
+
+    raw_input('pause after printing')
+
+    client = boto3.client('lambda', region_name='us-east-1',
+                          aws_access_key_id=os.environ.get('JULES_AWS_ACCESS_KEY_ID'),
+                          aws_secret_access_key='JULES_AWS_SECRET_KEY')
+
     client = boto3.client('lambda', region_name=region_name)
 
     with open(name=temp_file_path, mode='r') as in_file:

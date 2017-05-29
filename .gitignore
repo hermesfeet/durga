@@ -1,4 +1,8 @@
-denv/
+.idea/
+uploader
+uploader/
+jenv
+jenv/
 durga_env
 .zip
 .jpg
