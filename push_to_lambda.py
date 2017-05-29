@@ -14,10 +14,10 @@ current_directory = os.path.dirname(os.path.realpath(__file__))
 # TODO - I Either "prezipped" or "zipped_packages" isn't needed
 apps = {
     "jules": {
-        "arn": '',
-        "app_path": current_directory + '/api_ai/' + 'webhook/mortgage',
-        'region_name': 'us-west-2',
-        "site_packages_path": None,
+        "arn": 'arn:aws:lambda:us-east-1:705121905978:function:JulesTalks',
+        "app_path": current_directory + '/app/',
+        'region_name': 'us-east-1',
+        "site_packages_path": current_directory + '/jenv/lib/python2.7/site-packages/',
         "prezipped": None
     }
 }
