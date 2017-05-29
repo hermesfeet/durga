@@ -20,7 +20,7 @@ id = str(uuid.uuid4())
 
 #Volley are topics the conversation can cover
 volleys = ["school", "religion", "family", "home", "job", "partners", "health", "history", "friends", "moments", "choices"]
-volley = "family" #random.choice(volleys)  #start with this is a volley seed
+volley = random.choice(["family", "home"])  #start with this is a volley seed
 volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
 last_volley = volley_completed[-1]
@@ -63,6 +63,11 @@ def reflect(fragment):
 # the topics list above - if there is a match, it gives the matching statement as a random pick and reflects it
 #If there is no match, it defaults to the last regex statement, the r'(.*)' above default
 #This takes you to the life questions dictionary, where you are put inside a volley and asked questions from that list
+tell_me_more = [
+    "What more can you tell me?",
+    "Can you explain some more?",
+    "I'm curious, can you tell me more?"
+]
 
 def analyze(statement):
     try:
@@ -78,28 +83,27 @@ def analyze(statement):
         memory["volley_question"] = random.choice(life_questions[memory["volley"]][memory["volley_question"]][1])
         return response
 
-def dig_into_PPT(statement):
+def ask_deeper_question(statement):
     #Dig into a person, place, or thing (PPT) mentioned in a user response, via a part of speech (pos)
     response = word_tokenize(statement)
     pos = nltk.pos_tag(response)
     #print pos #use this to debug the pos
+    #define a noun phrase
     for tuples in pos:
         if tuples[1] == 'NN':  #using a noun
             focus_word = random.choice(["Can you tell me more about your ", "Give me some insight into your ", "I want to know about your "])+ tuples[0] +"?"
         elif tuples[1] == 'NNP':  #using a proper noun
             focus_word = random.choice(["", "Who was ", "Give me details about ", "I want to know more about "])+ tuples[0] +"?"
-        elif tuples[1] == 'PRON': #using an adjective
-            focus_word = "What did " + tuples[0] + " do?"
         elif tuples[1] == 'JJ': #using an adjective
             focus_word = "When you say " + tuples[0] + ", can you explain more?"
         else:
-            focus_word = "What more can you tell me?"
+            focus_word = random.choice(tell_me_more)
     return focus_word
 
 # This allows the main string to either analyze the statement
 #and give the Rogerian response or the life questions in the analyze function, or to dig into a person
 #place or thing mentioned, a PPT, and ask a question about that.
-func_list = [analyze, dig_into_PPT]
+func_list = [analyze, ask_deeper_question]
 weights = [0.55, 0.45]
 
 # The core function that is running - starts with intros and then runs analyze over and over
@@ -122,15 +126,15 @@ def main():
     volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
 
     while True:
-        statement = raw_input(name + ":  ")
-        printer("   "+ name.upper()+":  "+ statement + "\n")
+        statement = raw_input(name.upper() + ":  ")
+        printer(" "+ name.upper()+":  "+ statement + "\n")
         try:
             response = choice(func_list, p=weights)(statement) #weighted choice
         except:
             try:
-                response = dig_into_PPT(statement)
+                response = ask_deeper_question(statement)
             except:
-                response = random.choice(martial)  #put random joke or epigram
+                response = random.choice("Boo wha wha!", "Having one of those day, are we!", "May the Lord guide us quietly through the valley of death!")  #put random joke or epigram
         while response in memory['last questions']:  #This makes sure you don't repeat items in a volley
             response = analyze(statement)
         if volley_count < 6:  #This makes you change volleys after 7 questions - can make this random from 5 to 8  later
@@ -149,7 +153,7 @@ def main():
         print(combined_response)
         memory["volley_count"] = volley_count
         question_history.append(response)
-        print( "        ", memory)  # use this to look at memory
+        #print( "        ", memory)  # use this to look at memory
  
         if statement in ["quit", "exit", "bye", "au revoir"]:
             print (name + ", you said "+statement+", so I am saying bye. \n" + random.choice(byes)+"\n")

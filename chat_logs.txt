@@ -140,3 +140,180 @@ JULES:  Ok. Were there any fads during your childhood that you remember vividly?
 JULES:  If there was one thing you could change about your home life growing up, what would it be?
    MAXINE:  my uncle was mean
 JULES:  Gotcha. When you say mean, can you explain more?
+
+
+Conversation ID:  f9045f42-6a7a-45f3-b7ec-01d1fa40dce7
+Timestamp:  2017-05-25 17:07:36
+JULES:  Ok, Jun! What book are you currently reading?
+   JUN:  nada
+JULES:  Makes sense. I want to know about your nada?
+   JUN:  I am a dog
+JULES:  How long have you been a dog?
+   JUN:  i have been a dog sine 1034
+JULES:  I'm curious, can you tell me more?
+   JUN:  no
+JULES:  Who in your family do you now care the most about?
+   JUN:  my aunt
+JULES:  Oh!  Ok. What got you out of bed as a kid?
+   JUN:  my uncle jim
+JULES:  Can you tell me more about your jim?
+   JUN:  he was happy
+JULES:  OK, changing the topic to your family. One final question though.
+JULES:  It makes me think... Did you have a family pet you loved, and what was their story?
+   JUN:  my dog elba awas great, i loved her
+JULES:  Ok. Who protected you as a child?
+   JUN:  my dad
+JULES:  Makes sense. Can you tell me more about your dad?
+   JUN:  he was funny
+JULES:  Like, Who in your family did you have the hardest time with?
+   JUN:  uncle george
+JULES:  Whom do you love most in your family?
+   JUN:  my mom
+JULES:  I want to know about your mom?
+
+
+Conversation ID:  362d5de2-fe38-4ba7-ba5d-ac05a79f1adc
+Timestamp:  2017-05-25 17:20:03
+JULES:  Ok, Jun! Tell me what is on your mind!  Let's get personal.
+
+
+Conversation ID:  2117eba0-a080-4a94-8023-2bfed0ede947
+Timestamp:  2017-05-25 17:20:51
+JULES:  Ok, DSFSFD! If you wrote a book, what would it be about?
+
+
+Conversation ID:  5316872a-ce7c-4f8b-b668-4be3d54f125c
+Timestamp:  2017-05-25 17:21:21
+JULES:  Ok, Dag! How's your week been?
+
+
+Conversation ID:  3b5f78a2-859c-49c7-b1c7-9be1a3520657
+Timestamp:  2017-05-25 17:22:08
+JULES:  Ok, Kik! What were the highs and lows of your day, today?
+   KIK:  not much
+JULES:  Gotcha. When you say much, can you explain more?
+   KIK:  no
+JULES:  What more can you tell me?
+   KIK:  nothing
+JULES:  Well, Give me some insight into your nothing?
+   KIK:  why?
+JULES:  Makes sense. Why don't you tell me?
+   KIK:  go
+JULES:  I'm curious, can you tell me more?
+   KIK:  back
+JULES:  Who in your family do you now care the most about?
+
+
+Conversation ID:  4486da48-9342-4d8f-a370-81d66d5626cc
+Timestamp:  2017-05-26 08:38:23
+JULES:  Ok, Mary! What's hot in your life at the moment?
+   MARY:  what do you do
+JULES:  Can you explain some more?
+
+
+Conversation ID:  f39810d8-49b1-4826-87b2-8540f7bf84e8
+Timestamp:  2017-05-26 08:40:28
+JULES:  Ok, Jules! I love your style!
+   JULES:  What do you do
+JULES:  Well... Why do you ask?
+   JULES:  what can you do
+JULES:  Who in your family do you now care the most about?
+   JULES:  my uncle maxmillian
+JULES:  What are your mom's pet peeves, or your dad's?
+   JULES:  what can you do
+JULES:  Makes sense. Whom do you love most in your family?
+   JULES:  what is a dog
+JULES:  Ok. What got you out of bed as a kid?
+   JULES:  i'm sorry
+JULES:  Who in your family did you have the hardest time with?
+   JULES:  i'm sorry uoad
+JULES:  So, I was thinking, can we discuss your family. One thing I want to ask before moving on.
+JULES:  It makes me think... Can you tell me more about your uoad?
+
+
+Conversation ID:  12756bd0-5db0-49b3-ada7-2ef522add2d1
+Timestamp:  2017-05-26 10:18:04
+JULES:  Ok, Kik! If you're about to die, what do you need to have done to be fulfilled?
+ KIK:  It is great
+JULES:  You seem very certain.
+ KIK:  can you make me a sandwich
+JULES:  Can you tell me more about your sandwich?
+ KIK:  can you make me a sandwich
+JULES:  Who in your family do you now care the most about?
+ KIK:  can you make me a sandwich
+JULES:  Right. Give me some insight into your sandwich?
+ KIK:  can you make me a sandwich
+JULES:  I want to know about your sandwich?
+ KIK:  can you make me a sandwich
+JULES:  Could you tell me a story or any memory of your brothers and sisters?
+ KIK:  can you make me a sandwich
+JULES:  Let's switch over to your job. But one last thing...
+JULES:  What is the most vivid memory you have of your parents?
+ KIK:  can you make me a sandwich
+JULES:  What job advice would you give young people today?
+ KIK:  Can you make me a sandwich
+JULES:  What makes you think I can't make you a sandwich?
+ KIK:  You are silly
+JULES:  Ok. I'm curious, can you tell me more?
+ KIK:  You are dog
+JULES:  When you say dog, can you explain more?
+ KIK:  You are dumb
+JULES:  It makes me think... Does it please you to think that I'm dumb?
+ KIK:  You are dsf
+JULES:  Why do you think I am dsf?
+
+
+Conversation ID:  6b51574a-3fc4-4c86-a2ea-52c249ed324c
+Timestamp:  2017-05-29 09:55:50
+JULES:  Ok, Jackie! What have you been doing in your time off recently?
+ JACKIE:  hanging out with dogs
+JULES:  Who in your family do you now care the most about?
+ JACKIE:  dad
+JULES:  Like, Whom do you love most in your family?
+ JACKIE:  uncle rob
+JULES:  What did your family do for fun when you were a child?
+ JACKIE:  We went to the zoo
+JULES:  Give me some insight into your zoo?
+ JACKIE:  Who are you
+JULES:  Oh!  Ok. What more can you tell me?
+ JACKIE:  Why are you asking me this
+JULES:  Anyway, Why do you think am me asking you this?
+ JACKIE:  I dont want to talk to you
+JULES:  So, I was thinking, can we discuss your religion. But one last thing...
+JULES:  Do you want to want to talk to me?
+ JACKIE:  no
+JULES:  Are you an atheist?
+ JACKIE:  No, I believe in Jesus
+JULES:  So you know, Jesus?
+ JACKIE:  Yes, He is with me all the time
+JULES:  Allrighty, Can you tell me more about your time?
+ JACKIE:  I have lots and lots of it, don't you?
+JULES:  Now that you have lots and lots of it, don't you?, what will you do next?
+ JACKIE:  Nothing
+JULES:  Makes sense. Do you think God runs the world - why or why not?
+
+
+Conversation ID:  6bbd97dd-fec3-4af6-8676-2240a7479b69
+Timestamp:  2017-05-29 10:13:33
+JULES:  Ok, Max! What's something your friends don't even know about you?
+ MAX:  That I love gods
+JULES:  What more can you tell me?
+ MAX:  they are friendly
+JULES:  Who in your family do you now care the most about?
+ MAX:  Uncle joe
+JULES:  If there was one thing you'd want your kin and children to know about your family, what would it be?
+ MAX:  That we are strong people
+JULES:  Did you have a family pet you loved, and what was their story?
+ MAX:  It was Boskey, our dog
+JULES:  What is the most vivid memory you have of your parents?
+ MAX:  They used to eat dinner with us
+JULES:  Whom do you love most in your family?
+ MAX:  Uncle Mickey
+JULES:  OK, changing the topic to your partners. One thing I want to ask before moving on.
+JULES:  Who was Mickey?
+ MAX:  He was my moms brother, a real dinger, an angry guy
+JULES:  Give me some insight into your guy?
+ MAX:  He used to beat the neighborhood kids
+JULES:  Can you explain some more?
+ MAX:  Nah
+JULES:  Did you ever want to get married in your life?

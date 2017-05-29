@@ -107,17 +107,19 @@ graph_example = { "a" : ["c"],
 #is a list of other graph points/keys that the question could connect to
 life_questions = {
     "family":
-        {"a":["Who in your family do you now care the most about?", ["c", "d", "e", "f", "h", "i", "j", "k"]],
-        "b":["What is the most vivid memory you have of your parents?", ["b", "c", "d", "e", "f", "h", "i", "j", "k"]],
-        "c":["What did your family do for fun when you were a child?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "d":["Who was the most important adult in your life growing up?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "e":["What are your mom's pet peeves, or your dad's?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "f":["Whom do you love most in your family?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "g":["Did you have a family pet you loved, and what was their story?", [ "b", "c", "d", "e", "f", "g","h", "j", "k"]],
-        "h":["Who in your family did you have the hardest time with?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "i":["What got you out of bed as a kid?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
-        "j":["Who protected you as a child?", [ "d", "e", "f", "g","h", "i", "j", "k"]],
-        "k":["Could you tell me a story or any memory of your brothers and sisters?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k"]],
+        {"a":["Who in your family do you now care the most about?", ["c", "e", "f", "h", "i", "j", "k", "l", "m"]],
+        "b":["What is the most vivid memory you have of your parents?", ["b", "c", "d", "e", "f", "h", "i", "j", "k", "l", "m"]],
+        "c":["What did your family do for fun when you were a child?", ["b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m"]],
+        "d":["Who was the most important adult in your life growing up?", [ "c", "d", "e",  "g","h", "i", "j", "k", "l", "m"]],
+        "e":["What are your mom's pet peeves, or your dad's?", [ "b", "c", "d", "e", "f", "g","h", "i", "j", "k", "l", "m"]],
+        "f":["Whom do you love most in your family?", ["d","g","h", "i", "j", "k"]],
+        "g":["Did you have a family pet you loved, and what was their story?", [ "b",  "d", "f", "h", "j", "k"]],
+        "h":["Who in your family did you have the hardest time with?", ["b", "c", "d", "e", "f", "g", "i", "j", "k", "l", "m"]],
+        "i":["What got you out of bed as a kid?", ["b", "c", "f", "g", "j", "k"]],
+        "j":["Who protected you as a child?", [ "d", "e", "f", "g","h", "i",  "k", "l", "m"]],
+        "k":["Could you tell me a story or any memory of your brothers and sisters?", [ "c", "d", "f", "h", "i", "j"]],
+        "l":["If there was one thing you'd want your kin and children to know about your family, what would it be?", [ "d", "f", "g","h", "i",  "k", "l", "m"]],
+        "m":["What was the worst thing that happened to your family growing up?", [ "d", "f", "g","h", "i",  "k", "l", "m"]]
          },
 
     "religion":
@@ -371,6 +373,11 @@ topics = [
      ["Why do you ask?",
       "How would an answer to that help you?",
       "What do you think?"]],
+
+    [r'What (.*) you do',
+     ["I help you record you life story.",
+      "I help you tell your story to the world.",
+      "I listen to your life story and write it down for others."]],
 
     [r'How (.*)',
      ["How do you suppose?",

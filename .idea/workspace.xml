@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3ae3871-6c9b-40c4-93e5-0368ed329adb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/personality.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/durga.py" afterPath="$PROJECT_DIR$/jules.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chat_logs.txt" afterPath="$PROJECT_DIR$/chat_logs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jules.py" afterPath="$PROJECT_DIR$/jules.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/knowledge.py" afterPath="$PROJECT_DIR$/knowledge.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="jules.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jules.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jules.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
+            <state relative-caret-position="75">
+              <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -45,7 +45,7 @@
       <file leaf-file-name="chat_logs.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat_logs.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-3133">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -64,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -89,8 +89,8 @@
       <file leaf-file-name="knowledge.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/knowledge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="377" column="43" lean-forward="false" selection-start-line="377" selection-start-column="39" selection-end-line="377" selection-end-column="43" />
+            <state relative-caret-position="-1830">
+              <caret line="121" column="122" lean-forward="false" selection-start-line="121" selection-start-column="122" selection-end-line="121" selection-end-column="122" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -102,17 +102,7 @@
         <entry file="file://$PROJECT_DIR$/personality.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="218">
-              <caret line="3505" column="6" lean-forward="true" selection-start-line="3505" selection-start-column="6" selection-end-line="3505" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="epigrams.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/epigrams.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10635">
-              <caret line="709" column="0" lean-forward="false" selection-start-line="709" selection-start-column="0" selection-end-line="709" selection-end-column="0" />
+              <caret line="3505" column="6" lean-forward="false" selection-start-line="3505" selection-start-column="6" selection-end-line="3505" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -155,6 +145,7 @@
     </findStrings>
     <replaceStrings>
       <replace>topics</replace>
+      <replace>ask_deeper_question</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -167,7 +158,6 @@
         <option value="$PROJECT_DIR$/graph.py" />
         <option value="$PROJECT_DIR$/logging.py" />
         <option value="$PROJECT_DIR$/epigrams" />
-        <option value="$PROJECT_DIR$/knowledge.py" />
         <option value="$PROJECT_DIR$/epigrams.py" />
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/kb_logger.py" />
@@ -175,13 +165,16 @@
         <option value="$PROJECT_DIR$/chat_logs.txt" />
         <option value="$PROJECT_DIR$/durga.py" />
         <option value="$PROJECT_DIR$/personality.txt" />
+        <option value="$PROJECT_DIR$/question.py" />
+        <option value="$PROJECT_DIR$/knowledge.py" />
+        <option value="$PROJECT_DIR$/jules.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="32" />
-    <option name="width" value="1110" />
+    <option name="x" value="99" />
+    <option name="y" value="48" />
+    <option name="width" value="1484" />
     <option name="height" value="968" />
   </component>
   <component name="ProjectView">
@@ -212,6 +205,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durga" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="durga_env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -222,23 +229,6 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.durga">
-    <configuration default="false" name="graph_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="durga" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/graph_data.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="durga" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,6 +293,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="durga" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/epigrams.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="question" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="durga" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/question.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -442,19 +449,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.graph_data" />
-      <item index="1" class="java.lang.String" itemvalue="Python.durga" />
-      <item index="2" class="java.lang.String" itemvalue="Python.logging" />
-      <item index="3" class="java.lang.String" itemvalue="Python.knowledge" />
-      <item index="4" class="java.lang.String" itemvalue="Python.epigrams" />
+      <item index="0" class="java.lang.String" itemvalue="Python.durga" />
+      <item index="1" class="java.lang.String" itemvalue="Python.logging" />
+      <item index="2" class="java.lang.String" itemvalue="Python.knowledge" />
+      <item index="3" class="java.lang.String" itemvalue="Python.epigrams" />
+      <item index="4" class="java.lang.String" itemvalue="Python.question" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.durga" />
-        <item index="1" class="java.lang.String" itemvalue="Python.logging" />
-        <item index="2" class="java.lang.String" itemvalue="Python.knowledge" />
-        <item index="3" class="java.lang.String" itemvalue="Python.epigrams" />
-        <item index="4" class="java.lang.String" itemvalue="Python.graph_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.question" />
+        <item index="2" class="java.lang.String" itemvalue="Python.logging" />
+        <item index="3" class="java.lang.String" itemvalue="Python.knowledge" />
+        <item index="4" class="java.lang.String" itemvalue="Python.epigrams" />
       </list>
     </recent_temporary>
   </component>
@@ -472,15 +479,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="32" width="1110" height="968" extended-state="0" />
+    <frame x="99" y="48" width="1484" height="968" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15315315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.114555255" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56013745" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48453608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -556,39 +563,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_logs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/knowledge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="377" column="43" lean-forward="false" selection-start-line="377" selection-start-column="39" selection-end-line="377" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/personality.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="3505" column="6" lean-forward="true" selection-start-line="3505" selection-start-column="6" selection-end-line="3505" selection-end-column="6" />
+          <caret line="3505" column="6" lean-forward="false" selection-start-line="3505" selection-start-column="6" selection-end-line="3505" selection-end-column="6" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="115" column="33" lean-forward="false" selection-start-line="115" selection-start-column="33" selection-end-line="115" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,6 +576,42 @@
         <state relative-caret-position="75">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="12" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_logs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3133">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/knowledge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1830">
+          <caret line="121" column="122" lean-forward="false" selection-start-line="121" selection-start-column="122" selection-end-line="121" selection-end-column="122" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jules.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="22" column="41" lean-forward="false" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
