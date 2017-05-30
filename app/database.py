@@ -16,6 +16,7 @@ from py2neo import Graph, Relationship
 #
 environment = 'production'
 
+
 def get_graph_object():
     if environment == 'production':
         g = Graph(

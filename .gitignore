@@ -1,15 +1,23 @@
+
+# Ignore these folders
+
 .idea/
-uploader
+.idea/*
+virtual_envs/
+durga_env/
+denv/
 uploader/
 jenv
 jenv/
 durga_env
-.zip
-.jpg
-.avi
-.mpg
-.swp
-.DS_Store
-.pyc
-.idea
 
+# Ignore file types
+*.zip
+*.jpg
+*.avi
+*.mpg
+*.swp
+.DS_Store
+*.pyc
+*.idea
+.idea

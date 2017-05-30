@@ -1,0 +1,8 @@
+# Regex Statements Review
+# . any character
+# * 0 to n repetition
+# ( ) group
+#  (.*) - this is any characters repeated as a group, so a random word - it captures all
+# ^\?  not any optional character
+# [ab] only what is in this group, so here a and/or b
+#  ([^\?]*)\? - these are many characters, so a group of words, a phrase
