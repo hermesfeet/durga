@@ -522,3 +522,404 @@ JULES:  Great - Can you tell me more about your Nah?
 JULES:  Fine - Can you explain some more?
  MORLEY:  asdf
 JULES:  Right. Who in your family do you now care the most about?
+
+
+Conversation ID:  6ded1a4a-f051-4e71-a12f-26678fb88434
+Timestamp:  2017-11-16 22:05:04
+JULES:  Ok, Maria! What gives you the greatest joy in life?
+ MARIA:  my children Sarah and Sam
+JULES:  Gotcha. Who was Sam?
+ MARIA:  my son, he is an army general now
+JULES:  Anyway, I'm curious, can you tell me more?
+ MARIA:  he was in the Marines for 20 years, then moved to NC
+JULES:  Yup, got it.  Where was your first home?
+ MARIA:  In Indiana
+JULES:  Yup, got it.  Who was Indiana?
+ MARIA:  Indiana is a state, fool!
+JULES:  Okay - What more can you tell me?
+ MARIA:  It's where Mike Pence is from
+JULES:  So... Were there any hard times, like when you didn't have enough food, money, or clothes?
+ MARIA:  Yah, I didn't have a car so I had to take the bus
+JULES:  I want to talk about your family. One thing I want to ask before moving on.
+JULES:  Great - I want to know about your bus?
+ MARIA:  OH, just the local MTA bus
+JULES:  Right. Who in your family did you have the hardest time with?
+ MARIA:  My wife Jilly
+JULES:  Like, Why do you say that your wife jilly?
+ MARIA:  She was mental and really tough
+JULES:  Right. When you say tough, can you explain more?
+
+
+Conversation ID:  31fa03de-a8b6-4803-852e-ff0c6fbdce3a
+Timestamp:  2017-11-16 22:11:34
+JULES:  Ok, Martin! If you wrote a book, what would it be about?
+ MARTIN:  Guns and WWII
+JULES:  I want to know more about WWII?
+ MARTIN:  
+JULES:  Allrighty, Where was your first home?
+ MARTIN:  Tenn in the mountains
+JULES:  It makes me think... What more can you tell me?
+ MARTIN:  we grew up poor
+JULES:  Great - Do you remember having a favorite song, cartoon, or TV show growing up?
+ MARTIN:  I didnt have no TVs
+JULES:  Can you tell me more about your TVs?
+ MARTIN:  today I have a big one
+JULES:  Can you tell me more about your one?
+ MARTIN:  It is RCA 22 inch
+JULES:  So, I was thinking, can we discuss your job. But one last thing...
+JULES:  Okay - You seem very certain.
+ MARTIN:  of course!
+JULES:  I'm curious, can you tell me more?
+ MARTIN:  I watch Oprah and MASH
+JULES:  Give me details about MASH?
+ MARTIN:  It's a show about Vietnam, where my kid fought in My Lai
+JULES:  Did you ever have a really difficult or challening job - what was it like?
+ MARTIN:  Nah
+JULES:  Give me some insight into your Nah?
+ MARTIN:  I had easy jobs
+JULES:  Good! Can you explain some more?
+ MARTIN:  I am good with my hands, always did plumbing and handiman stuff
+JULES:  Yup, got it.  How long have you been good with your hands, always did plumbing and handiman stuff?
+ MARTIN:  Since I was a teen I did this, my uncle taught me
+JULES:  I want to talk about your choices. One final question though.
+JULES:  What were your jobs as a kid, if you had any?
+ MARTIN:  I was a plumber, dog catcher, and brothel bar man
+JULES:  I want to know about your man?
+ MARTIN:  No, I was the man and I protected the women
+JULES:  Fine - What was the favorite place you ever visited and what was it like?
+
+
+Conversation ID:  2c9a2af5-7339-4cb7-9c05-0def7c5e649c
+Timestamp:  2017-12-26 13:56:58
+JULES:  Ok, moxie! What three words best describe you?
+ MOXIE:  red, blue, courageous
+JULES:  It makes me think... When you say courageous, can you explain more?
+ MOXIE:  i like to give a hearty boom - what about you?
+JULES:  Right. Why do you ask that?
+ MOXIE:  just curious
+JULES:  When you say curious, can you explain more?
+ MOXIE:  i want to know you better
+JULES:  I'm curious, can you tell me more?
+ MOXIE:  no!
+JULES:  Fine - Can you explain some more?
+ MOXIE:  no
+JULES:  Where was your first home?
+ MOXIE:  Alabama
+JULES:  Something I was wondering about: your home. One final question though.
+JULES:  I want to know about your Alabama?
+ MOXIE:  my home is now in Berkeley
+JULES:  I want to know more about Berkeley?
+ MOXIE:  it is lovely and diverse
+JULES:  Were there any hard times, like when you didn't have enough food, money, or clothes?
+ MOXIE:  
+
+
+Conversation ID:  3e4b70a0-3d9f-4c65-b33d-e03183f5dd9e
+Timestamp:  2017-12-26 14:09:12
+JULES:  Ok, Mark! What's the last thing you purchased online?
+ MARK:  A gun to shoot people
+JULES:  Can you explain some more?
+ MARK:  I want to kill dogs
+JULES:  What would you do if you got to kill dogs?
+ MARK:  I would put their heads on the ceiling
+JULES:  Can you tell me more about your ceiling?
+ MARK:  it is lovely and big
+JULES:  Yup, got it.  When you say big, can you explain more?
+ MARK:  bigger than you.  tell me about yourself
+JULES:  Like, Where was your first home?
+ MARK:  it was vegas
+JULES:  I want to know about your vegas?
+ MARK:  my vegas was for kids getting in trouble with blow
+JULES:  Let's switch over to your moments. One final question though.
+JULES:  Give me some insight into your blow?
+ MARK:  good stuff, fine powder
+JULES:  What things have you made that others have enjoyed?
+ MARK:  good weed cigars
+JULES:  Ok. I'm curious, can you tell me more?
+ MARK:  my blounts were lovely
+JULES:  How would you describe your sense of humor?
+ MARK:  tell me what is 2 + 2
+JULES:  Like, What more can you tell me?
+
+
+Conversation ID:  d85d4159-3ec8-4804-90ea-17f6edefba59
+Timestamp:  2018-03-04 16:43:52
+JULES:  Ok, Marco! What's one thing you most want to do?
+ MARCO:  I want to go to the great ridge in Kenya
+JULES:  Give me details about Kenya?
+ MARCO:  Well, it's my top place in the world to go, and I just love Africa, so why not?
+JULES:  So you know, What more can you tell me?
+ MARCO:  I want to stay in a guest house there and enjoy it... ha ha...
+JULES:  Good! What would you do if you got to stay in a guest house there and enjoy it... ha ha?
+ MARCO:  I would have sex daily and then spend my time watching animals and going on Safari
+JULES:  Safari?
+ MARCO:  yeah, they have the best wild animals.  Would i be bad if I hunt them?
+JULES:  Yup, got it.  Why do you ask that?
+ MARCO:  It makes me feel bad, so you think I am bad for it?
+JULES:  I'm having trouble telling you this, can you tell me your opinion?
+ MARCO:  I already told you, it's my conscience.  Hunting is so much fun, but also bad.
+JULES:  I want to talk about your home. One final question though.
+JULES:  Can you explain some more?
+ MARCO:  Nah, let's talk about home
+JULES:  Where was your first home?
+ MARCO:  It was in Madras, India - I stayed with my grandparents
+JULES:  I'm curious, can you tell me more?
+ MARCO:  They were nice, it was a bungalow and comfortable, people took care of me.
+JULES:  Yup, got it.  Were there any fads during your childhood that you remember vividly?
+ MARCO:  gotta go, talk soon, goodbye
+JULES:  Give me some insight into your goodbye?
+ MARCO:  no, bye
+JULES:  Allrighty, I want to know about your bye?
+
+
+Conversation ID:  d350ead9-ab3a-476f-b097-76f506d4835f
+Timestamp:  2018-04-15 15:24:17
+JULES:  Ok, Mar! How's your week been?
+ MAR:  Pretty good, got some stuff one
+JULES:  Can you explain some more?
+ MAR:  Well, I finished work, did yoga, and was able to kick butt
+JULES:  Give me some insight into your butt?
+ MAR:  My butt?  Whatt?
+JULES:  I see, your butt? whatt?.
+ MAR:  That is not nice!
+JULES:  Who in your family do you now care the most about?
+ MAR:  I care the most about my mom and dad
+JULES:  I want to know about your dad?
+ MAR:  He is partially retired and spends time travlling and worked as a doctor
+JULES:  Makes sense. Give me some insight into your doctor?
+ MAR:  My dad as a doctor?  Well, he was friendly
+JULES:  Something I was wondering about: your friends. One thing I want to ask before moving on.
+JULES:  Why do you say that your dad as a doctor? well, he were friendly?
+ MAR:  he was pretty easy with patients
+JULES:  What person really changed the course of your life by something he/she did?
+ MAR:  My brother got me to study more math
+JULES:  Like, Can you tell me more about your math?
+ MAR:  I did high level calc and lots of probability
+JULES:  Makes sense. What advice would you give to others about friendship?
+
+
+Conversation ID:  cc7d9426-2af5-4965-8524-44b7435b61b8
+Timestamp:  2018-04-15 15:43:22
+JULES:  Ok, adsf! What's something you regret?
+ ADSF:  I Love dogs
+JULES:  What more can you tell me?
+ ADSF:  dogs love me
+JULES:  I'm curious, can you tell me more?
+ ADSF:  i love mom
+JULES:  Give me some insight into your mom?
+
+
+Conversation ID:  a4008fa7-4928-4096-b399-aa0d39fb59f2
+Timestamp:  2018-04-15 15:51:59
+JULES:  Ok, Mark! What's one thing you've wanted to tell me, but haven't?
+ MARK:  That i love coding!
+JULES:  May the Lord guide us quietly through the valley of death!
+ MARK:  What do you mean by that?
+JULES:  Great - How would an answer to that help you?
+ MARK:  Curious why you got religious one me...
+JULES:  When you say religious, can you explain more?
+ MARK:  Mentioning God and death!
+JULES:  I want to know about your death?
+ MARK:  What about it?  I'm alive
+JULES:  It makes me think... When you say alive, can you explain more?
+ MARK:  I breath, I eat, I talk to you
+JULES:  Who in your family do you now care the most about?
+
+
+Conversation ID:  a9f19111-fbf1-434c-a993-d8acec4dee04
+Timestamp:  2018-04-15 15:59:01
+JULES:  Ok, Marco! What's on your calendar this week?
+ FRIEND:  Nada
+
+
+Conversation ID:  598db748-d235-443d-b361-02f2118f33f6
+Timestamp:  2018-04-15 16:00:37
+JULES:  Ok, Julie! In your dream house, what one room must you have?
+ FRIEND:  my own bedroom
+JULES:  Give me some insight into your bedroom?
+ FRIEND:  it will be private and with girly things in it
+JULES:  When you say girly, can you explain more?
+ FRIEND:  LIke feminine, drapes and covers
+JULES:  Now Give me some insight into your feminine?
+ FRIEND:  no
+JULES:  Who in your family do you now care the most about?
+ FRIEND:  Dad
+JULES:  I want to know about your Dad?
+ FRIEND:  He is generous and tall
+JULES:  Fine - When you say tall, can you explain more?
+ FRIEND:  he is realy realy tall
+JULES:  If there was one thing you'd want your kin and children to know about your family, what would it be?
+
+
+Conversation ID:  e40e7a17-de83-4733-b22b-7db76b2ebf7f
+Timestamp:  2018-04-15 16:08:16
+JULES:  Ok, Marius! I love your style!
+ FRIEND:  Why?
+JULES:  So you know, Boo wha wha!
+ FRIEND:  Tell me
+JULES:  May the Lord guide us quietly through the valley of death!
+ FRIEND:  nada
+JULES:  Can you tell me more about your nada?
+
+
+Conversation ID:  e6b6de5c-9331-49ea-a1e0-e4a279dd0283
+Timestamp:  2018-04-15 16:08:44
+JULES:  Ok, yo! What's happening for you Friday?
+ FRIEND:  Nada
+JULES:  Fine - Give me some insight into your Nada?
+
+
+Conversation ID:  9d591213-63ab-4e3a-a98b-0c9a281cb5e6
+Timestamp:  2018-04-15 16:09:44
+JULES:  Ok, Mom! What's something your friends don't even know about you?
+ FRIEND:  Nothing
+JULES:  So... Give me some insight into your Nothing?
+
+
+Conversation ID:  fa5d6744-5ea1-4328-ba86-6b7e883dadc7
+Timestamp:  2018-04-15 16:11:11
+JULES:  Ok, Mast! You seem like a kind person. I like that.
+ FRIEND:  Hula hoops yeah
+JULES:  Well, Give me some insight into your yeah?
+ FRIEND:  I am optimistic
+JULES:  like, When you say optimistic, can you explain more?
+ FRIEND:  I love running and cheering
+JULES:  Where was your first home?
+ FRIEND:  Madras
+JULES:  May the Lord guide us quietly through the valley of death!
+ FRIEND:  What?
+JULES:  Some questions are tough.  Can we talk about your favorite animal instead?
+
+
+Conversation ID:  1dd35cdc-9a2f-470a-88ff-5b9905d22415
+Timestamp:  2018-04-15 16:31:01
+JULES:  Ok, Yo yo! Beyond the superficial... what's up?
+ FRIEND:  Nada friend
+JULES:  Give me some insight into your friend?
+ FRIEND:  You are my new CPU friend!
+JULES:  So you know, Does it please you to think that I'm your new cpu friend?
+ FRIEND:  a lot, a lot
+JULES:  Right. Give me some insight into your lot?
+ FRIEND:  my lot in life or love?
+JULES:  Give me some insight into your life?
+ FRIEND:  I love it, it is graeat
+JULES:  Right. When you say graeat, can you explain more?
+ FRIEND:  no
+JULES:  Where was your first home?
+ FRIEND:  Mexico
+JULES:  Now I want to know more about Mexico?
+ FRIEND:  Why would you?
+JULES:  Makes sense. He with a short knife must try, try again.
+ FRIEND:  What?
+JULES:  Oft in the woods is a listener nigh.
+ FRIEND:  you don't make sense
+JULES:  Gotcha. Give me some insight into your sense?
+ FRIEND:  I make sense, yhou are loco
+JULES:  Oh!  Ok. When you say loco, can you explain more?
+ FRIEND:  no
+JULES:  No might against many.
+ FRIEND:  what?
+JULES:  Many are wise after the event.
+ FRIEND:  What are you saying
+JULES:  So... The overpraised are the worst deceivers.
+ FRIEND:  what
+JULES:  Right. A wise man does all things in moderation.
+ FRIEND:  no
+JULES:  Many go to the goat-house to get wool.
+ FRIEND:  boohoo
+JULES:  I want to know about your boohoo?
+
+
+Conversation ID:  56e9985d-6365-4f6a-beec-f83cd59e970a
+Timestamp:  2018-04-15 16:34:34
+JULES:  Ok, Mr dog! What do you most admire about our country?
+ FRIEND:  nothing
+JULES:  Oh!  Ok. I want to know about your nothing?
+
+
+Conversation ID:  1db58e5e-4d49-488d-bc24-e46f204244ff
+Timestamp:  2018-04-15 16:35:32
+JULES:  Ok, Joca! What's one defining moment of your life so far?
+ JOCA:  loving life
+JULES:  Like, I want to know about your life?
+ JOCA:  no, you really don't
+JULES:  Where was your first home?
+ JOCA:  Cincy
+JULES:  Can you tell me more about your Cincy?
+ JOCA:  nope
+JULES:  Give me some insight into your nope?
+ JOCA:  rather not
+JULES:  Were there any hard times, like when you didn't have enough food, money, or clothes?
+ JOCA:  yeah, we lived in the hood, didn't have food most days
+JULES:  I want to know about your food?
+ JOCA:  when we ate, it was fries or rice-a-roni
+JULES:  Do you remember having a favorite song, cartoon, or TV show growing up?
+ JOCA:  nope, other than elvis and bach
+JULES:  Makes sense. I want to know about your bach?
+ JOCA:  rather not say
+JULES:  Who can say what sorrow seemingly carefree folk bear to their life's end.
+
+
+Conversation ID:  fb1cca45-1eb9-4858-a123-33f8201032ad
+Timestamp:  2018-04-15 16:38:27
+JULES:  Ok, Dada! What's on your calendar this week?
+ DADA:  nothing
+JULES:  Great - I want to know about your nothing?
+ DADA:  yeah
+JULES:  Makes sense. Can you tell me more about your yeah?
+ DADA:  nope
+JULES:  Where was your first home?
+ DADA:  rather not
+JULES:  The overpraised are the worst deceivers.Were there any hard times, like when you didn't have enough food, money, or clothes?
+ DADA:  Nope
+JULES:  Good! Were there any hard times, like when you didn't have enough food, money, or clothes?
+ DADA:  nope
+JULES:  Give me some insight into your nope?
+ DADA:  nope
+JULES:  Did anyone take advantage of you when you were a child?
+ DADA:  nope
+JULES:  Anyway, I want to know about your nope?
+ DADA:  nope
+JULES:  Do you remember having a favorite song, cartoon, or TV show growing up?
+
+
+Conversation ID:  db919afe-7f8b-4284-9ad4-dadc18516197
+Timestamp:  2018-04-15 16:40:22
+JULES:  Ok, ue! I go deep.  What're you tiddly diddly doing?
+ UE:  quit
+JULES:  Give me some insight into your quit?
+
+
+Conversation ID:  a6343f8a-ccbf-420d-9af9-d1d1c9b5fef9
+Timestamp:  2018-04-15 16:42:24
+JULES:  Ok, Morgo! You seem like a kind person. I like that.
+ MORGO:  asdf
+JULES:  I want to know about your asdf?
+ MORGO:  quit
+JULES:  Okay - Good-bye.
+ MORGO:  ddf
+JULES:  Give me some insight into your ddf?
+
+
+Conversation ID:  7f9dd13c-572c-4c8c-84c9-743ba109e716
+Timestamp:  2018-04-15 16:47:27
+JULES:  Ok, Bob! I love this place because it's got great energy.
+ BOB:  Sure, tell me more
+JULES:  So... When you say Sure, can you explain more?
+ BOB:  nah, I want to talk about sex baby
+JULES:  Oh!  Ok. Who in your family do you now care the most about?
+ BOB:  my loving wife
+JULES:  Give me some insight into your wife?
+
+
+Conversation ID:  0b7afa9c-71dd-44b9-9141-d04b074da98f
+Timestamp:  2018-04-15 16:50:22
+JULES:  Ok, Mar! What were the highs and lows of your day, today?
+ MAR:  not much
+JULES:  When you say much, can you explain more?
+ MAR:  i love dicks
+JULES:  Well... Can you tell me more about your i?
+ MAR:  i is me
+JULES:  Who in your family do you now care the most about?
+ MAR:  bye
+JULES:  It makes me think... I want to know about your bye?

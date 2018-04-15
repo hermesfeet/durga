@@ -1,3 +1,10 @@
+# Jules - a Chit-Chatbot (Project Name Durga)
+
+Jules is a chatbot that talks to older people and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations
+
+Jules.py is the main file to run in Python.
+Knowledge.py has her brain and database.
+
 STUFF TO DO NEXT:
 
 -More state management: don't repeat volleys (keep track of them) ***
