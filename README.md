@@ -7,9 +7,9 @@ I loosely based on her an older Eliza module, updated to ask life questions and 
 
 ### RUNNING THE APP
 Jules.py is the main file to run in Python.  So in bash, cd over to the folder and run:
+> python jules.py
 
 I loosely based on her an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)  
-> python jules.py
 
 Knowledge.py has her brain and database.
 
@@ -33,8 +33,8 @@ Mostly NLTK and Numpy.
 - Go over Chatscript documents - how does it work, what to learn?
 
 ### CORPORA TO CHECK OUT:
-- [http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008](http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008  "UCSB Corpus")
-- [http://courses.washington.edu/englhtml/engl560/corplingresources.htm](http://courses.washington.edu/englhtml/engl560/corplingresources.htm  "UW Corpus")
+- [http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008](UCSB Corpus)
+- [http://courses.washington.edu/englhtml/engl560/corplingresources.htm](UW Corpus)
 - [https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F](https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F  "MSFT Research")
 - [https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html](https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html  "Cornell Movie Corpus")
 - [https://chenhaot.com/pages/changemyview.html](https://chenhaot.com/pages/changemyview.html  "Change my View persuasion dataset")
