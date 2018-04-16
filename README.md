@@ -12,10 +12,10 @@ Mostly NLTK and Numpy.
 
 STUFF TO DO NEXT - DEV TIMELINE
 
--More state management: don't repeat volleys (keep track of them) \n
--Small talk module \n
-    -(questions people commonly ask bots) - short rsponse or tell a story from the bank \n
--Update memory module - \n
+-More state management: don't repeat volleys (keep track of them)
+-Small talk module
+    -(questions people commonly ask bots) - short rsponse or tell a story from the bank
+-Update memory module  
     -ST Memory - what was recently said, context, name, volley count, PPT count to dig in, what sentences or volleys to not repeat \n
     -LT Memory - User profile, Bot profile of itself, PPT triples of what was discussed \n
 -KB1: Record user answers in a KB as a set of triples (Name, verb, adjective/descriptor) \n
