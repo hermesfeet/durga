@@ -33,11 +33,11 @@ Mostly NLTK and Numpy.
 - Go over Chatscript documents - how does it work, what to learn?
 
 ### CORPORA TO CHECK OUT:
-- [http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008](UCSB Corpus)
-- [http://courses.washington.edu/englhtml/engl560/corplingresources.htm](UW Corpus)
-- [https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F](https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F  "MSFT Research")
-- [https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html](https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html  "Cornell Movie Corpus")
-- [https://chenhaot.com/pages/changemyview.html](https://chenhaot.com/pages/changemyview.html  "Change my View persuasion dataset")
-- [http://faculty.nps.edu/cmartell/NPSChat.htm](http://faculty.nps.edu/cmartell/NPSChat.htm  "NPS online post chat corpus")
-- [http://corpus.byu.edu/overview.asp](http://corpus.byu.edu/overview.asp "BYU Corpus")
+- [UCSB Corpus](http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008)
+- [UW Corpus](http://courses.washington.edu/englhtml/engl560/corplingresources.htm)
+- [Microsoft Research](https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F  "MSFT Research")
+- [Cornell Movie Corpus](https://people.mpi-sws.org/~cristian/Cornell_Movie-Dialogs_Corpus.html  "Cornell Movie Corpus")
+- [Change my view dataset](https://chenhaot.com/pages/changemyview.html  "Change my View persuasion dataset")
+- [NPS online posts](http://faculty.nps.edu/cmartell/NPSChat.htm  "NPS online post chat corpus")
+- [BYU Corpus](http://corpus.byu.edu/overview.asp "BYU Corpus")
 
