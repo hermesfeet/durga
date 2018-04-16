@@ -1,4 +1,4 @@
-## Jules - a Chit-Chatbot (Project Name Durga)
+## Jules - a Python Chit-Chatbot (Project Name Durga)
 
 ### PURPOSE
 Jules is a chatbot that talks to older people and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
