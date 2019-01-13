@@ -1,4 +1,4 @@
-## Jules - a Python Chit-Chatbot (Project Name Durga)
+## Jules - A Chit-Chatbot for Seniors (Project Name Durga)
 
 ### PURPOSE
 Jules is a chatbot that talks to older people and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
@@ -9,14 +9,12 @@ I loosely based on her an older Eliza module, updated to ask life questions and 
 Jules.py is the main file to run in Python.  So in bash, cd over to the folder and run:
 > python jules.py
 
-I loosely based on her an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)  
-
 Knowledge.py has her brain and database.
 
 ### DEPENDENCIES
-Built in Python 2.7 (very simple, so it should run in 3.x).
+Built in Python 3.6
 See the Requirements.txt file.
-Mostly NLTK and Numpy.
+Mostly regex, NLTK, time, and collections.  A pretty simple system.
 
 ### STUFF TO DO NEXT - DEV TIMELINE
 - More state management: don't repeat volleys (keep track of them)
