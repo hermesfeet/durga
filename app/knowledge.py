@@ -1,16 +1,10 @@
-import re, random
-#from unidecode import unidecode
-
-def remove_non_ascii(text):
-    return unidecode(unicode(text, encoding = "utf-8"))
-
 #Hello and Goodby
 hellos = ["Hi!", "Hey!", "Yo!","Hey lovely!", "Bonjour.", "Salutations!", "Good day!", "Howdy stranger!", "Hey Friend."]
 byes = ["Bye.", 'Later gator', 'Ciao mouse.', 'Seeya friend.', 'Till next time then.', "May we meet again in heaven or hell."]
 
 
 #Filler words are discourse markers
-fillers = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Like, ", "Well, ", "Ok. ", "Gotcha. ", "Makes sense. ", "Yup, got it.  ", "Allrighty, ", "Anyway, ", "like, ", "Right. ", "So you know, ", "Fine - ", "Now ", "So... ", "Good! ", "Oh!  Ok. ", "Well... ", "It makes me think... ", "Great - ", "Okay - "]
+fillers = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Like, ", "Well, ", "Ok. ", "Gotcha. ", "Makes sense. ", "Yup, got it.  ", "Allrighty, ", "Aha.  So... , ", "like, ", "Right. ", "So you know, ", "Fine - ", "Now ", "So... ", "Good! ", "Oh!  Ok. ", "Well... ", "It makes me think... ", "Great - ", "Okay - "]
 filler_weights = [0.6, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02, 0.02 ]
 
 #Introductory statements
@@ -830,10 +824,3 @@ epigrams = [
       "How do you feel when you say that?",
       ]]
 '''
-
-if __name__ == '__main__':
-    input = raw_input("Tell me something:")
-    response = test_analyze(input)
-    for item in martial:
-        remove_non_ascii(item)
-        print(item)

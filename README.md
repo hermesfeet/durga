@@ -33,6 +33,13 @@ Mostly NLTK and Numpy.
 - Go over Chatscript documents - how does it work, what to learn?
 
 ### CORPORA TO CHECK OUT:
+- [A Survey of Available Corpora for Building Data-Driven Dialogue Systems - UM Paper] (https://arxiv.org/pdf/1512.05742.pdf)
+- [Dialogue Datasets] (https://breakend.github.io/DialogDatasets/)
+- [SEMAINE Sensitive Virtual Agent database] (https://semaine-db.eu/)
+- [Switchboard Telephone Corpus] (http://groups.inf.ed.ac.uk/switchboard/overview.html)
+- [CallHome Corpus of family conversation] (https://talkbank.org/access/CABank/CallHome/eng.html)
+- [Soap opera dialogue corpus] (https://corpus.byu.edu/soap/)
+- [Pair conversation corpus] (Conversation Dialog Corpus)
 - [UCSB Corpus](http://www.linguistics.ucsb.edu/research/santa-barbara-corpus#SBC008)
 - [UW Corpus](http://courses.washington.edu/englhtml/engl560/corplingresources.htm)
 - [Microsoft Research](https://www.microsoft.com/en-us/download/details.aspx?id=52375&from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fdownloads%2F6096d3da-0c3b-42fa-a480-646929aa06f1%2F  "MSFT Research")
@@ -40,4 +47,8 @@ Mostly NLTK and Numpy.
 - [Change my view dataset](https://chenhaot.com/pages/changemyview.html  "Change my View persuasion dataset")
 - [NPS online posts](http://faculty.nps.edu/cmartell/NPSChat.htm  "NPS online post chat corpus")
 - [BYU Corpus](http://corpus.byu.edu/overview.asp "BYU Corpus")
+- [COCA Spoken Corpus] (https://corpus.byu.edu/coca/)
+- [NUS Corpus] (https://github.com/kite1988/nus-sms-corpus)
+- [Other spoken corpora] (http://martinweisser.org/corpora_site/spoken_corpora.html)
+- [Intimate Discourse book] (https://www.amazon.com/Investigating-Intimate-Discourse-Exploring-interaction)
 

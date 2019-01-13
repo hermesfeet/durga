@@ -3,7 +3,7 @@ Main module to run the Chit-chatbot.
 '''
 
 import random
-from knowledge import *
+from app.knowledge import intros, life_questions, topics, epigrams, hellos, fillers, change_topics, byes
 import nltk, re, pprint, urllib
 from nltk.tokenize import *
 from nltk import word_tokenize
@@ -19,7 +19,7 @@ id = str(uuid.uuid4())
 
 #Volley are topics the conversation can cover
 volleys = ["school", "religion", "family", "home", "job", "partners", "health", "history", "friends", "moments", "choices"]
-volley = random.choice(["family", "home"])  #start with this is a volley seed
+volley = random.choice(["family", "home", "choices"])  #start with this is a volley seed
 volley_count = 0
 volley_completed = ["home"]  #keep a list of volleys done
 question_follow = 1  #if 0, asks a new question, otherwise if another number, could do a followup
@@ -30,7 +30,7 @@ sentiment = 0.5
 #Memory of the conversation as a dictionary of lists - this is simple state management
 name = "friend" #starts calling the user friend until they give their name
 question_history = collections.deque(maxlen=20) # this is the memory of the last 20 questions asked, older than 20 are popped out
-memory = {"name":name, "age":23, "volley":volley, "volley_count":volley_count, "last questions":question_history, "volley_question":volley_question, "q_follow":question_follow}
+memory = {"name":name, "volley":volley, "volley_count":volley_count, "last questions":question_history, "volley_question":volley_question, "q_follow":question_follow}
 
 # Reflections replace 1st person user input with bot's response, in the 2nd person
 reflections = {
@@ -179,14 +179,14 @@ def conversation_step(name, statement, volley_count):
             memory["q_follow"] = decrement - 1
             response = ask_deeper_question(statement)
         except:
-            response = random.choice(epigrams) + " " + life_questions[memory["volley"]][memory["volley_question"]][0]  # put random joke or epigram
+            response = life_questions[memory["volley"]][memory["volley_question"]][0]  # put random joke or epigram
 
     while response in memory['last questions']:  # This makes sure you don't repeat items in a volley
         response = analyze(statement)
     if volley_count < 6:  # This makes you change volleys after 7 questions - can make this random from 5 to 8  later
         volley_count += 1
     else:
-        volley_count = 0
+        volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
         new_volley = random.choice(volleys)
         memory["volley"] = new_volley
         alternate = "JULES:  " + random.choice(change_topics) + new_volley + ". " + random.choice(
@@ -201,7 +201,7 @@ def conversation_step(name, statement, volley_count):
     with open('chat_logs.txt', 'a') as logs:
         logs.write(combined_response + "\n")
 
-        memory["volley_count"] = volley_count
+    memory["volley_count"] = volley_count
     question_history.append(response)
     print("        ", memory)  # use this to look at memory
 
@@ -227,24 +227,23 @@ def main():
             combined_response -- final bot response
     """
 
-    name = raw_input("JULES: "+ random.choice(hellos)+" I'm Jules and I'm here to chat and learn about your life story. What's your name? \n> ")
+    name = input("JULES: "+ random.choice(hellos)+" I'm Jules and I'm here to chat and learn about your life story. What's your name? \n> ")
     memory["name"] = name.upper() #updates name
     salutations = "JULES:  Ok, " + name + "! " + random.choice(intros)
     printer("\n\nConversation ID:  " + id + "\nTimestamp:  " + st + "\n")  #prints conversation information
     with open('chat_logs.txt', 'a') as logs:
         logs.write(salutations + "\n")
     print (salutations)
-    volley_count = 0  #starts a counter for each new volley, so that you don't stay too long
+
 
     try: #keeps looping over conversation step
         while True:
-            statement = raw_input(name.upper() + ":  ")
+            statement = input(name.upper() + ":  ")
             conversation_step(name, statement, volley_count)
     except StoryDone: #unless the Class StoryDone is raised by saying "bye", "quit", etc, and that is a goodbye
         print("Cheerio!")
  
 if __name__ == "__main__":
-    volley_count = 0
     main()
 
 

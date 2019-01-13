@@ -923,3 +923,180 @@ JULES:  Well... Can you tell me more about your i?
 JULES:  Who in your family do you now care the most about?
  MAR:  bye
 JULES:  It makes me think... I want to know about your bye?
+
+
+Conversation ID:  6c44592f-3b51-4a10-9144-2c0787c95ad0
+Timestamp:  2018-06-17 17:25:14
+JULES:  Ok, William! In an emergency, why do you have to break glass to get a hammer to break glass?
+ WILLIAM:  yes you do
+JULES:  A wagging tongue is the beginning of ill works. Where was your first home?
+ WILLIAM:  San Diego
+JULES:  Who was Diego?
+ WILLIAM:  City of San Diego
+JULES:  I want to know more about Diego?
+ WILLIAM:  it's a city called San Diego
+JULES:  Where was your first home?
+ WILLIAM:  Mexico
+JULES:  Who was Mexico?
+ WILLIAM:  dunno
+JULES:  Give me some insight into your dunno?
+ WILLIAM:  next
+JULES:  Was there a chore you really hated doing as a child?
+ WILLIAM:  oh i hated just about everything, but maybe feeding the horses i hate it the most
+JULES:  Oh!  Ok. Give me some insight into your everything?
+
+
+Conversation ID:  67bc8470-d8e0-4485-82dd-fd761dc9f703
+Timestamp:  2018-06-17 17:30:26
+JULES:  Ok, Curio! What's going on - let's be real?
+ CURIO:  Nothing, what about you
+JULES:  Can you tell me more about your Nothing?
+ CURIO:  no, just idling
+JULES:  Well... There are few more certain tokens of ill than not to know how to accept the good. Who in your family do you now care the most about?
+ CURIO:  My dad
+JULES:  Gotcha. Can you tell me more about your dad?
+ CURIO:  he is a nice guy and today is fathers day
+JULES:  Well, Can you tell me more about your day?
+ CURIO:  i have worked, that's all
+JULES:  I want to know about your i?
+ CURIO:  I am who i am, god said
+JULES:  Can you tell me more about your god?
+ CURIO:  nope
+JULES:  Well, Can you tell me more about your nope?
+ CURIO:  tell me about yourself
+JULES:  The fire seems hottest to a burned man. Who in your family do you now care the most about?
+
+
+Conversation ID:  3c0ba8b6-965e-4126-96b9-960b84532661
+Timestamp:  2019-01-13 15:09:41
+JULES:  Ok, Marco! How'd you sleep last night?
+ MARCO:  fairly well
+JULES:  It is better to keep one's oath. How do you feel about the choices you made in school, career, spouse?
+ MARCO:  pretty good, i married well and went to good schools, got a good job
+JULES:  Can you tell me more about your job?
+ MARCO:  i am a coder
+JULES:  Makes sense. Give me some insight into your coder?
+ MARCO:  well, i write python and keras code on weekends and then review front end stuff other times
+JULES:  When you say other, can you explain more?
+ MARCO:  you know, business times
+JULES:  Great - Can you tell me more about your business?
+ MARCO:  it is about helping people pick financial products like loans and insurance
+JULES:  Now Can you tell me more about your insurance?
+ MARCO:  the insurance is car, home, renters
+JULES:  Allrighty, Give me some insight into your home?
+ MARCO:  no, let's talk about something else
+JULES:  Can you tell me more about your something?
+ MARCO:  what?
+JULES:  It's a bad thing to goad the obstinate. How do you feel about the choices you made in school, career, spouse?
+ MARCO:  you just asked this
+JULES:  The more folk stand in the way of two hearts that yearn for each other, the hotter the flame of love waxes. How do you feel about the choices you made in school, career, spouse?
+
+
+Conversation ID:  6ea1b3d3-8cfb-4005-bba5-671fc28d60ef
+Timestamp:  2019-01-13 15:13:08
+JULES:  Ok, Mans! If you wrote a book, what would it be about?
+ MANS:  about god and sex
+JULES:  So... Give me some insight into your sex?
+ MANS:  my sex is hot and lusty
+JULES:  How do you feel about the choices you made in school, career, spouse?
+ MANS:  they are just ok
+JULES:  When you say ok, can you explain more?
+ MANS:  no, rather not
+JULES:  What organizations or groups have you belonged to?
+ MANS:  i was in a good man group, and so on
+JULES:  Like, Can you tell me more about your group?
+
+
+Conversation ID:  8f6c3045-2e40-46ec-94b8-6d6c6e859af2
+Timestamp:  2019-01-13 15:16:05
+JULES:  Ok, Helen! What's one thing you most want to do?
+ HELEN:  Love god, be peace
+JULES:  I want to know about your peace?
+ HELEN:  why, it's love
+JULES:  Good! I want to know about your love?
+ HELEN:  it is god
+JULES:  Who in your family do you now care the most about?
+
+
+Conversation ID:  21dfd78f-4a9f-4102-b8b6-9b937082f296
+Timestamp:  2019-01-13 15:20:04
+JULES:  Ok, Maria! Life is a blessing.  How goes your path this holy day?
+ MARIA:  it is well, you?
+JULES:  Kinsmen to kinsmen should be true. Where was your first home?
+ MARIA:  in canada, a small house
+JULES:  I want to know about your house?
+ MARIA:  it was small and Edwardian, a good one
+JULES:  Can you tell me more about your one?
+ MARIA:  no, please dont
+JULES:  Well... Can you tell me more about your dont?
+
+
+Conversation ID:  03f7e156-ba03-438b-ba22-3ef9f0b632f4
+Timestamp:  2019-01-13 15:45:06
+JULES:  Ok, marcos! I like how you smile when I come home from work.
+ MARCOS:  really, thanks!
+
+
+Conversation ID:  da58530c-a070-4dd2-abbe-89f274e7d541
+Timestamp:  2019-01-13 15:45:25
+JULES:  Ok, mens! What makes you the happiest?
+ MENS:  my mom
+JULES:  Give me some insight into your mom?
+ MENS:  she is lovely
+JULES:  Bare is his back who has no brother. Where was your first home?
+ MENS:  vegas
+JULES:  Gotcha. Can you tell me more about your vegas?
+ MENS:  by the casinos, you know
+JULES:  Ok. Let not thy mind be overmuch crossed by unwise men at thronged meetings of folk; for oft these speak worse than they wot of; lest thou be called a dastard, and art minded to think that thou art even as is said; slay such an one on another day, and so reward his ugly talk. Where was your first home?
+ MENS:  what?
+JULES:  Fine - Every man must plough his own furrow. Where was your first home?
+
+
+Conversation ID:  4bdbd131-b9a0-4c89-8d9a-2ecff311f6ff
+Timestamp:  2019-01-13 15:47:15
+JULES:  Ok, Mia! What's happening for you Friday?
+ MIA:  going to the art show, then a date!
+JULES:  Give me some insight into your date?
+ MIA:  she is lovely, a big woman
+JULES:  I want to know about your woman?
+ MIA:  
+JULES:  So... Who in your family do you now care the most about?
+ MIA:  my uncle Moe
+JULES:  Moe?
+ MIA:  yeah, he is a great guy, a real bear and giver
+JULES:  Anyway, Give me some insight into your giver?
+ MIA:  you know, toys, drugs, hugs
+JULES:  Could you tell me a story or any memory of your brothers and sisters?
+ MIA:  i don't have any
+JULES:  Oh!  Ok. Who was the most important adult in your life growing up?
+ MIA:  my aunt hilda who gave me massages
+JULES:  So you know, I want to know about your hilda?
+ MIA:  she is lovely
+JULES:  Anyway, What did your family do for fun when you were a child?
+ MIA:  we ate dogs and cried often
+JULES:  If there was one thing you'd want your kin and children to know about your family, what would it be?
+ MIA:  that god is the only real person, all else is illusion
+JULES:  What got you out of bed as a kid?
+ MIA:  my aunt meena
+JULES:  It makes me think... Can you tell me more about your meena?
+ MIA:  she was kind, caring, and tough
+JULES:  When you say tough, can you explain more?
+ MIA:  she used to beat any sassy kid
+JULES:  What is the most vivid memory you have of your parents?
+ MIA:  by
+JULES:  Great - What was the worst thing that happened to your family growing up?
+ MIA:  bye
+JULES:  I want to know about your bye?
+
+
+Conversation ID:  e22031dc-9042-48ff-a8f6-283b7e78da89
+Timestamp:  2019-01-13 15:51:51
+JULES:  Ok, Jesus! How's ya day been so far?
+ JESUS:  good, till they crucified me
+JULES:  So you know, When you say good, can you explain more?
+ JESUS:  i was showing them god, and the dove, and them bam, it was over
+JULES:  Can you tell me more about your dove?
+ JESUS:  she is elmira, a nice bird
+JULES:  Gotcha. How do you feel about the choices you made in school, career, spouse?
+ JESUS:  bye
+JULES:  Fine - Give me some insight into your bye?
