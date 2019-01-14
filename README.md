@@ -1,6 +1,6 @@
 # Jules - A Chit-Chatbot for Seniors (Project Name Durga)
 
-![Alt text](screenshot.jpg?raw=true "Conversation")
+![Alt text](conversation.png?raw=true "Conversation")
 
 ## What It Does
 Jules is a chatbot that talks to seniors and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
@@ -17,6 +17,9 @@ Knowledge.py has her brain and database.
 Built in Python 3.6. See the Requirements.txt file.
 Mostly regex, NLTK, time, and collections.  
 
+## Built With / Dependencies
+Version 1.6 - moved to Python3 and integrated question follow-on.
+
 ## Dev Timeline - Next To Do
 - More state management: don't repeat volleys (keep track of them)
 - Small talk module (questions people commonly ask bots) - short rsponse or tell a story from the bank
@@ -31,7 +34,7 @@ Mostly regex, NLTK, time, and collections.
 - Current news - ask them if there's something current (sports, politics, etc) that has been on their mind, then do a Google News scraper search and ask them 1-2 follow up qs
 - Go over Chatscript documents - how does it work, what to learn?
 
-## Appendix - Corpora to Check Out
+## License
 This project is licensed under the MIT License.
 
 Copyright 2019 - HermesFeet
