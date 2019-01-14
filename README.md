@@ -1,22 +1,23 @@
 # Jules - A Chit-Chatbot for Seniors (Project Name Durga)
 
-### PURPOSE
+![Alt text](screenshot.jpg?raw=true "Conversation")
+
+## What It Does
 Jules is a chatbot that talks to seniors and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
 
 I loosely based on her an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)
 
-### RUNNING THE APP
+## Running the App
 Jules.py is the main file to run in Python.  So in bash, cd over to the folder and run:
 > python jules.py
 
 Knowledge.py has her brain and database.
 
-### DEPENDENCIES
-Built in Python 3.6
-See the Requirements.txt file.
-Mostly regex, NLTK, time, and collections.  A pretty simple system.
+## Built With / Dependencies
+Built in Python 3.6. See the Requirements.txt file.
+Mostly regex, NLTK, time, and collections.  
 
-### STUFF TO DO NEXT - DEV TIMELINE
+## Dev Timeline - Next To Do
 - More state management: don't repeat volleys (keep track of them)
 - Small talk module (questions people commonly ask bots) - short rsponse or tell a story from the bank
 - Update memory module with ST Memory (what was recently said, context, name, volley count, PPT count to dig in, what sentences or volleys to not repeat) and LT Memory (User profile, Bot profile of itself, PPT triples of what was discussed) 
@@ -30,7 +31,18 @@ Mostly regex, NLTK, time, and collections.  A pretty simple system.
 - Current news - ask them if there's something current (sports, politics, etc) that has been on their mind, then do a Google News scraper search and ask them 1-2 follow up qs
 - Go over Chatscript documents - how does it work, what to learn?
 
-### CORPORA TO CHECK OUT:
+## Appendix - Corpora to Check Out
+This project is licensed under the MIT License.
+
+Copyright 2019 - HermesFeet
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Appendix - Corpora to Check Out
 - [A Survey of Available Corpora for Building Data-Driven Dialogue Systems - UM Paper] (https://arxiv.org/pdf/1512.05742.pdf)
 - [Dialogue Datasets] (https://breakend.github.io/DialogDatasets/)
 - [SEMAINE Sensitive Virtual Agent database] (https://semaine-db.eu/)
