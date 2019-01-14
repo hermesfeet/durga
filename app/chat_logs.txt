@@ -1100,3 +1100,42 @@ JULES:  Can you tell me more about your dove?
 JULES:  Gotcha. How do you feel about the choices you made in school, career, spouse?
  JESUS:  bye
 JULES:  Fine - Give me some insight into your bye?
+
+
+Conversation ID:  31e1de6d-f16f-44b6-af6e-00fc7e537d3b
+Timestamp:  2019-01-14 09:49:05
+JULES:  Ok, Mannie! What's on your calendar this week?
+
+
+Conversation ID:  72566356-f41b-489b-841e-f055a74d2385
+Timestamp:  2019-01-14 09:54:37
+JULES:  Ok, Hermes! In your dream house, what one room must you have?
+ HERMES:  I need a room to code in and read
+JULES:  Give me some insight into your room?
+ HERMES:  It would be sealed from all outside noise but have lots of natural light
+JULES:  Aha.  So... , Can you tell me more about your light?
+ HERMES:  I want some moderation in it
+JULES:  Good! Give me some insight into your moderation?
+ HERMES:  You know, just filtered
+JULES:  Why do you care whether I know, just filtered?
+ HERMES:  I don't
+JULES:  Fine - Where was your first home?
+ HERMES:  It was outside Chicago, in a small university town
+JULES:  Can you tell me more about your town?
+
+
+Conversation ID:  23c2383f-6589-4b6e-9000-492dd0daab87
+Timestamp:  2019-01-14 09:56:18
+JULES:  Ok, Hermes! Where are you from?
+ HERMES:  A small university town outside Chicago
+JULES:  Chicago?
+ HERMES:  Yup, it was the closest big city - I don't like it
+JULES:  Well... How do you feel about the choices you made in school, career, spouse?
+ HERMES:  I never studied enough but had a lot of fun - not married yet
+JULES:  Yup, got it.  Can you tell me more about your fun?
+ HERMES:  I like to code, do yoga, and hang out
+JULES:  Well, What is the best decision rule you have for making choices that you want to share?
+ HERMES:  Surround yourself with good, curious, hard-working, playful people
+JULES:  Fine - When you say playful, can you explain more?
+ HERMES:  Play beats everything, it is the best
+JULES:  Makes sense. I want to know about your everything?

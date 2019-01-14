@@ -203,7 +203,7 @@ def conversation_step(name, statement, volley_count):
 
     memory["volley_count"] = volley_count
     question_history.append(response)
-    print("        ", memory)  # use this to look at memory
+    #print("        ", memory)  # use this to look at memory
 
     #Goodbye statements to break the loop, exit the conversation step
     if statement in ["quit", "exit", "bye", "au revoir"]:
