@@ -1,7 +1,7 @@
 ## Jules - A Chit-Chatbot for Seniors (Project Name Durga)
 
 ### PURPOSE
-Jules is a chatbot that talks to older people and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
+Jules is a chatbot that talks to seniors and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
 
 I loosely based on her an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)
 
