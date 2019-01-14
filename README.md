@@ -5,7 +5,7 @@
 ## What It Does
 Jules is a chatbot that talks to seniors and asks them questions about their life, to record their stories, wisdom, and thoughts for younger generations.
 
-I loosely based on her an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)
+I loosely based Jules on an older Eliza module, updated to ask life questions and dig even deeper into a user's statements.  She moves from one volley to another to simulate a real-life interviewer.  Here is the [Original Eliza paper](http://web.stanford.edu/class/cs124/p36-weizenabaum.pdf) and some [recent research on chatbots (Jurafsky).](http://web.stanford.edu/~jurafsky/slp3/29.pdf)
 
 ## Running the App
 Jules.py is the main file to run in Python.  So in bash, cd over to the folder and run:
