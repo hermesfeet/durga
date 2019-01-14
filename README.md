@@ -17,7 +17,7 @@ Knowledge.py has her brain and database.
 Built in Python 3.6. See the Requirements.txt file.
 Mostly regex, NLTK, time, and collections.  
 
-## Built With / Dependencies
+## Versioning
 Version 1.6 - moved to Python3 and integrated question follow-on.
 
 ## Dev Timeline - Next To Do
